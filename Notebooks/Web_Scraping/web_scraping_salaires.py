@@ -138,7 +138,7 @@ driver.quit()
 # Export CSV
 # ============================
 if results:
-    with open("../projet_fil_rouge/salaires_datarecrutement.csv", "w", newline="", encoding="utf-8") as f:
+    with open("Notebooks/Alimentation/salaires_datarecrutement.csv", "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=results[0].keys())
         writer.writeheader()
         writer.writerows(results)

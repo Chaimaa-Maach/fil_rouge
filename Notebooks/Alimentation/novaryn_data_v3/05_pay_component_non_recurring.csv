@@ -1,0 +1,753 @@
+﻿user_id,pay_date,pay_component,value,currency_code,notes,operation
+1001,2024-09-26,SIGNON,6053.56,EUR,Bonus de signature de contrat,ADD
+1001,2024-08-23,REFERRAL,2500.0,EUR,Prime de cooptation,ADD
+1002,2022-03-15,PERFAWARD,12445.97,EUR,Prime de performance annuelle 2022,ADD
+1002,2024-03-15,PERFAWARD,11745.61,EUR,Prime de performance annuelle 2024,ADD
+1002,2020-11-02,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1002,2022-08-25,SPOTBONUS,1543.94,EUR,Prime d'excellence,ADD
+1003,2024-03-15,PERFAWARD,8674.27,EUR,Prime de performance annuelle 2024,ADD
+1003,2018-10-13,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1003,2023-10-13,MILESTONE,10000,EUR,Prime d'ancienneté 10 ans,ADD
+1004,2022-03-15,PERFAWARD,10051.49,EUR,Prime de performance annuelle 2022,ADD
+1004,2023-03-15,PERFAWARD,9975.29,EUR,Prime de performance annuelle 2023,ADD
+1004,2024-03-15,PERFAWARD,8225.4,EUR,Prime de performance annuelle 2024,ADD
+1005,2022-03-15,PERFAWARD,9642.36,EUR,Prime de performance annuelle 2022,ADD
+1005,2023-03-15,PERFAWARD,9268.7,EUR,Prime de performance annuelle 2023,ADD
+1005,2024-03-15,PERFAWARD,10207.04,EUR,Prime de performance annuelle 2024,ADD
+1005,2024-03-21,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1006,2022-03-15,PERFAWARD,12842.91,EUR,Prime de performance annuelle 2022,ADD
+1006,2023-03-15,PERFAWARD,12440.55,EUR,Prime de performance annuelle 2023,ADD
+1006,2024-03-15,PERFAWARD,15368.22,EUR,Prime de performance annuelle 2024,ADD
+1006,2018-08-20,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1006,2023-08-20,MILESTONE,10000,EUR,Prime d'ancienneté 10 ans,ADD
+1008,2024-03-15,PERFAWARD,16462.06,EUR,Prime de performance annuelle 2024,ADD
+1008,2023-01-06,REFERRAL,2500.0,EUR,Prime de cooptation,ADD
+1008,2020-06-04,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1009,2022-03-15,PERFAWARD,5547.17,EUR,Prime de performance annuelle 2022,ADD
+1009,2023-03-15,PERFAWARD,4916.73,EUR,Prime de performance annuelle 2023,ADD
+1009,2024-03-15,PERFAWARD,5298.54,EUR,Prime de performance annuelle 2024,ADD
+1009,2021-09-26,RELOCATION,3834.34,EUR,Aide à la mobilité géographique,ADD
+1010,2022-03-15,PERFAWARD,5280.45,EUR,Prime de performance annuelle 2022,ADD
+1010,2023-03-15,PERFAWARD,4362.26,EUR,Prime de performance annuelle 2023,ADD
+1010,2024-03-15,PERFAWARD,4599.55,EUR,Prime de performance annuelle 2024,ADD
+1010,2022-07-16,REFERRAL,2500.0,EUR,Prime de cooptation,ADD
+1010,2024-09-07,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1010,2024-01-06,SPOTBONUS,1761.66,EUR,Prime d'excellence,ADD
+1011,2025-01-12,SIGNON,4321.11,EUR,Bonus de signature de contrat,ADD
+1011,2024-11-05,REFERRAL,2500.0,EUR,Prime de cooptation,ADD
+1012,2023-03-15,PERFAWARD,44196.71,EUR,Prime de performance annuelle 2023,ADD
+1012,2024-03-15,PERFAWARD,50086.36,EUR,Prime de performance annuelle 2024,ADD
+1012,2024-03-26,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1013,2022-03-15,PERFAWARD,16124.89,EUR,Prime de performance annuelle 2022,ADD
+1013,2023-03-15,PERFAWARD,18186.61,EUR,Prime de performance annuelle 2023,ADD
+1013,2024-03-15,PERFAWARD,18838.06,EUR,Prime de performance annuelle 2024,ADD
+1013,2019-09-08,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1013,2024-09-08,MILESTONE,10000,EUR,Prime d'ancienneté 10 ans,ADD
+1014,2023-03-15,PERFAWARD,10323.16,EUR,Prime de performance annuelle 2023,ADD
+1014,2024-03-15,PERFAWARD,11537.24,EUR,Prime de performance annuelle 2024,ADD
+1014,2022-10-07,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1015,2022-03-15,PERFAWARD,9741.82,EUR,Prime de performance annuelle 2022,ADD
+1015,2023-03-15,PERFAWARD,12845.32,EUR,Prime de performance annuelle 2023,ADD
+1015,2024-03-15,PERFAWARD,9841.16,EUR,Prime de performance annuelle 2024,ADD
+1015,2023-07-03,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1016,2022-03-15,PERFAWARD,11091.35,EUR,Prime de performance annuelle 2022,ADD
+1016,2024-03-15,PERFAWARD,11595.12,EUR,Prime de performance annuelle 2024,ADD
+1016,2022-11-22,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1017,2022-03-15,PERFAWARD,21924.69,EUR,Prime de performance annuelle 2022,ADD
+1017,2023-03-15,PERFAWARD,22409.62,EUR,Prime de performance annuelle 2023,ADD
+1017,2017-10-11,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1017,2022-10-11,MILESTONE,10000,EUR,Prime d'ancienneté 10 ans,ADD
+1018,2022-03-15,PERFAWARD,21086.58,EUR,Prime de performance annuelle 2022,ADD
+1018,2023-03-15,PERFAWARD,22829.29,EUR,Prime de performance annuelle 2023,ADD
+1018,2024-03-15,PERFAWARD,22048.28,EUR,Prime de performance annuelle 2024,ADD
+1018,2019-03-01,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1018,2024-02-29,MILESTONE,10000,EUR,Prime d'ancienneté 10 ans,ADD
+1018,2022-06-27,SPOTBONUS,1361.89,EUR,Prime d'excellence,ADD
+1019,2022-03-15,PERFAWARD,14712.35,EUR,Prime de performance annuelle 2022,ADD
+1019,2023-03-15,PERFAWARD,17019.81,EUR,Prime de performance annuelle 2023,ADD
+1019,2024-03-15,PERFAWARD,14014.32,EUR,Prime de performance annuelle 2024,ADD
+1020,2023-03-15,PERFAWARD,797.73,EUR,Prime de performance annuelle 2023,ADD
+1020,2024-03-15,PERFAWARD,874.11,EUR,Prime de performance annuelle 2024,ADD
+1021,2022-03-15,PERFAWARD,14382.67,EUR,Prime de performance annuelle 2022,ADD
+1021,2024-03-15,PERFAWARD,12973.39,EUR,Prime de performance annuelle 2024,ADD
+1021,2024-05-26,REFERRAL,2500.0,EUR,Prime de cooptation,ADD
+1021,2020-04-24,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1022,2024-03-15,PERFAWARD,1006.89,EUR,Prime de performance annuelle 2024,ADD
+1023,2022-03-15,PERFAWARD,19987.58,EUR,Prime de performance annuelle 2022,ADD
+1023,2024-03-15,PERFAWARD,18381.49,EUR,Prime de performance annuelle 2024,ADD
+1023,2021-12-18,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1024,2022-03-15,PERFAWARD,16244.2,EUR,Prime de performance annuelle 2022,ADD
+1024,2023-03-15,PERFAWARD,17857.74,EUR,Prime de performance annuelle 2023,ADD
+1024,2024-03-15,PERFAWARD,13809.59,EUR,Prime de performance annuelle 2024,ADD
+1024,2022-12-05,REFERRAL,2500.0,EUR,Prime de cooptation,ADD
+1024,2018-10-04,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1024,2023-10-04,MILESTONE,10000,EUR,Prime d'ancienneté 10 ans,ADD
+1025,2022-03-15,PERFAWARD,10704.2,EUR,Prime de performance annuelle 2022,ADD
+1025,2023-03-15,PERFAWARD,10006.04,EUR,Prime de performance annuelle 2023,ADD
+1025,2024-03-15,PERFAWARD,10077.47,EUR,Prime de performance annuelle 2024,ADD
+1025,2023-12-24,REFERRAL,2500.0,EUR,Prime de cooptation,ADD
+1025,2024-10-03,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1026,2022-03-15,PERFAWARD,14566.32,EUR,Prime de performance annuelle 2022,ADD
+1026,2023-03-15,PERFAWARD,12252.53,EUR,Prime de performance annuelle 2023,ADD
+1026,2024-03-15,PERFAWARD,14642.2,EUR,Prime de performance annuelle 2024,ADD
+1026,2023-05-04,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1027,2024-03-15,PERFAWARD,2501.02,EUR,Prime de performance annuelle 2024,ADD
+1028,2024-03-15,PERFAWARD,1796.78,EUR,Prime de performance annuelle 2024,ADD
+1029,2024-03-15,PERFAWARD,3040.95,EUR,Prime de performance annuelle 2024,ADD
+1030,2024-07-11,SIGNON,4206.97,EUR,Bonus de signature de contrat,ADD
+1032,2023-03-15,PERFAWARD,1636.69,EUR,Prime de performance annuelle 2023,ADD
+1032,2024-03-15,PERFAWARD,1641.17,EUR,Prime de performance annuelle 2024,ADD
+1032,2024-12-22,SPOTBONUS,1428.28,EUR,Prime d'excellence,ADD
+1033,2023-02-03,REFERRAL,2500.0,EUR,Prime de cooptation,ADD
+1034,2022-03-15,PERFAWARD,27711.9,EUR,Prime de performance annuelle 2022,ADD
+1034,2024-03-15,PERFAWARD,28020.99,EUR,Prime de performance annuelle 2024,ADD
+1034,2023-07-28,REFERRAL,2500.0,EUR,Prime de cooptation,ADD
+1034,2017-12-28,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1034,2022-12-28,MILESTONE,10000,EUR,Prime d'ancienneté 10 ans,ADD
+1035,2022-03-15,PERFAWARD,8455.61,EUR,Prime de performance annuelle 2022,ADD
+1035,2023-03-15,PERFAWARD,10280.59,EUR,Prime de performance annuelle 2023,ADD
+1035,2024-03-15,PERFAWARD,8982.86,EUR,Prime de performance annuelle 2024,ADD
+1035,2022-05-29,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1036,2022-03-15,PERFAWARD,19292.28,EUR,Prime de performance annuelle 2022,ADD
+1036,2023-03-15,PERFAWARD,18309.69,EUR,Prime de performance annuelle 2023,ADD
+1036,2018-03-02,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1036,2023-03-02,MILESTONE,10000,EUR,Prime d'ancienneté 10 ans,ADD
+1037,2024-05-02,SIGNON,5483.91,EUR,Bonus de signature de contrat,ADD
+1039,2023-03-15,PERFAWARD,1326.15,EUR,Prime de performance annuelle 2023,ADD
+1039,2022-09-18,SPOTBONUS,800.74,EUR,Prime d'excellence,ADD
+1040,2022-03-15,PERFAWARD,13854.13,EUR,Prime de performance annuelle 2022,ADD
+1040,2023-03-15,PERFAWARD,13889.95,EUR,Prime de performance annuelle 2023,ADD
+1040,2024-03-15,PERFAWARD,16040.5,EUR,Prime de performance annuelle 2024,ADD
+1040,2021-07-18,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1041,2024-10-18,SIGNON,4952.1,EUR,Bonus de signature de contrat,ADD
+1043,2022-03-15,PERFAWARD,15609.04,EUR,Prime de performance annuelle 2022,ADD
+1043,2023-03-15,PERFAWARD,12654.5,EUR,Prime de performance annuelle 2023,ADD
+1043,2023-11-01,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1045,2022-03-15,PERFAWARD,9370.58,EUR,Prime de performance annuelle 2022,ADD
+1045,2023-03-15,PERFAWARD,7553.29,EUR,Prime de performance annuelle 2023,ADD
+1045,2024-03-15,PERFAWARD,8963.52,EUR,Prime de performance annuelle 2024,ADD
+1045,2018-08-02,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1045,2023-08-02,MILESTONE,10000,EUR,Prime d'ancienneté 10 ans,ADD
+1046,2022-03-15,PERFAWARD,13299.53,EUR,Prime de performance annuelle 2022,ADD
+1046,2023-03-15,PERFAWARD,11401.26,EUR,Prime de performance annuelle 2023,ADD
+1046,2024-03-15,PERFAWARD,13376.44,EUR,Prime de performance annuelle 2024,ADD
+1046,2019-08-22,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1046,2024-08-22,MILESTONE,10000,EUR,Prime d'ancienneté 10 ans,ADD
+1047,2022-03-15,PERFAWARD,12076.04,EUR,Prime de performance annuelle 2022,ADD
+1047,2023-03-15,PERFAWARD,10713.76,EUR,Prime de performance annuelle 2023,ADD
+1047,2024-03-15,PERFAWARD,13378.83,EUR,Prime de performance annuelle 2024,ADD
+1047,2024-03-23,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1049,2022-03-15,PERFAWARD,5006.94,EUR,Prime de performance annuelle 2022,ADD
+1049,2023-03-15,PERFAWARD,4545.19,EUR,Prime de performance annuelle 2023,ADD
+1049,2024-03-15,PERFAWARD,4489.46,EUR,Prime de performance annuelle 2024,ADD
+1050,2022-03-15,PERFAWARD,11261.69,EUR,Prime de performance annuelle 2022,ADD
+1050,2023-03-15,PERFAWARD,12135.25,EUR,Prime de performance annuelle 2023,ADD
+1050,2024-03-15,PERFAWARD,11131.93,EUR,Prime de performance annuelle 2024,ADD
+1050,2017-03-27,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1050,2022-03-27,MILESTONE,10000,EUR,Prime d'ancienneté 10 ans,ADD
+1051,2022-03-15,PERFAWARD,8400.36,EUR,Prime de performance annuelle 2022,ADD
+1051,2023-03-15,PERFAWARD,7952.99,EUR,Prime de performance annuelle 2023,ADD
+1051,2024-03-15,PERFAWARD,9451.0,EUR,Prime de performance annuelle 2024,ADD
+1052,2023-03-15,PERFAWARD,347.86,EUR,Prime de performance annuelle 2023,ADD
+1052,2024-03-15,PERFAWARD,361.06,EUR,Prime de performance annuelle 2024,ADD
+1053,2022-03-15,PERFAWARD,13925.07,EUR,Prime de performance annuelle 2022,ADD
+1053,2023-03-15,PERFAWARD,12832.91,EUR,Prime de performance annuelle 2023,ADD
+1053,2024-03-15,PERFAWARD,11753.23,EUR,Prime de performance annuelle 2024,ADD
+1053,2022-01-12,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1054,2022-03-15,PERFAWARD,8556.52,EUR,Prime de performance annuelle 2022,ADD
+1054,2023-03-15,PERFAWARD,8206.67,EUR,Prime de performance annuelle 2023,ADD
+1054,2024-03-15,PERFAWARD,7339.13,EUR,Prime de performance annuelle 2024,ADD
+1054,2024-10-05,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1055,2024-05-13,SIGNON,3631.14,EUR,Bonus de signature de contrat,ADD
+1056,2025-01-31,SIGNON,6868.91,EUR,Bonus de signature de contrat,ADD
+1058,2023-03-15,PERFAWARD,6171.66,EUR,Prime de performance annuelle 2023,ADD
+1059,2022-03-15,PERFAWARD,14160.93,EUR,Prime de performance annuelle 2022,ADD
+1059,2024-03-15,PERFAWARD,14366.51,EUR,Prime de performance annuelle 2024,ADD
+1059,2023-05-27,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1059,2024-07-30,SPOTBONUS,1730.05,EUR,Prime d'excellence,ADD
+1060,2023-03-15,PERFAWARD,4343.47,EUR,Prime de performance annuelle 2023,ADD
+1060,2024-03-15,PERFAWARD,4551.9,EUR,Prime de performance annuelle 2024,ADD
+1061,2022-03-15,PERFAWARD,7597.1,EUR,Prime de performance annuelle 2022,ADD
+1061,2023-03-15,PERFAWARD,7140.21,EUR,Prime de performance annuelle 2023,ADD
+1061,2024-03-15,PERFAWARD,6971.01,EUR,Prime de performance annuelle 2024,ADD
+1061,2022-07-22,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1062,2022-03-15,PERFAWARD,16766.83,EUR,Prime de performance annuelle 2022,ADD
+1062,2023-03-15,PERFAWARD,19116.36,EUR,Prime de performance annuelle 2023,ADD
+1062,2024-03-15,PERFAWARD,14674.53,EUR,Prime de performance annuelle 2024,ADD
+1062,2018-12-11,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1062,2023-12-11,MILESTONE,10000,EUR,Prime d'ancienneté 10 ans,ADD
+1063,2023-03-15,PERFAWARD,24709.19,EUR,Prime de performance annuelle 2023,ADD
+1063,2024-03-15,PERFAWARD,19273.64,EUR,Prime de performance annuelle 2024,ADD
+1063,2021-02-11,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1064,2023-03-15,PERFAWARD,6193.56,EUR,Prime de performance annuelle 2023,ADD
+1064,2024-03-15,PERFAWARD,5410.38,EUR,Prime de performance annuelle 2024,ADD
+1065,2024-07-28,SIGNON,4615.93,EUR,Bonus de signature de contrat,ADD
+1066,2025-01-23,SIGNON,2540.86,EUR,Bonus de signature de contrat,ADD
+1067,2024-03-15,PERFAWARD,3952.33,EUR,Prime de performance annuelle 2024,ADD
+1068,2022-03-15,PERFAWARD,11266.96,EUR,Prime de performance annuelle 2022,ADD
+1068,2023-03-15,PERFAWARD,12564.73,EUR,Prime de performance annuelle 2023,ADD
+1068,2024-03-15,PERFAWARD,14892.36,EUR,Prime de performance annuelle 2024,ADD
+1068,2024-08-01,REFERRAL,2500.0,EUR,Prime de cooptation,ADD
+1068,2019-11-07,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1068,2024-11-07,MILESTONE,10000,EUR,Prime d'ancienneté 10 ans,ADD
+1069,2024-03-15,PERFAWARD,1988.51,EUR,Prime de performance annuelle 2024,ADD
+1070,2022-03-15,PERFAWARD,12174.18,EUR,Prime de performance annuelle 2022,ADD
+1070,2023-03-15,PERFAWARD,13829.16,EUR,Prime de performance annuelle 2023,ADD
+1070,2024-03-15,PERFAWARD,13909.58,EUR,Prime de performance annuelle 2024,ADD
+1072,2024-03-15,PERFAWARD,1338.96,EUR,Prime de performance annuelle 2024,ADD
+1072,2022-06-27,SPOTBONUS,1544.56,EUR,Prime d'excellence,ADD
+1073,2023-03-15,PERFAWARD,4576.6,EUR,Prime de performance annuelle 2023,ADD
+1073,2024-03-15,PERFAWARD,5511.12,EUR,Prime de performance annuelle 2024,ADD
+1074,2022-03-15,PERFAWARD,7638.28,EUR,Prime de performance annuelle 2022,ADD
+1074,2023-03-15,PERFAWARD,8055.45,EUR,Prime de performance annuelle 2023,ADD
+1074,2024-03-15,PERFAWARD,7708.77,EUR,Prime de performance annuelle 2024,ADD
+1074,2021-04-04,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1075,2022-03-15,PERFAWARD,19046.29,EUR,Prime de performance annuelle 2022,ADD
+1075,2023-03-15,PERFAWARD,17698.81,EUR,Prime de performance annuelle 2023,ADD
+1075,2024-03-15,PERFAWARD,15523.07,EUR,Prime de performance annuelle 2024,ADD
+1075,2022-10-16,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1076,2022-03-15,PERFAWARD,6430.47,EUR,Prime de performance annuelle 2022,ADD
+1076,2023-03-15,PERFAWARD,7394.9,EUR,Prime de performance annuelle 2023,ADD
+1076,2024-03-15,PERFAWARD,7743.88,EUR,Prime de performance annuelle 2024,ADD
+1077,2022-03-15,PERFAWARD,10444.33,EUR,Prime de performance annuelle 2022,ADD
+1077,2023-03-15,PERFAWARD,10655.38,EUR,Prime de performance annuelle 2023,ADD
+1077,2024-03-15,PERFAWARD,11666.21,EUR,Prime de performance annuelle 2024,ADD
+1077,2022-09-12,REFERRAL,2500.0,EUR,Prime de cooptation,ADD
+1077,2020-10-15,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1079,2023-03-15,PERFAWARD,17088.5,EUR,Prime de performance annuelle 2023,ADD
+1079,2024-03-15,PERFAWARD,18392.5,EUR,Prime de performance annuelle 2024,ADD
+1079,2020-12-08,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1080,2022-03-15,PERFAWARD,14536.5,EUR,Prime de performance annuelle 2022,ADD
+1080,2023-03-15,PERFAWARD,12252.55,EUR,Prime de performance annuelle 2023,ADD
+1080,2024-03-15,PERFAWARD,11414.52,EUR,Prime de performance annuelle 2024,ADD
+1080,2022-08-30,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1081,2024-03-15,PERFAWARD,10490.49,EUR,Prime de performance annuelle 2024,ADD
+1081,2021-02-02,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1082,2022-03-15,PERFAWARD,12643.77,EUR,Prime de performance annuelle 2022,ADD
+1082,2023-03-15,PERFAWARD,13021.25,EUR,Prime de performance annuelle 2023,ADD
+1082,2024-03-15,PERFAWARD,13621.62,EUR,Prime de performance annuelle 2024,ADD
+1083,2022-03-15,PERFAWARD,11559.97,EUR,Prime de performance annuelle 2022,ADD
+1083,2023-03-15,PERFAWARD,10955.9,EUR,Prime de performance annuelle 2023,ADD
+1083,2024-03-15,PERFAWARD,9755.95,EUR,Prime de performance annuelle 2024,ADD
+1083,2019-04-17,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1083,2024-04-17,MILESTONE,10000,EUR,Prime d'ancienneté 10 ans,ADD
+1084,2022-03-15,PERFAWARD,5206.54,EUR,Prime de performance annuelle 2022,ADD
+1084,2023-03-15,PERFAWARD,4859.94,EUR,Prime de performance annuelle 2023,ADD
+1084,2024-03-15,PERFAWARD,5695.49,EUR,Prime de performance annuelle 2024,ADD
+1084,2025-01-31,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1085,2022-03-15,PERFAWARD,13550.23,EUR,Prime de performance annuelle 2022,ADD
+1085,2023-03-15,PERFAWARD,13823.59,EUR,Prime de performance annuelle 2023,ADD
+1085,2024-03-15,PERFAWARD,16002.53,EUR,Prime de performance annuelle 2024,ADD
+1085,2023-12-19,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1086,2022-03-15,PERFAWARD,10044.54,EUR,Prime de performance annuelle 2022,ADD
+1086,2023-03-15,PERFAWARD,11241.01,EUR,Prime de performance annuelle 2023,ADD
+1086,2024-03-15,PERFAWARD,11158.78,EUR,Prime de performance annuelle 2024,ADD
+1086,2018-09-09,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1086,2023-09-09,MILESTONE,10000,EUR,Prime d'ancienneté 10 ans,ADD
+1087,2022-03-15,PERFAWARD,12568.97,EUR,Prime de performance annuelle 2022,ADD
+1087,2023-03-15,PERFAWARD,11398.28,EUR,Prime de performance annuelle 2023,ADD
+1087,2024-03-15,PERFAWARD,11925.99,EUR,Prime de performance annuelle 2024,ADD
+1087,2023-01-25,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1088,2022-03-15,PERFAWARD,12217.34,EUR,Prime de performance annuelle 2022,ADD
+1088,2023-03-15,PERFAWARD,12979.73,EUR,Prime de performance annuelle 2023,ADD
+1088,2024-03-15,PERFAWARD,12071.56,EUR,Prime de performance annuelle 2024,ADD
+1088,2024-12-26,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1089,2024-03-15,PERFAWARD,1080.41,EUR,Prime de performance annuelle 2024,ADD
+1090,2022-03-15,PERFAWARD,10882.53,EUR,Prime de performance annuelle 2022,ADD
+1090,2023-03-15,PERFAWARD,8719.48,EUR,Prime de performance annuelle 2023,ADD
+1090,2024-03-15,PERFAWARD,11530.61,EUR,Prime de performance annuelle 2024,ADD
+1090,2018-01-26,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1090,2023-01-26,MILESTONE,10000,EUR,Prime d'ancienneté 10 ans,ADD
+1091,2022-03-15,PERFAWARD,11582.55,EUR,Prime de performance annuelle 2022,ADD
+1091,2024-03-15,PERFAWARD,12872.34,EUR,Prime de performance annuelle 2024,ADD
+1091,2022-10-24,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1092,2022-03-15,PERFAWARD,13243.39,EUR,Prime de performance annuelle 2022,ADD
+1092,2023-03-15,PERFAWARD,11924.95,EUR,Prime de performance annuelle 2023,ADD
+1092,2024-03-15,PERFAWARD,12544.59,EUR,Prime de performance annuelle 2024,ADD
+1092,2023-04-29,REFERRAL,2500.0,EUR,Prime de cooptation,ADD
+1092,2020-04-20,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1092,2022-06-17,SPOTBONUS,2023.2,EUR,Prime d'excellence,ADD
+1093,2022-03-15,PERFAWARD,4750.38,EUR,Prime de performance annuelle 2022,ADD
+1093,2023-03-15,PERFAWARD,5806.52,EUR,Prime de performance annuelle 2023,ADD
+1093,2024-03-15,PERFAWARD,4782.14,EUR,Prime de performance annuelle 2024,ADD
+1093,2024-09-03,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1094,2022-03-15,PERFAWARD,18060.5,EUR,Prime de performance annuelle 2022,ADD
+1094,2023-03-15,PERFAWARD,22945.03,EUR,Prime de performance annuelle 2023,ADD
+1094,2024-03-15,PERFAWARD,20608.22,EUR,Prime de performance annuelle 2024,ADD
+1094,2020-02-29,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1095,2022-03-15,PERFAWARD,12483.32,EUR,Prime de performance annuelle 2022,ADD
+1095,2023-03-15,PERFAWARD,14374.33,EUR,Prime de performance annuelle 2023,ADD
+1095,2024-03-15,PERFAWARD,12056.31,EUR,Prime de performance annuelle 2024,ADD
+1095,2021-04-16,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1096,2022-03-15,PERFAWARD,12184.9,EUR,Prime de performance annuelle 2022,ADD
+1096,2024-03-15,PERFAWARD,13493.28,EUR,Prime de performance annuelle 2024,ADD
+1098,2022-03-15,PERFAWARD,15165.1,EUR,Prime de performance annuelle 2022,ADD
+1098,2023-03-15,PERFAWARD,12497.27,EUR,Prime de performance annuelle 2023,ADD
+1098,2024-03-15,PERFAWARD,11730.79,EUR,Prime de performance annuelle 2024,ADD
+1098,2018-08-17,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1098,2023-08-17,MILESTONE,10000,EUR,Prime d'ancienneté 10 ans,ADD
+1099,2022-03-15,PERFAWARD,14420.46,EUR,Prime de performance annuelle 2022,ADD
+1099,2023-03-15,PERFAWARD,13637.61,EUR,Prime de performance annuelle 2023,ADD
+1099,2023-12-15,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1100,2022-03-15,PERFAWARD,16104.64,EUR,Prime de performance annuelle 2022,ADD
+1100,2024-03-15,PERFAWARD,18360.59,EUR,Prime de performance annuelle 2024,ADD
+1100,2024-06-17,REFERRAL,2500.0,EUR,Prime de cooptation,ADD
+1100,2020-09-05,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1101,2022-03-15,PERFAWARD,11884.5,EUR,Prime de performance annuelle 2022,ADD
+1101,2023-03-15,PERFAWARD,10181.46,EUR,Prime de performance annuelle 2023,ADD
+1101,2024-03-15,PERFAWARD,11222.81,EUR,Prime de performance annuelle 2024,ADD
+1101,2019-11-04,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1101,2024-11-04,MILESTONE,10000,EUR,Prime d'ancienneté 10 ans,ADD
+1102,2022-03-15,PERFAWARD,16081.92,EUR,Prime de performance annuelle 2022,ADD
+1102,2023-03-15,PERFAWARD,18717.25,EUR,Prime de performance annuelle 2023,ADD
+1102,2024-03-15,PERFAWARD,14959.96,EUR,Prime de performance annuelle 2024,ADD
+1102,2023-09-06,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1103,2022-03-15,PERFAWARD,8540.92,EUR,Prime de performance annuelle 2022,ADD
+1103,2023-03-15,PERFAWARD,11211.13,EUR,Prime de performance annuelle 2023,ADD
+1103,2022-02-09,REFERRAL,2500.0,EUR,Prime de cooptation,ADD
+1103,2021-11-22,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1104,2024-07-20,SIGNON,7094.44,EUR,Bonus de signature de contrat,ADD
+1104,2023-04-30,REFERRAL,2500.0,EUR,Prime de cooptation,ADD
+1105,2024-05-06,SIGNON,3127.99,EUR,Bonus de signature de contrat,ADD
+1106,2022-03-15,PERFAWARD,21078.93,EUR,Prime de performance annuelle 2022,ADD
+1106,2023-03-15,PERFAWARD,25475.65,EUR,Prime de performance annuelle 2023,ADD
+1106,2024-03-15,PERFAWARD,22463.15,EUR,Prime de performance annuelle 2024,ADD
+1106,2024-06-13,REFERRAL,2500.0,EUR,Prime de cooptation,ADD
+1106,2020-04-09,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1107,2022-03-15,PERFAWARD,11038.81,EUR,Prime de performance annuelle 2022,ADD
+1107,2023-03-15,PERFAWARD,8367.47,EUR,Prime de performance annuelle 2023,ADD
+1107,2024-03-15,PERFAWARD,8418.72,EUR,Prime de performance annuelle 2024,ADD
+1107,2018-01-13,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1107,2023-01-13,MILESTONE,10000,EUR,Prime d'ancienneté 10 ans,ADD
+1108,2022-03-15,PERFAWARD,2640.83,EUR,Prime de performance annuelle 2022,ADD
+1108,2023-03-15,PERFAWARD,2536.72,EUR,Prime de performance annuelle 2023,ADD
+1108,2024-03-15,PERFAWARD,2445.8,EUR,Prime de performance annuelle 2024,ADD
+1109,2022-03-15,PERFAWARD,13074.43,EUR,Prime de performance annuelle 2022,ADD
+1109,2024-03-15,PERFAWARD,12416.44,EUR,Prime de performance annuelle 2024,ADD
+1109,2022-05-17,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1110,2022-03-15,PERFAWARD,11730.77,EUR,Prime de performance annuelle 2022,ADD
+1110,2023-03-15,PERFAWARD,13644.5,EUR,Prime de performance annuelle 2023,ADD
+1110,2024-03-15,PERFAWARD,11140.53,EUR,Prime de performance annuelle 2024,ADD
+1110,2024-11-18,REFERRAL,2500.0,EUR,Prime de cooptation,ADD
+1111,2022-03-15,PERFAWARD,4370.52,EUR,Prime de performance annuelle 2022,ADD
+1111,2023-03-15,PERFAWARD,5014.05,EUR,Prime de performance annuelle 2023,ADD
+1111,2024-03-15,PERFAWARD,5050.36,EUR,Prime de performance annuelle 2024,ADD
+1112,2022-03-15,PERFAWARD,9728.16,EUR,Prime de performance annuelle 2022,ADD
+1112,2023-03-15,PERFAWARD,9049.48,EUR,Prime de performance annuelle 2023,ADD
+1113,2023-03-15,PERFAWARD,10773.25,EUR,Prime de performance annuelle 2023,ADD
+1113,2024-03-15,PERFAWARD,9936.54,EUR,Prime de performance annuelle 2024,ADD
+1113,2023-08-07,REFERRAL,2500.0,EUR,Prime de cooptation,ADD
+1113,2018-03-16,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1113,2023-03-16,MILESTONE,10000,EUR,Prime d'ancienneté 10 ans,ADD
+1114,2022-03-15,PERFAWARD,9992.51,EUR,Prime de performance annuelle 2022,ADD
+1114,2024-03-15,PERFAWARD,8133.69,EUR,Prime de performance annuelle 2024,ADD
+1114,2021-01-16,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1114,2023-09-09,SPOTBONUS,1387.34,EUR,Prime d'excellence,ADD
+1115,2022-03-15,PERFAWARD,4087.31,EUR,Prime de performance annuelle 2022,ADD
+1115,2023-03-15,PERFAWARD,4933.59,EUR,Prime de performance annuelle 2023,ADD
+1115,2024-03-15,PERFAWARD,3892.58,EUR,Prime de performance annuelle 2024,ADD
+1115,2022-11-05,REFERRAL,2500.0,EUR,Prime de cooptation,ADD
+1116,2023-03-15,PERFAWARD,3484.79,EUR,Prime de performance annuelle 2023,ADD
+1116,2024-03-15,PERFAWARD,3193.78,EUR,Prime de performance annuelle 2024,ADD
+1117,2022-03-15,PERFAWARD,16898.61,EUR,Prime de performance annuelle 2022,ADD
+1117,2023-03-15,PERFAWARD,13329.15,EUR,Prime de performance annuelle 2023,ADD
+1117,2024-03-15,PERFAWARD,13904.19,EUR,Prime de performance annuelle 2024,ADD
+1117,2018-06-08,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1117,2023-06-08,MILESTONE,10000,EUR,Prime d'ancienneté 10 ans,ADD
+1118,2022-03-15,PERFAWARD,4012.17,EUR,Prime de performance annuelle 2022,ADD
+1118,2023-03-15,PERFAWARD,3837.03,EUR,Prime de performance annuelle 2023,ADD
+1118,2024-03-15,PERFAWARD,4040.74,EUR,Prime de performance annuelle 2024,ADD
+1119,2022-03-15,PERFAWARD,11191.71,EUR,Prime de performance annuelle 2022,ADD
+1119,2023-03-15,PERFAWARD,11470.96,EUR,Prime de performance annuelle 2023,ADD
+1119,2024-03-15,PERFAWARD,10592.62,EUR,Prime de performance annuelle 2024,ADD
+1119,2022-06-03,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1120,2024-03-15,PERFAWARD,14293.56,EUR,Prime de performance annuelle 2024,ADD
+1121,2022-03-15,PERFAWARD,15506.76,EUR,Prime de performance annuelle 2022,ADD
+1121,2021-07-23,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1122,2024-03-15,PERFAWARD,10722.69,EUR,Prime de performance annuelle 2024,ADD
+1123,2022-03-15,PERFAWARD,3904.37,EUR,Prime de performance annuelle 2022,ADD
+1123,2023-03-15,PERFAWARD,3863.32,EUR,Prime de performance annuelle 2023,ADD
+1123,2024-10-27,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1124,2022-03-15,PERFAWARD,12460.95,EUR,Prime de performance annuelle 2022,ADD
+1124,2018-04-10,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1124,2023-04-10,MILESTONE,10000,EUR,Prime d'ancienneté 10 ans,ADD
+1125,2023-03-15,PERFAWARD,4693.46,EUR,Prime de performance annuelle 2023,ADD
+1125,2024-03-15,PERFAWARD,4095.75,EUR,Prime de performance annuelle 2024,ADD
+1127,2022-03-15,PERFAWARD,11137.46,EUR,Prime de performance annuelle 2022,ADD
+1127,2023-03-15,PERFAWARD,11080.82,EUR,Prime de performance annuelle 2023,ADD
+1127,2024-03-15,PERFAWARD,13398.74,EUR,Prime de performance annuelle 2024,ADD
+1127,2021-07-20,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1129,2022-03-15,PERFAWARD,10159.01,EUR,Prime de performance annuelle 2022,ADD
+1129,2023-03-15,PERFAWARD,9284.44,EUR,Prime de performance annuelle 2023,ADD
+1129,2024-03-15,PERFAWARD,8728.4,EUR,Prime de performance annuelle 2024,ADD
+1129,2021-11-20,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1130,2023-03-15,PERFAWARD,9894.14,EUR,Prime de performance annuelle 2023,ADD
+1130,2024-03-15,PERFAWARD,10048.35,EUR,Prime de performance annuelle 2024,ADD
+1131,2024-03-15,PERFAWARD,6003.98,EUR,Prime de performance annuelle 2024,ADD
+1132,2022-03-15,PERFAWARD,4153.54,EUR,Prime de performance annuelle 2022,ADD
+1132,2023-03-15,PERFAWARD,3990.95,EUR,Prime de performance annuelle 2023,ADD
+1132,2024-03-15,PERFAWARD,3521.47,EUR,Prime de performance annuelle 2024,ADD
+1133,2022-03-15,PERFAWARD,27118.84,EUR,Prime de performance annuelle 2022,ADD
+1133,2023-03-15,PERFAWARD,26958.68,EUR,Prime de performance annuelle 2023,ADD
+1133,2024-03-15,PERFAWARD,20776.37,EUR,Prime de performance annuelle 2024,ADD
+1133,2018-10-20,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1133,2023-10-20,MILESTONE,10000,EUR,Prime d'ancienneté 10 ans,ADD
+1134,2022-03-15,PERFAWARD,13235.24,EUR,Prime de performance annuelle 2022,ADD
+1134,2023-03-15,PERFAWARD,12902.93,EUR,Prime de performance annuelle 2023,ADD
+1134,2024-03-15,PERFAWARD,11297.32,EUR,Prime de performance annuelle 2024,ADD
+1134,2019-01-02,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1134,2024-01-02,MILESTONE,10000,EUR,Prime d'ancienneté 10 ans,ADD
+1135,2022-03-15,PERFAWARD,2931.44,EUR,Prime de performance annuelle 2022,ADD
+1135,2023-03-15,PERFAWARD,3041.25,EUR,Prime de performance annuelle 2023,ADD
+1135,2024-03-15,PERFAWARD,2944.41,EUR,Prime de performance annuelle 2024,ADD
+1136,2022-03-15,PERFAWARD,17682.0,EUR,Prime de performance annuelle 2022,ADD
+1136,2023-03-15,PERFAWARD,17409.87,EUR,Prime de performance annuelle 2023,ADD
+1136,2024-03-15,PERFAWARD,18108.38,EUR,Prime de performance annuelle 2024,ADD
+1136,2021-10-31,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1137,2024-05-01,SIGNON,7039.58,EUR,Bonus de signature de contrat,ADD
+1138,2024-03-15,PERFAWARD,5404.84,EUR,Prime de performance annuelle 2024,ADD
+1139,2022-03-15,PERFAWARD,7957.84,EUR,Prime de performance annuelle 2022,ADD
+1139,2023-03-15,PERFAWARD,6901.82,EUR,Prime de performance annuelle 2023,ADD
+1139,2024-03-15,PERFAWARD,8116.85,EUR,Prime de performance annuelle 2024,ADD
+1139,2022-04-29,REFERRAL,2500.0,EUR,Prime de cooptation,ADD
+1140,2022-03-15,PERFAWARD,11310.89,EUR,Prime de performance annuelle 2022,ADD
+1140,2023-03-15,PERFAWARD,14349.57,EUR,Prime de performance annuelle 2023,ADD
+1140,2024-03-15,PERFAWARD,12319.37,EUR,Prime de performance annuelle 2024,ADD
+1140,2018-08-11,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1140,2023-08-11,MILESTONE,10000,EUR,Prime d'ancienneté 10 ans,ADD
+1141,2022-03-15,PERFAWARD,14050.28,EUR,Prime de performance annuelle 2022,ADD
+1141,2023-03-15,PERFAWARD,11891.62,EUR,Prime de performance annuelle 2023,ADD
+1141,2024-03-15,PERFAWARD,14303.19,EUR,Prime de performance annuelle 2024,ADD
+1141,2021-09-30,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1142,2022-03-15,PERFAWARD,40438.78,EUR,Prime de performance annuelle 2022,ADD
+1142,2023-03-15,PERFAWARD,42905.37,EUR,Prime de performance annuelle 2023,ADD
+1142,2024-03-15,PERFAWARD,41471.67,EUR,Prime de performance annuelle 2024,ADD
+1142,2022-09-18,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1143,2022-03-15,PERFAWARD,16513.72,EUR,Prime de performance annuelle 2022,ADD
+1143,2023-03-15,PERFAWARD,16031.29,EUR,Prime de performance annuelle 2023,ADD
+1143,2024-03-15,PERFAWARD,14184.3,EUR,Prime de performance annuelle 2024,ADD
+1143,2021-06-30,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1144,2022-03-15,PERFAWARD,8325.52,EUR,Prime de performance annuelle 2022,ADD
+1144,2023-03-15,PERFAWARD,6578.0,EUR,Prime de performance annuelle 2023,ADD
+1144,2024-03-15,PERFAWARD,6625.21,EUR,Prime de performance annuelle 2024,ADD
+1144,2024-07-23,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1145,2023-03-15,PERFAWARD,16253.35,EUR,Prime de performance annuelle 2023,ADD
+1145,2024-03-15,PERFAWARD,20771.91,EUR,Prime de performance annuelle 2024,ADD
+1145,2024-04-26,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1146,2022-03-15,PERFAWARD,15782.21,EUR,Prime de performance annuelle 2022,ADD
+1146,2023-03-15,PERFAWARD,18173.56,EUR,Prime de performance annuelle 2023,ADD
+1146,2024-07-08,REFERRAL,2500.0,EUR,Prime de cooptation,ADD
+1146,2018-04-27,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1146,2023-04-27,MILESTONE,10000,EUR,Prime d'ancienneté 10 ans,ADD
+1147,2023-03-15,PERFAWARD,12230.22,EUR,Prime de performance annuelle 2023,ADD
+1147,2024-03-15,PERFAWARD,15581.12,EUR,Prime de performance annuelle 2024,ADD
+1147,2017-08-26,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1147,2022-08-26,MILESTONE,10000,EUR,Prime d'ancienneté 10 ans,ADD
+1148,2022-03-15,PERFAWARD,15244.91,EUR,Prime de performance annuelle 2022,ADD
+1148,2023-03-15,PERFAWARD,13390.18,EUR,Prime de performance annuelle 2023,ADD
+1148,2024-03-15,PERFAWARD,12541.04,EUR,Prime de performance annuelle 2024,ADD
+1149,2023-03-15,PERFAWARD,12634.65,EUR,Prime de performance annuelle 2023,ADD
+1149,2024-03-15,PERFAWARD,13061.43,EUR,Prime de performance annuelle 2024,ADD
+1149,2019-03-17,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1149,2024-03-17,MILESTONE,10000,EUR,Prime d'ancienneté 10 ans,ADD
+1150,2022-03-15,PERFAWARD,14407.44,EUR,Prime de performance annuelle 2022,ADD
+1150,2023-03-15,PERFAWARD,11727.23,EUR,Prime de performance annuelle 2023,ADD
+1150,2024-03-15,PERFAWARD,12529.67,EUR,Prime de performance annuelle 2024,ADD
+1150,2023-03-30,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1151,2022-03-15,PERFAWARD,10424.84,EUR,Prime de performance annuelle 2022,ADD
+1151,2023-03-15,PERFAWARD,12442.46,EUR,Prime de performance annuelle 2023,ADD
+1151,2024-03-15,PERFAWARD,10426.78,EUR,Prime de performance annuelle 2024,ADD
+1151,2024-12-08,REFERRAL,2500.0,EUR,Prime de cooptation,ADD
+1151,2020-08-13,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1153,2022-03-15,PERFAWARD,5635.47,EUR,Prime de performance annuelle 2022,ADD
+1153,2023-03-15,PERFAWARD,4738.25,EUR,Prime de performance annuelle 2023,ADD
+1153,2024-03-15,PERFAWARD,5298.29,EUR,Prime de performance annuelle 2024,ADD
+1154,2024-11-15,SIGNON,4623.62,EUR,Bonus de signature de contrat,ADD
+1154,2024-09-01,REFERRAL,2500.0,EUR,Prime de cooptation,ADD
+1155,2022-03-15,PERFAWARD,14428.78,EUR,Prime de performance annuelle 2022,ADD
+1155,2023-03-15,PERFAWARD,13417.19,EUR,Prime de performance annuelle 2023,ADD
+1155,2019-10-21,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1155,2024-10-21,MILESTONE,10000,EUR,Prime d'ancienneté 10 ans,ADD
+1156,2022-03-15,PERFAWARD,20138.43,EUR,Prime de performance annuelle 2022,ADD
+1156,2023-03-15,PERFAWARD,25069.92,EUR,Prime de performance annuelle 2023,ADD
+1156,2024-03-15,PERFAWARD,21820.96,EUR,Prime de performance annuelle 2024,ADD
+1156,2017-06-18,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1156,2022-06-18,MILESTONE,10000,EUR,Prime d'ancienneté 10 ans,ADD
+1157,2022-03-15,PERFAWARD,11465.81,EUR,Prime de performance annuelle 2022,ADD
+1157,2024-03-15,PERFAWARD,11583.47,EUR,Prime de performance annuelle 2024,ADD
+1157,2022-09-10,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1158,2024-08-17,SIGNON,4566.75,EUR,Bonus de signature de contrat,ADD
+1158,2023-01-13,REFERRAL,2500.0,EUR,Prime de cooptation,ADD
+1159,2022-03-15,PERFAWARD,16542.04,EUR,Prime de performance annuelle 2022,ADD
+1159,2023-03-15,PERFAWARD,18703.25,EUR,Prime de performance annuelle 2023,ADD
+1159,2019-10-01,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1159,2024-10-01,MILESTONE,10000,EUR,Prime d'ancienneté 10 ans,ADD
+1160,2022-03-15,PERFAWARD,10817.47,EUR,Prime de performance annuelle 2022,ADD
+1160,2024-03-15,PERFAWARD,11125.41,EUR,Prime de performance annuelle 2024,ADD
+1160,2017-09-12,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1160,2022-09-12,MILESTONE,10000,EUR,Prime d'ancienneté 10 ans,ADD
+1161,2022-03-15,PERFAWARD,12908.34,EUR,Prime de performance annuelle 2022,ADD
+1161,2023-03-15,PERFAWARD,11159.53,EUR,Prime de performance annuelle 2023,ADD
+1161,2024-03-15,PERFAWARD,12357.54,EUR,Prime de performance annuelle 2024,ADD
+1161,2022-06-08,REFERRAL,2500.0,EUR,Prime de cooptation,ADD
+1161,2020-06-09,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1162,2022-03-15,PERFAWARD,12220.91,EUR,Prime de performance annuelle 2022,ADD
+1162,2023-03-15,PERFAWARD,9350.89,EUR,Prime de performance annuelle 2023,ADD
+1162,2024-03-15,PERFAWARD,10869.0,EUR,Prime de performance annuelle 2024,ADD
+1162,2022-03-26,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1163,2022-03-15,PERFAWARD,11092.8,EUR,Prime de performance annuelle 2022,ADD
+1163,2023-03-15,PERFAWARD,11940.5,EUR,Prime de performance annuelle 2023,ADD
+1163,2017-06-11,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1163,2022-06-11,MILESTONE,10000,EUR,Prime d'ancienneté 10 ans,ADD
+1164,2022-03-15,PERFAWARD,8615.36,EUR,Prime de performance annuelle 2022,ADD
+1164,2023-03-15,PERFAWARD,10320.1,EUR,Prime de performance annuelle 2023,ADD
+1164,2024-03-15,PERFAWARD,9955.61,EUR,Prime de performance annuelle 2024,ADD
+1164,2022-08-16,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1165,2022-03-15,PERFAWARD,13309.88,EUR,Prime de performance annuelle 2022,ADD
+1165,2023-03-15,PERFAWARD,15784.75,EUR,Prime de performance annuelle 2023,ADD
+1165,2024-03-15,PERFAWARD,13020.31,EUR,Prime de performance annuelle 2024,ADD
+1165,2021-10-15,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1165,2024-12-19,SPOTBONUS,1089.18,EUR,Prime d'excellence,ADD
+1166,2022-03-15,PERFAWARD,3908.37,EUR,Prime de performance annuelle 2022,ADD
+1166,2023-03-15,PERFAWARD,3593.89,EUR,Prime de performance annuelle 2023,ADD
+1166,2024-03-15,PERFAWARD,4188.77,EUR,Prime de performance annuelle 2024,ADD
+1167,2022-03-15,PERFAWARD,6475.19,EUR,Prime de performance annuelle 2022,ADD
+1167,2023-03-15,PERFAWARD,5723.98,EUR,Prime de performance annuelle 2023,ADD
+1167,2024-03-15,PERFAWARD,5988.74,EUR,Prime de performance annuelle 2024,ADD
+1168,2022-03-15,PERFAWARD,10914.08,EUR,Prime de performance annuelle 2022,ADD
+1168,2023-03-15,PERFAWARD,13109.26,EUR,Prime de performance annuelle 2023,ADD
+1168,2024-03-15,PERFAWARD,12133.04,EUR,Prime de performance annuelle 2024,ADD
+1168,2019-01-01,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1168,2024-01-01,MILESTONE,10000,EUR,Prime d'ancienneté 10 ans,ADD
+1169,2023-03-15,PERFAWARD,20191.89,EUR,Prime de performance annuelle 2023,ADD
+1169,2024-03-15,PERFAWARD,18564.71,EUR,Prime de performance annuelle 2024,ADD
+1170,2022-03-15,PERFAWARD,15762.36,EUR,Prime de performance annuelle 2022,ADD
+1170,2023-03-15,PERFAWARD,14725.94,EUR,Prime de performance annuelle 2023,ADD
+1170,2024-03-15,PERFAWARD,18930.01,EUR,Prime de performance annuelle 2024,ADD
+1170,2018-11-19,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1170,2023-11-19,MILESTONE,10000,EUR,Prime d'ancienneté 10 ans,ADD
+1171,2024-07-08,SIGNON,3447.14,EUR,Bonus de signature de contrat,ADD
+1172,2023-03-15,PERFAWARD,5210.52,EUR,Prime de performance annuelle 2023,ADD
+1172,2024-03-15,PERFAWARD,6194.44,EUR,Prime de performance annuelle 2024,ADD
+1173,2022-03-15,PERFAWARD,10382.22,EUR,Prime de performance annuelle 2022,ADD
+1173,2023-03-15,PERFAWARD,8233.76,EUR,Prime de performance annuelle 2023,ADD
+1173,2024-03-15,PERFAWARD,9424.42,EUR,Prime de performance annuelle 2024,ADD
+1173,2023-08-05,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1173,2023-04-14,SPOTBONUS,1904.63,EUR,Prime d'excellence,ADD
+1175,2022-03-15,PERFAWARD,12437.91,EUR,Prime de performance annuelle 2022,ADD
+1175,2024-03-15,PERFAWARD,11807.3,EUR,Prime de performance annuelle 2024,ADD
+1175,2024-11-28,REFERRAL,2500.0,EUR,Prime de cooptation,ADD
+1176,2024-05-12,SIGNON,3180.86,EUR,Bonus de signature de contrat,ADD
+1177,2022-03-15,PERFAWARD,2897.62,EUR,Prime de performance annuelle 2022,ADD
+1177,2023-03-15,PERFAWARD,2463.43,EUR,Prime de performance annuelle 2023,ADD
+1177,2024-03-15,PERFAWARD,2572.44,EUR,Prime de performance annuelle 2024,ADD
+1177,2024-05-18,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1178,2023-03-15,PERFAWARD,10205.83,EUR,Prime de performance annuelle 2023,ADD
+1178,2024-03-15,PERFAWARD,8593.0,EUR,Prime de performance annuelle 2024,ADD
+1178,2022-08-28,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1179,2024-03-15,PERFAWARD,10831.0,EUR,Prime de performance annuelle 2024,ADD
+1180,2022-03-15,PERFAWARD,20889.56,EUR,Prime de performance annuelle 2022,ADD
+1180,2022-02-24,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1181,2024-03-15,PERFAWARD,4930.03,EUR,Prime de performance annuelle 2024,ADD
+1182,2023-03-15,PERFAWARD,9849.47,EUR,Prime de performance annuelle 2023,ADD
+1182,2024-03-15,PERFAWARD,10576.68,EUR,Prime de performance annuelle 2024,ADD
+1182,2023-11-20,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1183,2022-03-15,PERFAWARD,18717.7,EUR,Prime de performance annuelle 2022,ADD
+1183,2023-03-15,PERFAWARD,17550.8,EUR,Prime de performance annuelle 2023,ADD
+1183,2024-03-15,PERFAWARD,16392.47,EUR,Prime de performance annuelle 2024,ADD
+1183,2019-03-16,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1183,2024-03-16,MILESTONE,10000,EUR,Prime d'ancienneté 10 ans,ADD
+1184,2024-03-15,PERFAWARD,5346.98,EUR,Prime de performance annuelle 2024,ADD
+1185,2024-11-06,SIGNON,4740.05,EUR,Bonus de signature de contrat,ADD
+1186,2024-03-15,PERFAWARD,18944.19,EUR,Prime de performance annuelle 2024,ADD
+1186,2024-07-21,SPOTBONUS,1929.78,EUR,Prime d'excellence,ADD
+1187,2022-03-15,PERFAWARD,11166.63,EUR,Prime de performance annuelle 2022,ADD
+1187,2023-03-15,PERFAWARD,9824.22,EUR,Prime de performance annuelle 2023,ADD
+1187,2024-03-15,PERFAWARD,11740.18,EUR,Prime de performance annuelle 2024,ADD
+1189,2022-03-15,PERFAWARD,5059.42,EUR,Prime de performance annuelle 2022,ADD
+1189,2023-03-15,PERFAWARD,4800.76,EUR,Prime de performance annuelle 2023,ADD
+1191,2022-03-15,PERFAWARD,15166.73,EUR,Prime de performance annuelle 2022,ADD
+1191,2023-03-15,PERFAWARD,16381.28,EUR,Prime de performance annuelle 2023,ADD
+1191,2024-03-15,PERFAWARD,16337.27,EUR,Prime de performance annuelle 2024,ADD
+1191,2020-09-04,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1192,2024-08-23,SIGNON,4458.54,EUR,Bonus de signature de contrat,ADD
+1193,2023-03-15,PERFAWARD,14399.42,EUR,Prime de performance annuelle 2023,ADD
+1193,2024-03-15,PERFAWARD,14277.76,EUR,Prime de performance annuelle 2024,ADD
+1193,2018-06-25,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1193,2023-06-25,MILESTONE,10000,EUR,Prime d'ancienneté 10 ans,ADD
+1194,2024-03-15,PERFAWARD,4989.27,EUR,Prime de performance annuelle 2024,ADD
+1194,2023-07-02,RELOCATION,4147.9,EUR,Aide à la mobilité géographique,ADD
+1195,2022-03-15,PERFAWARD,14674.01,EUR,Prime de performance annuelle 2022,ADD
+1195,2023-03-15,PERFAWARD,14396.84,EUR,Prime de performance annuelle 2023,ADD
+1195,2024-03-15,PERFAWARD,17616.97,EUR,Prime de performance annuelle 2024,ADD
+1195,2022-09-28,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1196,2022-03-15,PERFAWARD,22322.02,EUR,Prime de performance annuelle 2022,ADD
+1196,2023-03-15,PERFAWARD,19764.86,EUR,Prime de performance annuelle 2023,ADD
+1196,2024-03-15,PERFAWARD,23583.77,EUR,Prime de performance annuelle 2024,ADD
+1196,2021-01-14,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1197,2022-03-15,PERFAWARD,10056.99,EUR,Prime de performance annuelle 2022,ADD
+1197,2024-03-15,PERFAWARD,9700.02,EUR,Prime de performance annuelle 2024,ADD
+1197,2020-11-11,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1198,2022-03-15,PERFAWARD,19632.51,EUR,Prime de performance annuelle 2022,ADD
+1198,2023-03-15,PERFAWARD,18812.37,EUR,Prime de performance annuelle 2023,ADD
+1198,2024-03-15,PERFAWARD,15774.39,EUR,Prime de performance annuelle 2024,ADD
+1198,2017-06-15,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1198,2022-06-15,MILESTONE,10000,EUR,Prime d'ancienneté 10 ans,ADD
+1199,2022-03-15,PERFAWARD,5226.2,EUR,Prime de performance annuelle 2022,ADD
+1199,2023-03-15,PERFAWARD,5241.62,EUR,Prime de performance annuelle 2023,ADD
+1199,2024-03-15,PERFAWARD,4929.6,EUR,Prime de performance annuelle 2024,ADD
+1199,2025-02-15,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1200,2022-03-15,PERFAWARD,18555.4,EUR,Prime de performance annuelle 2022,ADD
+1200,2024-03-15,PERFAWARD,17764.08,EUR,Prime de performance annuelle 2024,ADD
+1200,2018-04-12,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1200,2023-04-12,MILESTONE,10000,EUR,Prime d'ancienneté 10 ans,ADD
+1201,2023-03-15,PERFAWARD,5655.43,EUR,Prime de performance annuelle 2023,ADD
+1202,2024-03-15,PERFAWARD,1299.28,EUR,Prime de performance annuelle 2024,ADD
+1203,2022-03-15,PERFAWARD,11383.04,EUR,Prime de performance annuelle 2022,ADD
+1203,2023-03-15,PERFAWARD,12467.14,EUR,Prime de performance annuelle 2023,ADD
+1203,2024-03-15,PERFAWARD,12420.2,EUR,Prime de performance annuelle 2024,ADD
+1203,2023-11-03,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1204,2024-03-15,PERFAWARD,2118.33,EUR,Prime de performance annuelle 2024,ADD
+1204,2022-07-08,SPOTBONUS,1320.7,EUR,Prime d'excellence,ADD
+1205,2022-03-15,PERFAWARD,13895.24,EUR,Prime de performance annuelle 2022,ADD
+1205,2023-03-15,PERFAWARD,14038.23,EUR,Prime de performance annuelle 2023,ADD
+1205,2024-03-15,PERFAWARD,13265.97,EUR,Prime de performance annuelle 2024,ADD
+1205,2018-11-08,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1205,2023-11-08,MILESTONE,10000,EUR,Prime d'ancienneté 10 ans,ADD
+1206,2022-03-15,PERFAWARD,10313.23,EUR,Prime de performance annuelle 2022,ADD
+1206,2023-03-15,PERFAWARD,11650.61,EUR,Prime de performance annuelle 2023,ADD
+1206,2024-03-15,PERFAWARD,11224.42,EUR,Prime de performance annuelle 2024,ADD
+1206,2020-01-12,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1206,2025-01-12,MILESTONE,10000,EUR,Prime d'ancienneté 10 ans,ADD
+1207,2022-03-15,PERFAWARD,4490.52,EUR,Prime de performance annuelle 2022,ADD
+1207,2023-03-15,PERFAWARD,4524.2,EUR,Prime de performance annuelle 2023,ADD
+1207,2024-03-15,PERFAWARD,4713.31,EUR,Prime de performance annuelle 2024,ADD
+1208,2023-03-15,PERFAWARD,14981.89,EUR,Prime de performance annuelle 2023,ADD
+1208,2024-03-15,PERFAWARD,18385.06,EUR,Prime de performance annuelle 2024,ADD
+1208,2024-10-22,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1209,2024-03-15,PERFAWARD,4608.57,EUR,Prime de performance annuelle 2024,ADD
+1210,2022-03-15,PERFAWARD,9582.55,EUR,Prime de performance annuelle 2022,ADD
+1210,2023-03-15,PERFAWARD,10930.43,EUR,Prime de performance annuelle 2023,ADD
+1210,2024-03-15,PERFAWARD,11988.86,EUR,Prime de performance annuelle 2024,ADD
+1210,2024-07-28,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1211,2022-03-15,PERFAWARD,12746.64,EUR,Prime de performance annuelle 2022,ADD
+1211,2023-03-15,PERFAWARD,12226.51,EUR,Prime de performance annuelle 2023,ADD
+1211,2024-03-15,PERFAWARD,12418.95,EUR,Prime de performance annuelle 2024,ADD
+1211,2021-01-11,RELOCATION,5588.13,EUR,Aide à la mobilité géographique,ADD
+1212,2022-03-15,PERFAWARD,9121.76,EUR,Prime de performance annuelle 2022,ADD
+1212,2024-03-15,PERFAWARD,9883.36,EUR,Prime de performance annuelle 2024,ADD
+1212,2024-08-17,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1213,2022-03-15,PERFAWARD,3598.05,EUR,Prime de performance annuelle 2022,ADD
+1213,2023-03-15,PERFAWARD,3810.64,EUR,Prime de performance annuelle 2023,ADD
+1213,2024-03-15,PERFAWARD,3521.56,EUR,Prime de performance annuelle 2024,ADD
+1213,2024-05-29,REFERRAL,2500.0,EUR,Prime de cooptation,ADD
+1213,2025-02-12,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1214,2024-11-29,SIGNON,4151.52,EUR,Bonus de signature de contrat,ADD
+1215,2023-03-15,PERFAWARD,13788.18,EUR,Prime de performance annuelle 2023,ADD
+1215,2024-03-15,PERFAWARD,16603.81,EUR,Prime de performance annuelle 2024,ADD
+1215,2021-10-04,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1216,2023-03-15,PERFAWARD,11500.84,EUR,Prime de performance annuelle 2023,ADD
+1216,2024-03-15,PERFAWARD,10741.2,EUR,Prime de performance annuelle 2024,ADD
+1217,2022-03-15,PERFAWARD,4155.53,EUR,Prime de performance annuelle 2022,ADD
+1217,2023-03-15,PERFAWARD,4262.19,EUR,Prime de performance annuelle 2023,ADD
+1217,2024-03-15,PERFAWARD,3665.08,EUR,Prime de performance annuelle 2024,ADD
+1217,2022-03-05,REFERRAL,2500.0,EUR,Prime de cooptation,ADD
+1217,2024-07-11,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1218,2022-03-15,PERFAWARD,9391.11,EUR,Prime de performance annuelle 2022,ADD
+1218,2023-03-15,PERFAWARD,9912.43,EUR,Prime de performance annuelle 2023,ADD
+1218,2021-11-25,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1218,2023-06-24,SPOTBONUS,2254.27,EUR,Prime d'excellence,ADD
+1219,2022-03-15,PERFAWARD,9419.97,EUR,Prime de performance annuelle 2022,ADD
+1219,2022-10-02,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1220,2022-03-15,PERFAWARD,9576.32,EUR,Prime de performance annuelle 2022,ADD
+1220,2024-03-15,PERFAWARD,9740.92,EUR,Prime de performance annuelle 2024,ADD
+1220,2024-04-07,REFERRAL,2500.0,EUR,Prime de cooptation,ADD
+1220,2018-05-30,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1220,2023-05-30,MILESTONE,10000,EUR,Prime d'ancienneté 10 ans,ADD
+1221,2023-03-15,PERFAWARD,14407.61,EUR,Prime de performance annuelle 2023,ADD
+1221,2020-12-23,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1222,2023-03-15,PERFAWARD,17371.49,EUR,Prime de performance annuelle 2023,ADD
+1222,2024-03-15,PERFAWARD,18588.17,EUR,Prime de performance annuelle 2024,ADD
+1222,2019-08-22,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1222,2024-08-22,MILESTONE,10000,EUR,Prime d'ancienneté 10 ans,ADD
+1223,2022-03-15,PERFAWARD,15057.03,EUR,Prime de performance annuelle 2022,ADD
+1223,2023-03-15,PERFAWARD,13911.57,EUR,Prime de performance annuelle 2023,ADD
+1223,2024-02-05,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1224,2022-03-15,PERFAWARD,7130.98,EUR,Prime de performance annuelle 2022,ADD
+1224,2024-03-15,PERFAWARD,7240.07,EUR,Prime de performance annuelle 2024,ADD
+1225,2024-03-15,PERFAWARD,20557.3,EUR,Prime de performance annuelle 2024,ADD
+1225,2018-02-05,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1225,2023-02-05,MILESTONE,10000,EUR,Prime d'ancienneté 10 ans,ADD
+1225,2023-10-28,SPOTBONUS,2441.91,EUR,Prime d'excellence,ADD
+1226,2022-03-15,PERFAWARD,16091.22,EUR,Prime de performance annuelle 2022,ADD
+1226,2023-03-15,PERFAWARD,16526.36,EUR,Prime de performance annuelle 2023,ADD
+1226,2024-03-15,PERFAWARD,15860.59,EUR,Prime de performance annuelle 2024,ADD
+1226,2023-09-01,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1227,2022-03-15,PERFAWARD,11648.55,EUR,Prime de performance annuelle 2022,ADD
+1227,2023-03-15,PERFAWARD,11199.32,EUR,Prime de performance annuelle 2023,ADD
+1227,2024-03-15,PERFAWARD,11367.37,EUR,Prime de performance annuelle 2024,ADD
+1228,2022-03-15,PERFAWARD,11048.85,EUR,Prime de performance annuelle 2022,ADD
+1228,2023-03-15,PERFAWARD,8475.33,EUR,Prime de performance annuelle 2023,ADD
+1228,2017-02-21,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1228,2022-02-21,MILESTONE,10000,EUR,Prime d'ancienneté 10 ans,ADD
+1229,2024-12-09,SIGNON,7537.4,EUR,Bonus de signature de contrat,ADD
+1230,2022-03-15,PERFAWARD,4953.0,EUR,Prime de performance annuelle 2022,ADD
+1230,2023-03-15,PERFAWARD,5656.52,EUR,Prime de performance annuelle 2023,ADD
+1231,2023-03-15,PERFAWARD,16533.85,EUR,Prime de performance annuelle 2023,ADD
+1231,2020-10-17,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1232,2022-03-15,PERFAWARD,6945.64,EUR,Prime de performance annuelle 2022,ADD
+1232,2023-03-15,PERFAWARD,7952.14,EUR,Prime de performance annuelle 2023,ADD
+1232,2024-03-15,PERFAWARD,7166.76,EUR,Prime de performance annuelle 2024,ADD
+1232,2024-10-24,REFERRAL,2500.0,EUR,Prime de cooptation,ADD
+1232,2021-09-06,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1232,2023-07-30,SPOTBONUS,1872.79,EUR,Prime d'excellence,ADD
+1233,2022-03-15,PERFAWARD,16114.07,EUR,Prime de performance annuelle 2022,ADD
+1233,2023-03-15,PERFAWARD,18785.1,EUR,Prime de performance annuelle 2023,ADD
+1233,2024-03-15,PERFAWARD,15821.79,EUR,Prime de performance annuelle 2024,ADD
+1233,2017-07-14,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1233,2022-07-14,MILESTONE,10000,EUR,Prime d'ancienneté 10 ans,ADD
+1235,2024-06-10,SIGNON,6271.64,EUR,Bonus de signature de contrat,ADD
+1236,2022-03-15,PERFAWARD,14667.04,EUR,Prime de performance annuelle 2022,ADD
+1236,2023-03-15,PERFAWARD,14470.96,EUR,Prime de performance annuelle 2023,ADD
+1236,2019-03-19,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1236,2024-03-19,MILESTONE,10000,EUR,Prime d'ancienneté 10 ans,ADD
+1237,2023-03-15,PERFAWARD,8765.22,EUR,Prime de performance annuelle 2023,ADD
+1238,2024-03-15,PERFAWARD,17122.37,EUR,Prime de performance annuelle 2024,ADD
+1238,2017-07-02,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1238,2022-07-02,MILESTONE,10000,EUR,Prime d'ancienneté 10 ans,ADD
+1239,2022-03-15,PERFAWARD,13818.88,EUR,Prime de performance annuelle 2022,ADD
+1239,2023-03-15,PERFAWARD,12645.12,EUR,Prime de performance annuelle 2023,ADD
+1239,2024-03-15,PERFAWARD,12094.34,EUR,Prime de performance annuelle 2024,ADD
+1239,2022-04-18,REFERRAL,2500.0,EUR,Prime de cooptation,ADD
+1239,2024-05-02,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1240,2022-03-15,PERFAWARD,11633.33,EUR,Prime de performance annuelle 2022,ADD
+1240,2023-03-15,PERFAWARD,12292.98,EUR,Prime de performance annuelle 2023,ADD
+1240,2024-03-15,PERFAWARD,11486.03,EUR,Prime de performance annuelle 2024,ADD
+1240,2024-02-25,REFERRAL,2500.0,EUR,Prime de cooptation,ADD
+1240,2020-02-18,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1240,2025-02-18,MILESTONE,10000,EUR,Prime d'ancienneté 10 ans,ADD
+1241,2023-03-15,PERFAWARD,16473.05,EUR,Prime de performance annuelle 2023,ADD
+1241,2024-03-15,PERFAWARD,15640.44,EUR,Prime de performance annuelle 2024,ADD
+1241,2023-06-28,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1243,2025-01-27,SIGNON,4056.32,EUR,Bonus de signature de contrat,ADD
+1244,2024-11-30,SIGNON,4746.88,EUR,Bonus de signature de contrat,ADD
+1244,2024-10-02,REFERRAL,2500.0,EUR,Prime de cooptation,ADD
+1245,2022-03-15,PERFAWARD,9911.73,EUR,Prime de performance annuelle 2022,ADD
+1245,2024-03-15,PERFAWARD,10102.98,EUR,Prime de performance annuelle 2024,ADD
+1245,2018-06-07,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1245,2023-06-07,MILESTONE,10000,EUR,Prime d'ancienneté 10 ans,ADD
+1245,2023-06-15,SPOTBONUS,983.11,EUR,Prime d'excellence,ADD
+1246,2024-11-12,SIGNON,6311.63,EUR,Bonus de signature de contrat,ADD
+1247,2022-03-15,PERFAWARD,11392.76,EUR,Prime de performance annuelle 2022,ADD
+1247,2023-03-15,PERFAWARD,9347.4,EUR,Prime de performance annuelle 2023,ADD
+1247,2024-03-15,PERFAWARD,10105.71,EUR,Prime de performance annuelle 2024,ADD
+1247,2020-11-09,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1249,2022-03-15,PERFAWARD,13260.15,EUR,Prime de performance annuelle 2022,ADD
+1249,2023-03-15,PERFAWARD,11429.04,EUR,Prime de performance annuelle 2023,ADD
+1249,2024-03-15,PERFAWARD,11609.9,EUR,Prime de performance annuelle 2024,ADD
+1249,2017-07-26,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1249,2022-07-26,MILESTONE,10000,EUR,Prime d'ancienneté 10 ans,ADD
+1250,2023-03-15,PERFAWARD,10593.24,EUR,Prime de performance annuelle 2023,ADD
+1250,2024-03-15,PERFAWARD,10355.12,EUR,Prime de performance annuelle 2024,ADD
+1250,2017-05-21,MILESTONE,5000,EUR,Prime d'ancienneté 5 ans,ADD
+1250,2022-05-21,MILESTONE,10000,EUR,Prime d'ancienneté 10 ans,ADD

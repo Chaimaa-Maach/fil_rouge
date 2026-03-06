@@ -1,0 +1,14 @@
+﻿user_id,event_reason,company,oktorehire,lastdateworked,bonuspayexpirationdate,termination_detailed_reason,termination_attachment
+1007,RESIGNATION,Novaryn Tech,YES,2023-06-21,2023-09-18,Démission volontaire du salarié.,EXIT-1007-2023.pdf
+1031,DEATH,Novaryn Tech,NO,2023-11-04,2023-12-14,Décès du salarié — acte transmis au service RH.,EXIT-1031-2023.pdf
+1042,INVOLUNTARY,Novaryn Tech,NO,2024-04-10,2024-05-31,Licenciement pour motif économique ou personnel.,EXIT-1042-2024.pdf
+1044,RETIREMENT,Novaryn Tech,YES,2023-02-12,2023-04-14,Départ à la retraite — droits validés.,EXIT-1044-2023.pdf
+1048,RETIREMENT,Novaryn Tech,YES,2023-01-06,2023-03-20,Départ à la retraite — droits validés.,EXIT-1048-2023.pdf
+1057,INVOLUNTARY,Novaryn Tech,NO,2023-06-08,2023-07-22,Licenciement pour motif économique ou personnel.,EXIT-1057-2023.pdf
+1071,RETIREMENT,Novaryn Tech,YES,2023-08-23,2023-11-16,Départ à la retraite — droits validés.,EXIT-1071-2023.pdf
+1126,RETIREMENT,Novaryn Tech,YES,2023-06-14,2023-09-07,Départ à la retraite — droits validés.,EXIT-1126-2023.pdf
+1128,RETIREMENT,Novaryn Tech,YES,2024-08-19,2024-10-03,Départ à la retraite — droits validés.,EXIT-1128-2024.pdf
+1174,NON_RENEWAL,Novaryn Tech,YES,2023-04-17,2023-07-10,Non-renouvellement du CDD à son terme.,EXIT-1174-2023.pdf
+1188,INVOLUNTARY,Novaryn Tech,NO,2024-08-16,2024-10-19,Licenciement pour motif économique ou personnel.,EXIT-1188-2024.pdf
+1190,INVOLUNTARY,Novaryn Tech,NO,2023-07-18,2023-09-06,Licenciement pour motif économique ou personnel.,EXIT-1190-2023.pdf
+1242,RESIGNATION,Novaryn Tech,YES,2023-08-13,2023-10-03,Démission volontaire du salarié.,EXIT-1242-2023.pdf

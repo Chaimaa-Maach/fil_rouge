@@ -1,0 +1,251 @@
+﻿user_id,status,username,first_name,last_name,gender,email,hiredate,manager,hr,job_code,division,location,city,state,zip,country
+1001,Active,claurent,Cécile,Laurent,F,cecile.laurent@novaryn-tech.com,2024-08-12,1163,1064,CSM-SALES,Commercial,Novaryn Tech - Marseille,Marseille,Provence-Alpes-Côte d'Azur,13001,France
+1002,Active,lmoulin,Laure,Moulin,F,laure.moulin@novaryn-tech.com,2015-10-18,1227,1043,SR-BACK-ENG,Technology,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1003,Active,dgallet,Daniel,Gallet,M,daniel.gallet@novaryn-tech.com,2013-09-28,1062,1114,LEAD-PAYROLL-OP,People & Culture,Novaryn Tech - Lyon,Lyon,Auvergne-Rhône-Alpes,69001,France
+1004,Active,ytraore,Yves,Traore,M,yves.traore@novaryn-tech.com,2021-04-11,1232,1043,LEAD-CSM-SALES,Commercial,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1005,Active,amaury,Aurore,Maury,F,aurore.maury@novaryn-tech.com,2019-03-06,1180,1060,SR-CSM-SALES,Commercial,Novaryn Tech - Toulouse,Toulouse,Occitanie,31000,France
+1006,Leave,amartinez,Alexandria,Martinez,F,alexandria.martinez@novaryn-tech.com,2013-08-05,1210,1134,SR-ML-ENG,Technology,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1007,Terminated,grey,Gabrielle,Rey,F,gabrielle.rey@novaryn-tech.com,2020-08-06,1157,1142,SR-QA-ENG,Technology,Novaryn Tech - Toulouse,Toulouse,Occitanie,31000,France
+1008,Active,aguilbert,Alexandrie,Guilbert,F,alexandrie.guilbert@novaryn-tech.com,2015-05-20,1045,1172,LEAD-BACK-ENG,Technology,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1009,Active,vboutin,Victor,Boutin,M,victor.boutin@novaryn-tech.com,2021-04-09,1002,1148,CONF-BACK-ENG,Technology,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1010,Active,mvasseur,Marc,Vasseur,M,marc.vasseur@novaryn-tech.com,2019-08-23,1101,1134,FA-FIN,Finance & Administration,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1011,Active,lrobert,Laurence,Robert,F,laurence.robert@novaryn-tech.com,2024-11-28,1228,1134,SR-FA-FIN,Finance & Administration,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1012,Active,erocher,Édouard,Rocher,M,edouard.rocher@novaryn-tech.com,2019-03-11,,1172,CMO,Commercial,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1013,Active,jlopes,Jean,Lopes,M,jean.lopes@novaryn-tech.com,2014-08-24,1109,1175,CONF-FA-FIN,Finance & Administration,Novaryn Tech - Lyon,Lyon,Auvergne-Rhône-Alpes,69001,France
+1014,Active,gledoux,Gabrielle,Ledoux,F,gabrielle.ledoux@novaryn-tech.com,2017-09-22,1095,1113,CONF-BD-SALES,Commercial,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1015,Active,cmorin,Caroline,Morin,F,caroline.morin@novaryn-tech.com,2018-06-18,1017,1003,SR-DATA-ENG,Technology,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1016,Active,bpelletier,Brigitte,Pelletier,F,brigitte.pelletier@novaryn-tech.com,2017-11-07,1169,1003,SR-DATA-ENG,Technology,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1017,Active,taubry,Thibaut,Aubry,M,thibaut.aubry@novaryn-tech.com,2012-09-26,1102,1148,LEAD-SECU-ENG,Technology,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1018,Active,mregnier,Michel,Regnier,M,michel.regnier@novaryn-tech.com,2014-02-14,1198,1003,SR-DEVOPS-ENG,Technology,Novaryn Tech - Lyon,Lyon,Auvergne-Rhône-Alpes,69001,France
+1019,Active,mchevalier,Michelle,Chevalier,F,michelle.chevalier@novaryn-tech.com,2021-05-23,1129,1003,LEAD-DATA-SCI,Technology,Novaryn Tech - Toulouse,Toulouse,Occitanie,31000,France
+1020,Active,ltecher,Lucie,Techer,F,lucie.techer@novaryn-tech.com,2022-07-10,1214,1161,PO-PROD,Technology,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1021,Active,jverdier,Jules,Verdier,M,jules.verdier@novaryn-tech.com,2015-04-09,1224,1134,CONF-FA-FIN,Finance & Administration,Novaryn Tech - Lyon,Lyon,Auvergne-Rhône-Alpes,69001,France
+1022,Active,alambert,Arthur,Lambert,M,arthur.lambert@novaryn-tech.com,2023-04-01,1096,1108,AM-SALES,Commercial,Novaryn Tech - Lyon,Lyon,Auvergne-Rhône-Alpes,69001,France
+1023,Active,gleleu,Gabriel,Leleu,M,gabriel.leleu@novaryn-tech.com,2016-12-03,1236,1113,LEAD-SMGR-SALES,Commercial,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1024,Active,arey,Augustin,Rey,M,augustin.rey@novaryn-tech.com,2013-09-19,1124,1175,SR-FULL-ENG,Technology,Novaryn Tech - Lyon,Lyon,Auvergne-Rhône-Alpes,69001,France
+1025,Active,llopes,Laurent,Lopes,M,laurent.lopes@novaryn-tech.com,2019-09-18,1019,1065,CONF-DATA-ENG,Technology,Novaryn Tech - Toulouse,Toulouse,Occitanie,31000,France
+1026,Active,mgoncalves,Mathilde,Goncalves,F,mathilde.goncalves@novaryn-tech.com,2018-04-19,1094,1060,CONF-CTRL-FIN,Finance & Administration,Novaryn Tech - Lille,Lille,Hauts-de-France,59000,France
+1027,Active,jlacroix,Joseph,Lacroix,M,joseph.lacroix@novaryn-tech.com,2023-05-27,1012,1113,CONF-CONT-MKT,Commercial,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1028,Active,gboutin,Grégoire,Boutin,M,gregoire.boutin@novaryn-tech.com,2023-08-18,1209,1167,SMGR-SALES,Commercial,Novaryn Tech - Lyon,Lyon,Auvergne-Rhône-Alpes,69001,France
+1029,Inactive,araynaud,Arnaude,Raynaud,F,arnaude.raynaud@novaryn-tech.com,2022-10-20,1146,1172,CONF-UX-PROD,Technology,Novaryn Tech - Marseille,Marseille,Provence-Alpes-Côte d'Azur,13001,France
+1030,Leave,djoubert,Denise,Joubert,F,denise.joubert@novaryn-tech.com,2024-05-27,1250,1060,CONF-BRAND-MKT,Commercial,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1031,Terminated,ggoncalves,Gérard,Goncalves,M,gerard.goncalves@novaryn-tech.com,2019-11-12,1061,1232,CONF-GROWTH-MKT,Commercial,Novaryn Tech - Bordeaux,Bordeaux,Nouvelle-Aquitaine,33000,France
+1032,Leave,ldupuy,Laurent,Dupuy,M,laurent.dupuy@novaryn-tech.com,2022-11-20,1164,1161,BRAND-MKT,Commercial,Novaryn Tech - Lyon,Lyon,Auvergne-Rhône-Alpes,69001,France
+1033,Active,rvasseur,Roger,Vasseur,M,roger.vasseur@novaryn-tech.com,2023-08-25,1013,1043,FA-FIN,Finance & Administration,Novaryn Tech - Lyon,Lyon,Auvergne-Rhône-Alpes,69001,France
+1034,Active,ilecoq,Isaac,Lecoq,M,isaac.lecoq@novaryn-tech.com,2012-12-13,1168,1065,LEAD-INFRA-ENG,Technology,Novaryn Tech - Bordeaux,Bordeaux,Nouvelle-Aquitaine,33000,France
+1035,Active,hdavid,Henriette,David,F,henriette.david@novaryn-tech.com,2017-05-14,1077,1134,CONF-FULL-ENG,Technology,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1036,Active,lroyer,Luc,Royer,M,luc.royer@novaryn-tech.com,2013-02-15,1173,1142,LEAD-PM-PROD,Technology,Novaryn Tech - Marseille,Marseille,Provence-Alpes-Côte d'Azur,13001,France
+1037,Active,fduhamel,Franck,Duhamel,M,franck.duhamel@novaryn-tech.com,2024-03-18,1158,1142,GROWTH-MKT,Commercial,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1038,Active,hlecomte,Hugues,Lecomte,M,hugues.lecomte@novaryn-tech.com,2023-02-24,1159,1172,SR-SECU-ENG,Technology,Novaryn Tech - Toulouse,Toulouse,Occitanie,31000,France
+1039,Active,pdelaunay,Paul,Delaunay,M,paul.delaunay@novaryn-tech.com,2022-12-08,1111,1113,FULL-ENG,Technology,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1040,Active,smeunier,Suzanne,Meunier,F,suzanne.meunier@novaryn-tech.com,2016-07-03,1079,1108,SR-DATA-ENG,Technology,Novaryn Tech - Lille,Lille,Hauts-de-France,59000,France
+1041,Active,dhoarau,Daniel,Hoarau,M,daniel.hoarau@novaryn-tech.com,2024-09-03,1061,1064,PMM-MKT,Commercial,Novaryn Tech - Bordeaux,Bordeaux,Nouvelle-Aquitaine,33000,France
+1042,Terminated,jletellier,Julie,Letellier,F,julie.letellier@novaryn-tech.com,2021-12-11,1045,1064,CONF-CONT-MKT,Commercial,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1043,Active,pguillon,Pénélope,Guillon,F,penelope.guillon@novaryn-tech.com,2018-10-17,1146,1175,SR-HRBP-HR,People & Culture,Novaryn Tech - Marseille,Marseille,Provence-Alpes-Côte d'Azur,13001,France
+1044,Terminated,jvasseur,Jules,Vasseur,M,jules.vasseur@novaryn-tech.com,2014-05-09,1150,1142,LEAD-FRONT-ENG,Technology,Novaryn Tech - Toulouse,Toulouse,Occitanie,31000,France
+1045,Active,pteixeira,Pierre,Teixeira,M,pierre.teixeira@novaryn-tech.com,2013-07-18,1169,1064,LEAD-CONT-MKT,Commercial,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1046,Active,amasson,André,Masson,M,andre.masson@novaryn-tech.com,2014-08-07,1180,1148,LEAD-QA-ENG,Technology,Novaryn Tech - Toulouse,Toulouse,Occitanie,31000,France
+1047,Active,cbazin,Constance,Bazin,F,constance.bazin@novaryn-tech.com,2019-03-08,1098,1172,LEAD-PMM-MKT,Commercial,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1048,Terminated,acollin,Anouk,Collin,F,anouk.collin@novaryn-tech.com,2018-06-29,1161,1172,PAYROLL-OP,People & Culture,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1049,Leave,tbigot,Théophile,Bigot,M,theophile.bigot@novaryn-tech.com,2020-12-31,1120,1064,QA-ENG,Technology,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1050,Active,glenoir,Gilbert,Lenoir,M,gilbert.lenoir@novaryn-tech.com,2012-03-12,1035,1104,LEAD-BACK-ENG,Technology,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1051,Inactive,cnormand,Céline,Normand,F,celine.normand@novaryn-tech.com,2021-02-18,1102,1043,SR-PO-PROD,Technology,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1052,Active,glecoq,Grégoire,Lecoq,M,gregoire.lecoq@novaryn-tech.com,2022-11-26,1077,1142,FULL-ENG,Technology,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1053,Active,jmarie,Jean,Marie,M,jean.marie@novaryn-tech.com,2016-12-28,1017,1060,SR-DEVOPS-ENG,Technology,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1054,Active,rbarbier,Renée,Barbier,F,renee.barbier@novaryn-tech.com,2019-09-20,1063,1148,SR-UX-PROD,Technology,Novaryn Tech - Lyon,Lyon,Auvergne-Rhône-Alpes,69001,France
+1055,Inactive,amace,Adrien,Mace,M,adrien.mace@novaryn-tech.com,2024-03-29,1133,1232,SR-INFRA-ENG,Technology,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1056,Leave,gcharrier,Gilles,Charrier,M,gilles.charrier@novaryn-tech.com,2024-12-17,1018,1134,DATA-SCI,Technology,Novaryn Tech - Lyon,Lyon,Auvergne-Rhône-Alpes,69001,France
+1057,Terminated,dguillou,Dorothée,Guillou,F,dorothee.guillou@novaryn-tech.com,2013-10-23,1117,1104,LEAD-AM-SALES,Commercial,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1058,Active,lriou,Lucy,Riou,F,lucy.riou@novaryn-tech.com,2020-08-20,1083,1161,CONF-AM-SALES,Commercial,Novaryn Tech - Marseille,Marseille,Provence-Alpes-Côte d'Azur,13001,France
+1059,Inactive,ebrunet,Élodie,Brunet,F,elodie.brunet@novaryn-tech.com,2018-05-12,1206,1113,LEAD-FA-FIN,Finance & Administration,Novaryn Tech - Bordeaux,Bordeaux,Nouvelle-Aquitaine,33000,France
+1060,Active,egimenez,Édouard,Gimenez,M,edouard.gimenez@novaryn-tech.com,2021-01-08,1043,1175,CONF-HRBP-HR,People & Culture,Novaryn Tech - Marseille,Marseille,Provence-Alpes-Côte d'Azur,13001,France
+1061,Leave,ajoseph,Adélaïde,Joseph,F,adelaide.joseph@novaryn-tech.com,2017-07-07,1122,1065,SR-BRAND-MKT,Commercial,Novaryn Tech - Bordeaux,Bordeaux,Nouvelle-Aquitaine,33000,France
+1062,Leave,pmoreau,Patrick,Moreau,M,patrick.moreau@novaryn-tech.com,2013-11-26,1021,1003,LEAD-BACK-ENG,Technology,Novaryn Tech - Lyon,Lyon,Auvergne-Rhône-Alpes,69001,France
+1063,Active,jlegall,Jules,Le Gall,M,jules.legall@novaryn-tech.com,2016-01-27,1013,1113,LEAD-PM-PROD,Technology,Novaryn Tech - Lyon,Lyon,Auvergne-Rhône-Alpes,69001,France
+1064,Inactive,aguillot,Antoine,Guillot,M,antoine.guillot@novaryn-tech.com,2021-08-26,1043,1113,CONF-HRBP-HR,People & Culture,Novaryn Tech - Marseille,Marseille,Provence-Alpes-Côte d'Azur,13001,France
+1065,Active,aclement,Augustin,Clément,M,augustin.clement@novaryn-tech.com,2024-06-13,1140,1161,TA-HR,People & Culture,Novaryn Tech - Toulouse,Toulouse,Occitanie,31000,France
+1066,Active,pmuller,Patrick,Muller,M,patrick.muller@novaryn-tech.com,2024-12-09,,1114,CSO,Commercial,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1067,Inactive,crodriguez,Charlotte,Rodriguez,F,charlotte.rodriguez@novaryn-tech.com,2023-03-23,1075,1003,CONF-UX-PROD,Technology,Novaryn Tech - Toulouse,Toulouse,Occitanie,31000,France
+1068,Active,ndias,Noël,Dias,M,noel.dias@novaryn-tech.com,2014-10-23,1016,1108,LEAD-DATA-ENG,Technology,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1069,Active,jevrard,Julie,Evrard,F,julie.evrard@novaryn-tech.com,2022-04-27,1238,1172,DEVOPS-ENG,Technology,Novaryn Tech - Lyon,Lyon,Auvergne-Rhône-Alpes,69001,France
+1070,Active,mlecomte,Marcel,Lecomte,M,marcel.lecomte@novaryn-tech.com,2021-03-05,1046,1060,LEAD-ADMIN-OP,Finance & Administration,Novaryn Tech - Toulouse,Toulouse,Occitanie,31000,France
+1071,Terminated,edelannoy,Eugène,Delannoy,M,eugene.delannoy@novaryn-tech.com,2017-04-20,1225,1064,SR-DATA-ENG,Technology,Novaryn Tech - Toulouse,Toulouse,Occitanie,31000,France
+1072,Active,lleconte,Luc,Leconte,M,luc.leconte@novaryn-tech.com,2023-01-21,1040,1172,ML-ENG,Technology,Novaryn Tech - Lille,Lille,Hauts-de-France,59000,France
+1073,Active,jnavarro,Julien,Navarro,M,julien.navarro@novaryn-tech.com,2020-10-21,1040,1104,CONF-FRONT-ENG,Technology,Novaryn Tech - Lille,Lille,Hauts-de-France,59000,France
+1074,Active,smathieu,Stéphanie,Mathieu,F,stephanie.mathieu@novaryn-tech.com,2016-03-20,1245,1167,CSM-SALES,Commercial,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1075,Active,fandre,Frédéric,Andre,M,frederic.andre@novaryn-tech.com,2017-10-01,1141,1175,LEAD-PM-PROD,Technology,Novaryn Tech - Toulouse,Toulouse,Occitanie,31000,France
+1076,Leave,apruvost,Alain,Pruvost,M,alain.pruvost@novaryn-tech.com,2021-06-03,1160,1161,CONF-CONT-MKT,Commercial,Novaryn Tech - Toulouse,Toulouse,Occitanie,31000,France
+1077,Active,gpruvost,Gabriel,Pruvost,M,gabriel.pruvost@novaryn-tech.com,2015-09-30,1178,1104,LEAD-FRONT-ENG,Technology,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1078,Active,aguerin,Adèle,Guérin,F,adele.guerin@novaryn-tech.com,2024-01-16,1183,1108,QA-ENG,Technology,Novaryn Tech - Marseille,Marseille,Provence-Alpes-Côte d'Azur,13001,France
+1079,Active,tlopez,Thomas,Lopez,M,thomas.lopez@novaryn-tech.com,2015-11-23,1040,1114,LEAD-DEVOPS-ENG,Technology,Novaryn Tech - Lille,Lille,Hauts-de-France,59000,France
+1080,Active,adavid,Arthur,David,M,arthur.david@novaryn-tech.com,2017-08-15,1121,1172,SR-DATA-SCI,Technology,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1081,Active,abuisson,Arnaude,Buisson,F,arnaude.buisson@novaryn-tech.com,2016-01-18,1068,1043,LEAD-BD-SALES,Commercial,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1082,Active,llaroche,Laurence,Laroche,F,laurence.laroche@novaryn-tech.com,2020-04-04,1112,1134,LEAD-PM-PROD,Technology,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1083,Active,fgimenez,Franck,Gimenez,M,franck.gimenez@novaryn-tech.com,2014-04-02,1247,1167,LEAD-AM-SALES,Commercial,Novaryn Tech - Marseille,Marseille,Provence-Alpes-Côte d'Azur,13001,France
+1084,Active,sverdier,Sébastien,Verdier,M,sebastien.verdier@novaryn-tech.com,2020-01-16,1228,1175,CTRL-FIN,Finance & Administration,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1085,Active,greynaud,Gérard,Reynaud,M,gerard.reynaud@novaryn-tech.com,2018-12-04,1018,1060,SR-SECU-ENG,Technology,Novaryn Tech - Lyon,Lyon,Auvergne-Rhône-Alpes,69001,France
+1086,Active,egauthier,Élisabeth,Gauthier,F,elisabeth.gauthier@novaryn-tech.com,2013-08-25,1121,1161,LEAD-BACK-ENG,Technology,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1087,Leave,vperret,Vincent,Perret,M,vincent.perret@novaryn-tech.com,2018-01-10,1046,1167,SR-QA-ENG,Technology,Novaryn Tech - Toulouse,Toulouse,Occitanie,31000,France
+1088,Active,mbouchet,Marcel,Bouchet,M,marcel.bouchet@novaryn-tech.com,2019-12-11,1062,1232,LEAD-ML-ENG,Technology,Novaryn Tech - Lyon,Lyon,Auvergne-Rhône-Alpes,69001,France
+1089,Active,amaillet,André,Maillet,M,andre.maillet@novaryn-tech.com,2023-02-12,1085,1003,BACK-ENG,Technology,Novaryn Tech - Lyon,Lyon,Auvergne-Rhône-Alpes,69001,France
+1090,Leave,tperrin,Tristan,Perrin,M,tristan.perrin@novaryn-tech.com,2013-01-11,1203,1148,LEAD-FRONT-ENG,Technology,Novaryn Tech - Marseille,Marseille,Provence-Alpes-Côte d'Azur,13001,France
+1091,Active,opetitjean,Océane,Petitjean,F,oceane.petitjean@novaryn-tech.com,2017-10-09,1150,1175,SR-PO-PROD,Technology,Novaryn Tech - Toulouse,Toulouse,Occitanie,31000,France
+1092,Leave,cmenard,Catherine,Menard,F,catherine.menard@novaryn-tech.com,2015-04-05,1079,1232,LEAD-FULL-ENG,Technology,Novaryn Tech - Lille,Lille,Hauts-de-France,59000,France
+1093,Active,eregnier,Étienne,Regnier,M,etienne.regnier@novaryn-tech.com,2019-08-19,1147,1161,CONF-AM-SALES,Commercial,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1094,Active,dbriand,Daniel,Briand,M,daniel.briand@novaryn-tech.com,2015-02-14,1079,1104,LEAD-PM-PROD,Technology,Novaryn Tech - Lille,Lille,Hauts-de-France,59000,France
+1095,Active,gpinto,Guillaume,Pinto,M,guillaume.pinto@novaryn-tech.com,2016-04-01,1008,1142,SR-BD-SALES,Commercial,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1096,Active,apichon,Astrid,Pichon,F,astrid.pichon@novaryn-tech.com,2021-05-12,1195,1113,LEAD-BD-SALES,Commercial,Novaryn Tech - Lyon,Lyon,Auvergne-Rhône-Alpes,69001,France
+1097,Active,cgirard,Capucine,Girard,F,capucine.girard@novaryn-tech.com,2023-02-04,1006,1114,QA-ENG,Technology,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1098,Active,rgarcia,Richard,Garcia,M,richard.garcia@novaryn-tech.com,2013-08-02,1015,1175,LEAD-DATA-SCI,Technology,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1099,Active,gbrun,Georges,Brun,M,georges.brun@novaryn-tech.com,2018-11-30,1236,1148,SR-UX-PROD,Technology,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1100,Active,pleduc,Patrick,Leduc,M,patrick.leduc@novaryn-tech.com,2015-08-21,1170,1104,LEAD-ML-ENG,Technology,Novaryn Tech - Marseille,Marseille,Provence-Alpes-Côte d'Azur,13001,France
+1101,Active,nlopez,Noémi,Lopez,F,noemi.lopez@novaryn-tech.com,2014-10-20,1045,1113,CONF-ADMIN-OP,Finance & Administration,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1102,Active,mbernard,Monique,Bernard,F,monique.bernard@novaryn-tech.com,2018-08-22,1106,1114,SR-PM-PROD,Technology,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1103,Active,jdesousa,Julie,De Sousa,F,julie.desousa@novaryn-tech.com,2016-11-07,1180,1113,PRE-SALES,Commercial,Novaryn Tech - Toulouse,Toulouse,Occitanie,31000,France
+1104,Active,mgrenier,Marcel,Grenier,M,marcel.grenier@novaryn-tech.com,2024-06-05,1232,1167,CONF-TA-HR,People & Culture,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1105,Active,rpeltier,Roger,Peltier,M,roger.peltier@novaryn-tech.com,2024-03-22,1127,1104,BACK-ENG,Technology,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1106,Active,pmeyer,Patrick,Meyer,M,patrick.meyer@novaryn-tech.com,2015-03-25,1080,1113,LEAD-SMGR-SALES,Commercial,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1107,Active,lcarpentier,Lucie,Carpentier,F,lucie.carpentier@novaryn-tech.com,2012-12-29,1191,1142,LEAD-QA-ENG,Technology,Novaryn Tech - Lyon,Lyon,Auvergne-Rhône-Alpes,69001,France
+1108,Leave,sguyon,Stéphane,Guyon,M,stephane.guyon@novaryn-tech.com,2021-03-23,1114,1003,HRBP-HR,People & Culture,Novaryn Tech - Bordeaux,Bordeaux,Nouvelle-Aquitaine,33000,France
+1109,Active,aletellier,Antoine,Letellier,M,antoine.letellier@novaryn-tech.com,2017-05-02,1218,1148,LEAD-SECU-ENG,Technology,Novaryn Tech - Lyon,Lyon,Auvergne-Rhône-Alpes,69001,France
+1110,Active,agirard,Andrée,Girard,F,andree.girard@novaryn-tech.com,2021-12-08,1238,1065,CONF-DATA-ENG,Technology,Novaryn Tech - Lyon,Lyon,Auvergne-Rhône-Alpes,69001,France
+1111,Active,ogaudin,Olivier,Gaudin,M,olivier.gaudin@novaryn-tech.com,2021-01-13,1080,1175,CONF-FULL-ENG,Technology,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1112,Active,eboyer,Édouard,Boyer,M,edouard.boyer@novaryn-tech.com,2020-08-21,1240,1134,LEAD-BD-SALES,Commercial,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1113,Active,alemoine,Augustin,Lemoine,M,augustin.lemoine@novaryn-tech.com,2013-03-01,1061,1232,LEAD-TA-HR,People & Culture,Novaryn Tech - Bordeaux,Bordeaux,Nouvelle-Aquitaine,33000,France
+1114,Active,aparent,Antoinette,Parent,F,antoinette.parent@novaryn-tech.com,2016-01-01,1034,1060,SR-TA-HR,People & Culture,Novaryn Tech - Bordeaux,Bordeaux,Nouvelle-Aquitaine,33000,France
+1115,Active,omathieu,Océane,Mathieu,F,oceane.mathieu@novaryn-tech.com,2021-09-09,1051,1113,SCRM-PROD,Technology,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1116,Active,gdelorme,Gérard,Delorme,M,gerard.delorme@novaryn-tech.com,2022-02-11,1098,1003,FRONT-ENG,Technology,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1117,Active,alegendre,Alphonse,Legendre,M,alphonse.legendre@novaryn-tech.com,2013-05-24,1236,1175,CONF-PM-PROD,Technology,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1118,Active,mdescamps,Marc,Descamps,M,marc.descamps@novaryn-tech.com,2021-12-05,1054,1142,CONF-PM-PROD,Technology,Novaryn Tech - Lyon,Lyon,Auvergne-Rhône-Alpes,69001,France
+1119,Active,rbarbe,Roland,Barbe,M,roland.barbe@novaryn-tech.com,2017-05-19,1222,1108,SR-FRONT-ENG,Technology,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1120,Active,jmartins,Josette,Martins,F,josette.martins@novaryn-tech.com,2023-05-24,1017,1142,SR-DATA-SCI,Technology,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1121,Active,hdupuis,Hugues,Dupuis,M,hugues.dupuis@novaryn-tech.com,2016-07-08,1080,1142,LEAD-DATA-ENG,Technology,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1122,Active,npayet,Nicole,Payet,F,nicole.payet@novaryn-tech.com,2023-06-05,1034,1003,LEAD-GROWTH-MKT,Commercial,Novaryn Tech - Bordeaux,Bordeaux,Nouvelle-Aquitaine,33000,France
+1123,Active,tribeiro,Tristan,Ribeiro,M,tristan.ribeiro@novaryn-tech.com,2019-10-12,1206,1065,BACK-ENG,Technology,Novaryn Tech - Bordeaux,Bordeaux,Nouvelle-Aquitaine,33000,France
+1124,Inactive,mhamel,Margaux,Hamel,F,margaux.hamel@novaryn-tech.com,2013-03-26,1237,1064,LEAD-CSM-SALES,Commercial,Novaryn Tech - Lyon,Lyon,Auvergne-Rhône-Alpes,69001,France
+1125,Active,aalbert,Adrienne,Albert,F,adrienne.albert@novaryn-tech.com,2022-07-26,1210,1148,CONF-CONT-MKT,Commercial,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1126,Terminated,rroussel,Roland,Roussel,M,roland.roussel@novaryn-tech.com,2013-03-31,1025,1148,LEAD-CTRL-FIN,Finance & Administration,Novaryn Tech - Toulouse,Toulouse,Occitanie,31000,France
+1127,Inactive,fguillou,Frédérique,Guillou,F,frederique.guillou@novaryn-tech.com,2016-07-05,1240,1161,SR-FULL-ENG,Technology,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1128,Terminated,cleveque,Christophe,Lévêque,M,christophe.leveque@novaryn-tech.com,2013-03-03,,1142,CFO,Finance & Administration,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1129,Leave,glemaitre,Gérard,Lemaître,M,gerard.lemaitre@novaryn-tech.com,2016-11-05,1091,1142,LEAD-ADMIN-OP,Finance & Administration,Novaryn Tech - Toulouse,Toulouse,Occitanie,31000,France
+1130,Active,enavarro,Édouard,Navarro,M,edouard.navarro@novaryn-tech.com,2021-03-29,1055,1104,LEAD-AM-SALES,Commercial,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1131,Active,hraymond,Henri,Raymond,M,henri.raymond@novaryn-tech.com,2023-02-15,1223,1175,CONF-FRONT-ENG,Technology,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1132,Leave,amartineau,Adrienne,Martineau,F,adrienne.martineau@novaryn-tech.com,2021-06-08,1198,1142,CONF-BACK-ENG,Technology,Novaryn Tech - Lyon,Lyon,Auvergne-Rhône-Alpes,69001,France
+1133,Inactive,hdupre,Henri,Dupré,M,henri.dupre@novaryn-tech.com,2013-10-05,1080,1148,INFRA-ENG,Technology,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1134,Active,daubry,Daniel,Aubry,M,daniel.aubry@novaryn-tech.com,2013-12-18,1170,1104,LEAD-TA-HR,People & Culture,Novaryn Tech - Marseille,Marseille,Provence-Alpes-Côte d'Azur,13001,France
+1135,Active,cbernier,Catherine,Bernier,F,catherine.bernier@novaryn-tech.com,2021-05-30,1178,1134,CONF-CSM-SALES,Commercial,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1136,Active,dmaillard,Denis,Maillard,M,denis.maillard@novaryn-tech.com,2016-10-16,1127,1065,SR-ML-ENG,Technology,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1137,Active,tlacroix,Thibaut,Lacroix,M,thibaut.lacroix@novaryn-tech.com,2024-03-17,1005,1003,CONF-AM-SALES,Commercial,Novaryn Tech - Toulouse,Toulouse,Occitanie,31000,France
+1138,Inactive,jmartins1,Jean,Martins,M,jean.martins@novaryn-tech.com,2023-09-11,1228,1161,CONF-ADMIN-OP,Finance & Administration,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1139,Active,jbodin,Julie,Bodin,F,julie.bodin@novaryn-tech.com,2020-04-23,1228,1043,SR-ADMIN-OP,Finance & Administration,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1140,Active,groux,Gilbert,Roux,M,gilbert.roux@novaryn-tech.com,2013-07-27,1070,1142,LEAD-CTRL-FIN,Finance & Administration,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1141,Active,tbriand,Timothée,Briand,M,timothee.briand@novaryn-tech.com,2016-09-15,1216,1113,SR-FRONT-ENG,Technology,Novaryn Tech - Toulouse,Toulouse,Occitanie,31000,France
+1142,Leave,abernard,Amélie,Bernard,F,amelie.bernard@novaryn-tech.com,2017-09-03,,1064,CHRO,People & Culture,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1143,Active,cdiaz,Christelle,Diaz,F,christelle.diaz@novaryn-tech.com,2016-06-15,1223,1065,CONF-FA-FIN,Finance & Administration,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1144,Active,ctraore,Corinne,Traore,F,corinne.traore@novaryn-tech.com,2019-07-08,1145,1060,CONF-PM-PROD,Technology,Novaryn Tech - Lyon,Lyon,Auvergne-Rhône-Alpes,69001,France
+1145,Active,rmunoz,Robert,Munoz,M,robert.munoz@novaryn-tech.com,2019-04-11,1063,1148,LEAD-PM-PROD,Technology,Novaryn Tech - Lyon,Lyon,Auvergne-Rhône-Alpes,69001,France
+1146,Leave,amarie,Adrienne,Marie,F,adrienne.marie@novaryn-tech.com,2013-04-12,1183,1104,LEAD-SCRM-PROD,Technology,Novaryn Tech - Marseille,Marseille,Provence-Alpes-Côte d'Azur,13001,France
+1147,Active,dmorvan,Denis,Morvan,M,denis.morvan@novaryn-tech.com,2012-08-11,1035,1142,LEAD-CSM-SALES,Commercial,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1148,Active,jguillon,Julien,Guillon,M,julien.guillon@novaryn-tech.com,2021-05-26,1193,1003,LEAD-HRBP-HR,People & Culture,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1149,Active,cperret,Claudine,Perret,F,claudine.perret@novaryn-tech.com,2014-03-02,1117,1108,SR-AM-SALES,Commercial,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1150,Active,alegall,Alice,Le Gall,F,alice.legall@novaryn-tech.com,2018-03-15,1076,1060,LEAD-UX-PROD,Technology,Novaryn Tech - Toulouse,Toulouse,Occitanie,31000,France
+1151,Inactive,apelletier,Alphonse,Pelletier,M,alphonse.pelletier@novaryn-tech.com,2015-07-29,1147,1114,LEAD-DATA-ENG,Technology,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1152,Active,zmenard,Zacharie,Menard,M,zacharie.menard@novaryn-tech.com,2023-05-07,1220,1064,UX-PROD,Technology,Novaryn Tech - Toulouse,Toulouse,Occitanie,31000,France
+1153,Active,bmonnier,Bernard,Monnier,M,bernard.monnier@novaryn-tech.com,2021-07-10,1075,1043,SCRM-PROD,Technology,Novaryn Tech - Toulouse,Toulouse,Occitanie,31000,France
+1154,Active,olegendre,Odette,Legendre,F,odette.legendre@novaryn-tech.com,2024-10-01,1218,1172,BRAND-MKT,Commercial,Novaryn Tech - Lyon,Lyon,Auvergne-Rhône-Alpes,69001,France
+1155,Active,cgomez,Colette,Gomez,F,colette.gomez@novaryn-tech.com,2014-10-06,1235,1167,LEAD-PO-PROD,Technology,Novaryn Tech - Bordeaux,Bordeaux,Nouvelle-Aquitaine,33000,France
+1156,Inactive,dpasquier,Dorothée,Pasquier,F,dorothee.pasquier@novaryn-tech.com,2012-06-03,1054,1167,LEAD-INFRA-ENG,Technology,Novaryn Tech - Lyon,Lyon,Auvergne-Rhône-Alpes,69001,France
+1157,Active,dgallet1,Dorothée,Gallet,F,dorothee.gallet@novaryn-tech.com,2017-08-26,1159,1161,LEAD-FULL-ENG,Technology,Novaryn Tech - Toulouse,Toulouse,Occitanie,31000,France
+1158,Leave,llaroche1,Lucas,Laroche,M,lucas.laroche@novaryn-tech.com,2024-07-03,1147,1161,LEAD-PMM-MKT,Commercial,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1159,Active,gdacosta,Gérard,Da Costa,M,gerard.dacosta@novaryn-tech.com,2014-09-16,1038,1175,LEAD-FULL-ENG,Technology,Novaryn Tech - Toulouse,Toulouse,Occitanie,31000,France
+1160,Active,bweber,Bernard,Weber,M,bernard.weber@novaryn-tech.com,2012-08-28,1208,1113,LEAD-PMM-MKT,Commercial,Novaryn Tech - Toulouse,Toulouse,Occitanie,31000,France
+1161,Active,slouis,Sylvie,Louis,F,sylvie.louis@novaryn-tech.com,2015-05-25,1074,1175,LEAD-TA-HR,People & Culture,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1162,Active,mmarty,Michel,Marty,M,michel.marty@novaryn-tech.com,2017-03-11,1082,1043,SR-PM-PROD,Technology,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1163,Active,ghubert,Gabriel,Hubert,M,gabriel.hubert@novaryn-tech.com,2012-05-27,1182,1003,LEAD-CSM-SALES,Commercial,Novaryn Tech - Marseille,Marseille,Provence-Alpes-Côte d'Azur,13001,France
+1164,Active,ealexandre,Élise,Alexandre,F,elise.alexandre@novaryn-tech.com,2017-08-01,1096,1114,LEAD-CONT-MKT,Commercial,Novaryn Tech - Lyon,Lyon,Auvergne-Rhône-Alpes,69001,France
+1165,Active,gmuller,Guillaume,Muller,M,guillaume.muller@novaryn-tech.com,2016-09-30,1047,1060,LEAD-PO-PROD,Technology,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1166,Active,mclerc,Marine,Clerc,F,marine.clerc@novaryn-tech.com,2020-08-31,1151,1104,CONF-DEVOPS-ENG,Technology,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1167,Active,lpotier,Luc,Potier,M,luc.potier@novaryn-tech.com,2021-02-13,1232,1104,SR-PAYROLL-OP,People & Culture,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1168,Active,jleroy,Jacques,Leroy,M,jacques.leroy@novaryn-tech.com,2013-12-17,1235,1060,SR-CSM-SALES,Commercial,Novaryn Tech - Bordeaux,Bordeaux,Nouvelle-Aquitaine,33000,France
+1169,Active,jcolin,Josette,Colin,F,josette.colin@novaryn-tech.com,2021-11-16,1241,1060,LEAD-DATA-ENG,Technology,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1170,Active,jmorel,Julie,Morel,F,julie.morel@novaryn-tech.com,2013-11-04,1183,1175,LEAD-SECU-ENG,Technology,Novaryn Tech - Marseille,Marseille,Provence-Alpes-Côte d'Azur,13001,France
+1171,Active,rbarre,Renée,Barre,F,renee.barre@novaryn-tech.com,2024-05-24,1008,1167,LEAD-BACK-ENG,Technology,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1172,Active,mnguyen,Margaux,Nguyen,F,margaux.nguyen@novaryn-tech.com,2022-04-24,1148,1167,CONF-HRBP-HR,People & Culture,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1173,Active,pferreira,Pierre,Ferreira,M,pierre.ferreira@novaryn-tech.com,2018-07-21,1100,1043,SR-BACK-ENG,Technology,Novaryn Tech - Marseille,Marseille,Provence-Alpes-Côte d'Azur,13001,France
+1174,Terminated,eadam,Élisabeth,Adam,F,elisabeth.adam@novaryn-tech.com,2012-10-02,1021,1142,LEAD-SECU-ENG,Technology,Novaryn Tech - Lyon,Lyon,Auvergne-Rhône-Alpes,69001,France
+1175,Active,rmartin,Renée,Martin,F,renee.martin@novaryn-tech.com,2020-11-04,1062,1108,LEAD-HRBP-HR,People & Culture,Novaryn Tech - Lyon,Lyon,Auvergne-Rhône-Alpes,69001,France
+1176,Active,rtorres,René,Torres,M,rene.torres@novaryn-tech.com,2024-03-28,1155,1114,CONF-PO-PROD,Technology,Novaryn Tech - Bordeaux,Bordeaux,Nouvelle-Aquitaine,33000,France
+1177,Active,emarchal,Élodie,Marchal,F,elodie.marchal@novaryn-tech.com,2019-05-03,1180,1134,CONF-BD-SALES,Commercial,Novaryn Tech - Toulouse,Toulouse,Occitanie,31000,France
+1178,Active,achartier,Arthur,Chartier,M,arthur.chartier@novaryn-tech.com,2017-08-13,1081,1113,SR-AM-SALES,Commercial,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1179,Active,tbouvier,Thierry,Bouvier,M,thierry.bouvier@novaryn-tech.com,2023-04-15,1090,1043,CONF-INFRA-ENG,Technology,Novaryn Tech - Marseille,Marseille,Provence-Alpes-Côte d'Azur,13001,France
+1180,Active,cfouquet,Charles,Fouquet,M,charles.fouquet@novaryn-tech.com,2017-02-09,1140,1175,LEAD-SMGR-SALES,Commercial,Novaryn Tech - Toulouse,Toulouse,Occitanie,31000,France
+1181,Active,cruiz,Claude,Ruiz,F,claude.ruiz@novaryn-tech.com,2023-05-06,1055,1043,CONF-DATA-SCI,Technology,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1182,Inactive,lmillet,Lucas,Millet,M,lucas.millet@novaryn-tech.com,2018-11-05,1163,1003,CONF-PRE-SALES,Commercial,Novaryn Tech - Marseille,Marseille,Provence-Alpes-Côte d'Azur,13001,France
+1183,Active,wlenoir,William,Lenoir,M,william.lenoir@novaryn-tech.com,2014-03-01,1205,1060,LEAD-INFRA-ENG,Technology,Novaryn Tech - Marseille,Marseille,Provence-Alpes-Côte d'Azur,13001,France
+1184,Active,edeoliveira,Élise,De Oliveira,F,elise.deoliveira@novaryn-tech.com,2023-04-24,1117,1175,CONF-PO-PROD,Technology,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1185,Active,mlabbe,Monique,Labbé,F,monique.labbe@novaryn-tech.com,2024-09-22,1085,1064,FULL-ENG,Technology,Novaryn Tech - Lyon,Lyon,Auvergne-Rhône-Alpes,69001,France
+1186,Active,dchauvet,Diane,Chauvet,F,diane.chauvet@novaryn-tech.com,2021-09-06,1008,1108,LEAD-PRE-SALES,Commercial,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1187,Active,hlebon,Henri,Lebon,M,henri.lebon@novaryn-tech.com,2021-04-27,1099,1134,SR-SCRM-PROD,Technology,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1188,Terminated,abailly,Adrien,Bailly,M,adrien.bailly@novaryn-tech.com,2016-11-17,1079,1175,SR-BACK-ENG,Technology,Novaryn Tech - Lille,Lille,Hauts-de-France,59000,France
+1189,Active,fperret,François,Perret,M,francois.perret@novaryn-tech.com,2021-11-12,1005,1134,AM-SALES,Commercial,Novaryn Tech - Toulouse,Toulouse,Occitanie,31000,France
+1190,Terminated,mturpin,Margot,Turpin,F,margot.turpin@novaryn-tech.com,2019-07-08,1226,1175,CONF-BD-SALES,Commercial,Novaryn Tech - Marseille,Marseille,Provence-Alpes-Côte d'Azur,13001,France
+1191,Active,mparent,Matthieu,Parent,M,matthieu.parent@novaryn-tech.com,2015-08-20,1145,1114,SR-BD-SALES,Commercial,Novaryn Tech - Lyon,Lyon,Auvergne-Rhône-Alpes,69001,France
+1192,Active,dreynaud,Dominique,Reynaud,F,dominique.reynaud@novaryn-tech.com,2024-07-09,1017,1161,CONF-INFRA-ENG,Technology,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1193,Leave,edelmas,Émile,Delmas,M,emile.delmas@novaryn-tech.com,2013-06-10,1081,1148,LEAD-AM-SALES,Commercial,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1194,Active,gbuisson,Guy,Buisson,M,guy.buisson@novaryn-tech.com,2023-04-18,1197,1148,CONF-DEVOPS-ENG,Technology,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1195,Active,tlegendre,Timothée,Legendre,M,timothee.legendre@novaryn-tech.com,2017-09-13,1062,1172,SR-ML-ENG,Technology,Novaryn Tech - Lyon,Lyon,Auvergne-Rhône-Alpes,69001,France
+1196,Active,bhamel,Benjamin,Hamel,M,benjamin.hamel@novaryn-tech.com,2015-12-30,1043,1114,SR-ML-ENG,Technology,Novaryn Tech - Marseille,Marseille,Provence-Alpes-Côte d'Azur,13001,France
+1197,Active,yruiz,Yves,Ruiz,M,yves.ruiz@novaryn-tech.com,2015-10-27,1186,1172,LEAD-FULL-ENG,Technology,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1198,Active,ecaron,Eugène,Caron,M,eugene.caron@novaryn-tech.com,2012-05-31,1085,1113,LEAD-ML-ENG,Technology,Novaryn Tech - Lyon,Lyon,Auvergne-Rhône-Alpes,69001,France
+1199,Active,amoulin,Amélie,Moulin,F,amelie.moulin@novaryn-tech.com,2020-01-31,1124,1043,CONF-AM-SALES,Commercial,Novaryn Tech - Lyon,Lyon,Auvergne-Rhône-Alpes,69001,France
+1200,Active,tlecoq,Thibault,Lecoq,M,thibault.lecoq@novaryn-tech.com,2013-03-28,1024,1064,SR-DATA-SCI,Technology,Novaryn Tech - Lyon,Lyon,Auvergne-Rhône-Alpes,69001,France
+1201,Active,mlegros,Michel,Legros,M,michel.legros@novaryn-tech.com,2022-09-18,1013,1148,CONF-CTRL-FIN,Finance & Administration,Novaryn Tech - Lyon,Lyon,Auvergne-Rhône-Alpes,69001,France
+1202,Active,ewagner,Élise,Wagner,F,elise.wagner@novaryn-tech.com,2023-11-05,1026,1113,FA-FIN,Finance & Administration,Novaryn Tech - Lille,Lille,Hauts-de-France,59000,France
+1203,Active,lcosta,Léon,Costa,M,leon.costa@novaryn-tech.com,2018-10-19,1196,1043,FRONT-ENG,Technology,Novaryn Tech - Marseille,Marseille,Provence-Alpes-Côte d'Azur,13001,France
+1204,Active,gcaron,Gérard,Caron,M,gerard.caron@novaryn-tech.com,2023-02-28,1133,1232,DEVOPS-ENG,Technology,Novaryn Tech - Bordeaux,Bordeaux,Nouvelle-Aquitaine,33000,France
+1205,Active,ahamel,Adèle,Hamel,F,adele.hamel@novaryn-tech.com,2013-10-24,1203,1175,LEAD-BRAND-MKT,Commercial,Novaryn Tech - Marseille,Marseille,Provence-Alpes-Côte d'Azur,13001,France
+1206,Active,mvasseur1,Marcel,Vasseur,M,marcel.vasseur@novaryn-tech.com,2014-12-28,1225,1113,LEAD-QA-ENG,Technology,Novaryn Tech - Bordeaux,Bordeaux,Nouvelle-Aquitaine,33000,France
+1207,Inactive,sgirard,Susan,Girard,F,susan.girard@novaryn-tech.com,2021-06-25,1092,1134,CONF-PRE-SALES,Commercial,Novaryn Tech - Lille,Lille,Hauts-de-France,59000,France
+1208,Active,griviere,Gérard,Rivière,M,gerard.riviere@novaryn-tech.com,2019-10-07,1025,1161,LEAD-DEVOPS-ENG,Technology,Novaryn Tech - Toulouse,Toulouse,Occitanie,31000,France
+1209,Active,cbarthelemy,Christiane,Barthelemy,F,christiane.barthelemy@novaryn-tech.com,2023-05-11,1191,1043,CONF-AM-SALES,Commercial,Novaryn Tech - Lyon,Lyon,Auvergne-Rhône-Alpes,69001,France
+1210,Active,mfaivre,Margaud,Faivre,F,margaud.faivre@novaryn-tech.com,2019-07-13,1250,1232,CONF-PMM-MKT,Commercial,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1211,Active,tfouquet,Thibault,Fouquet,M,thibault.fouquet@novaryn-tech.com,2020-08-02,1250,1065,LEAD-BACK-ENG,Technology,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1212,Active,mlevy,Marcel,Lévy,M,marcel.levy@novaryn-tech.com,2019-08-02,1051,1172,LEAD-BD-SALES,Commercial,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1213,Active,ebernier,Édouard,Bernier,M,edouard.bernier@novaryn-tech.com,2020-01-28,1077,1104,CONF-FULL-ENG,Technology,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1214,Active,mpoirier,Maurice,Poirier,M,maurice.poirier@novaryn-tech.com,2024-10-15,1102,1108,CONF-UX-PROD,Technology,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1215,Active,gdiaz,Gérard,Diaz,M,gerard.diaz@novaryn-tech.com,2016-09-19,1079,1043,SR-ML-ENG,Technology,Novaryn Tech - Lille,Lille,Hauts-de-France,59000,France
+1216,Active,rvallee,Raymond,Vallée,M,raymond.vallee@novaryn-tech.com,2022-08-30,1150,1060,SR-SCRM-PROD,Technology,Novaryn Tech - Toulouse,Toulouse,Occitanie,31000,France
+1217,Active,gparis,Georges,Paris,M,georges.paris@novaryn-tech.com,2019-06-26,1180,1167,AM-SALES,Commercial,Novaryn Tech - Toulouse,Toulouse,Occitanie,31000,France
+1218,Active,adelannoy,Astrid,Delannoy,F,astrid.delannoy@novaryn-tech.com,2016-11-10,1062,1065,LEAD-GROWTH-MKT,Commercial,Novaryn Tech - Lyon,Lyon,Auvergne-Rhône-Alpes,69001,France
+1219,Active,gmaillard,Georges,Maillard,M,georges.maillard@novaryn-tech.com,2017-09-17,1225,1142,SR-QA-ENG,Technology,Novaryn Tech - Bordeaux,Bordeaux,Nouvelle-Aquitaine,33000,France
+1220,Active,hgimenez,Hugues,Gimenez,M,hugues.gimenez@novaryn-tech.com,2013-05-15,1025,1060,LEAD-PO-PROD,Technology,Novaryn Tech - Toulouse,Toulouse,Occitanie,31000,France
+1221,Active,dfernandes,Daniel,Fernandes,M,daniel.fernandes@novaryn-tech.com,2015-12-08,1140,1161,LEAD-FRONT-ENG,Technology,Novaryn Tech - Toulouse,Toulouse,Occitanie,31000,France
+1222,Active,nlemonnier,Nathalie,Lemonnier,F,nathalie.lemonnier@novaryn-tech.com,2014-08-07,1241,1142,SR-ML-ENG,Technology,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1223,Active,fandre1,Franck,Andre,M,franck.andre@novaryn-tech.com,2019-01-21,1120,1232,LEAD-FRONT-ENG,Technology,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1224,Active,oremy,Odette,Rémy,F,odette.remy@novaryn-tech.com,2021-03-25,1145,1003,SR-PO-PROD,Technology,Novaryn Tech - Lyon,Lyon,Auvergne-Rhône-Alpes,69001,France
+1225,Active,nlegros,Nicolas,Legros,M,nicolas.legros@novaryn-tech.com,2013-01-21,1235,1232,LEAD-DATA-SCI,Technology,Novaryn Tech - Bordeaux,Bordeaux,Nouvelle-Aquitaine,33000,France
+1226,Active,fdeoliveira,François,De Oliveira,M,francois.deoliveira@novaryn-tech.com,2018-08-17,1203,1064,LEAD-CSM-SALES,Commercial,Novaryn Tech - Marseille,Marseille,Provence-Alpes-Côte d'Azur,13001,France
+1227,Active,asalmon,Aimée,Salmon,F,aimee.salmon@novaryn-tech.com,2021-10-17,1136,1065,SR-BACK-ENG,Technology,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1228,Active,lmartel,Laurent,Martel,M,laurent.martel@novaryn-tech.com,2012-02-06,1066,1064,LEAD-ADMIN-OP,Finance & Administration,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1229,Active,mleger,Marthe,Léger,F,marthe.leger@novaryn-tech.com,2024-10-25,1035,1064,CONF-INFRA-ENG,Technology,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1230,Active,lhumbert,Léon,Humbert,M,leon.humbert@novaryn-tech.com,2021-02-26,1117,1148,CONF-SCRM-PROD,Technology,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1231,Active,rmarion,Richard,Marion,M,richard.marion@novaryn-tech.com,2015-10-02,1092,1114,LEAD-ML-ENG,Technology,Novaryn Tech - Lille,Lille,Hauts-de-France,59000,France
+1232,Active,pvasseur,Patrick,Vasseur,M,patrick.vasseur@novaryn-tech.com,2016-08-22,1161,1175,LEAD-PAYROLL-OP,People & Culture,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1233,Active,mvallee,Martin,Vallée,M,martin.vallee@novaryn-tech.com,2012-06-29,1219,1175,LEAD-ML-ENG,Technology,Novaryn Tech - Bordeaux,Bordeaux,Nouvelle-Aquitaine,33000,France
+1234,Active,lmarques,Léon,Marques,M,leon.marques@novaryn-tech.com,2023-05-19,1008,1104,FRONT-ENG,Technology,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1235,Active,ylebon,Yves,Lebon,M,yves.lebon@novaryn-tech.com,2024-04-26,1225,1161,SR-ML-ENG,Technology,Novaryn Tech - Bordeaux,Bordeaux,Nouvelle-Aquitaine,33000,France
+1236,Active,ebigot,Émile,Bigot,M,emile.bigot@novaryn-tech.com,2014-03-04,1066,1161,LEAD-FRONT-ENG,Technology,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1237,Active,acarlier,Alexandrie,Carlier,F,alexandrie.carlier@novaryn-tech.com,2022-01-25,1018,1161,CONF-FRONT-ENG,Technology,Novaryn Tech - Lyon,Lyon,Auvergne-Rhône-Alpes,69001,France
+1238,Active,rdupre,Roland,Dupré,M,roland.dupre@novaryn-tech.com,2012-06-17,1096,1113,LEAD-SECU-ENG,Technology,Novaryn Tech - Lyon,Lyon,Auvergne-Rhône-Alpes,69001,France
+1239,Leave,aweiss,Aurélie,Weiss,F,aurelie.weiss@novaryn-tech.com,2019-04-17,1004,1175,SR-PRE-SALES,Commercial,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1240,Active,cpinto,Christiane,Pinto,F,christiane.pinto@novaryn-tech.com,2015-02-03,1119,1148,LEAD-DEVOPS-ENG,Technology,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1241,Active,abertin,Anaïs,Bertin,F,anais.bertin@novaryn-tech.com,2018-06-13,1006,1142,LEAD-FULL-ENG,Technology,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1242,Terminated,ilecomte,Isaac,Lecomte,M,isaac.lecomte@novaryn-tech.com,2019-09-26,1173,1134,SR-HRBP-HR,People & Culture,Novaryn Tech - Marseille,Marseille,Provence-Alpes-Côte d'Azur,13001,France
+1243,Active,imarques,Isaac,Marques,M,isaac.marques@novaryn-tech.com,2024-12-13,1170,1175,CONF-SECU-ENG,Technology,Novaryn Tech - Marseille,Marseille,Provence-Alpes-Côte d'Azur,13001,France
+1244,Active,llopes1,Laurent,Lopes,M,laurent.lopes1@novaryn-tech.com,2024-10-16,1235,1064,DATA-ENG,Technology,Novaryn Tech - Bordeaux,Bordeaux,Nouvelle-Aquitaine,33000,France
+1245,Inactive,mfleury,Marc,Fleury,M,marc.fleury@novaryn-tech.com,2013-05-23,1101,1065,LEAD-BD-SALES,Commercial,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1246,Active,nmoreau,Noël,Moreau,M,noel.moreau@novaryn-tech.com,2024-09-28,1130,1172,LEAD-FULL-ENG,Technology,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
+1247,Active,amarty,Anastasie,Marty,F,anastasie.marty@novaryn-tech.com,2015-10-25,1182,1114,LEAD-CONT-MKT,Commercial,Novaryn Tech - Marseille,Marseille,Provence-Alpes-Côte d'Azur,13001,France
+1248,Active,vmuller,Victor,Muller,M,victor.muller@novaryn-tech.com,2023-02-01,1191,1167,CONF-PRE-SALES,Commercial,Novaryn Tech - Lyon,Lyon,Auvergne-Rhône-Alpes,69001,France
+1249,Active,afaivre,Alice,Faivre,F,alice.faivre@novaryn-tech.com,2012-07-11,1208,1060,SR-BACK-ENG,Technology,Novaryn Tech - Toulouse,Toulouse,Occitanie,31000,France
+1250,Active,jbourgeois,Jeanne,Bourgeois,F,jeanne.bourgeois@novaryn-tech.com,2012-05-06,1082,1172,SR-BRAND-MKT,Commercial,Novaryn Tech - Paris,Paris,Île-de-France,75001,France
