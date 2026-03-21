@@ -1,460 +1,475 @@
 ﻿user_id,start_date,seq_number,event_reason,businessunit,company,location,division,job_code,job_family,group_job,hiresource,contract_id,contract_name,degreeofproductivity
-1001,2024-08-12,1,Hiring,Sales,Novaryn Tech,Novaryn Tech - Marseille,Commercial,CSM-SALES,Customer Success,Operations,Welcome to the Jungle,CTR-NVT-00001,Permanent,70.28
-1002,2015-10-18,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,SR-BACK-ENG,Software Engineering,Technical,Referral,CTR-NVT-00002,Permanent,83.52
-1003,2013-09-28,1,Hiring,HR,Novaryn Tech,Novaryn Tech - Lyon,People & Culture,PAYROLL-OP,Payroll,Operations,Headhunter,CTR-NVT-00003,Permanent,85.53
-1003,2016-09-08,2,Promotion,HR,Novaryn Tech,Novaryn Tech - Lyon,People & Culture,CONF-PAYROLL-OP,Payroll,Operations,Other,,Permanent,75.44
-1003,2022-10-17,3,Promotion,HR,Novaryn Tech,Novaryn Tech - Lyon,People & Culture,LEAD-PAYROLL-OP,Payroll,Operations,Other,,Permanent,96.73
-1004,2021-04-11,1,Hiring,Sales,Novaryn Tech,Novaryn Tech - Paris,Commercial,SR-CSM-SALES,Customer Success,Operations,Referral,CTR-NVT-00004,Permanent,65.72
-1004,2024-05-04,2,Promotion,Sales,Novaryn Tech,Novaryn Tech - Paris,Commercial,LEAD-CSM-SALES,Customer Success,Operations,Other,,Permanent,82.42
-1004,2024-12-23,3,Data Change,Sales,Novaryn Tech,Novaryn Tech - Paris,Commercial,LEAD-CSM-SALES,Customer Success,Operations,Other,,Permanent,73.26
-1005,2019-03-06,1,Hiring,Sales,Novaryn Tech,Novaryn Tech - Toulouse,Commercial,CONF-CSM-SALES,Customer Success,Operations,Welcome to the Jungle,CTR-NVT-00005,Permanent,74.01
-1005,2022-02-27,2,Promotion,Sales,Novaryn Tech,Novaryn Tech - Toulouse,Commercial,SR-CSM-SALES,Customer Success,Operations,Other,,Permanent,94.12
-1006,2013-08-05,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,ML-ENG,AI & Machine Learning,Technical,Headhunter,CTR-NVT-00006,Permanent,80.89
-1006,2016-07-07,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,CONF-ML-ENG,AI & Machine Learning,Technical,Other,,Permanent,79.32
-1006,2019-08-03,3,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,SR-ML-ENG,AI & Machine Learning,Technical,Other,,Permanent,79.91
-1007,2020-08-06,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Toulouse,Technology,CONF-QA-ENG,Quality Assurance,Technical,Referral,CTR-NVT-00007,Fixed-term,73.74
-1007,2023-09-02,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Toulouse,Technology,SR-QA-ENG,Quality Assurance,Technical,Other,,Fixed-term,81.69
-1008,2015-05-20,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,CONF-BACK-ENG,Software Engineering,Technical,LinkedIn,CTR-NVT-00008,Permanent,67.26
-1008,2018-04-23,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,SR-BACK-ENG,Software Engineering,Technical,Other,,Permanent,79.58
-1008,2021-05-03,3,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,LEAD-BACK-ENG,Software Engineering,Technical,Other,,Permanent,96.86
-1009,2021-04-09,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,BACK-ENG,Software Engineering,Technical,Headhunter,CTR-NVT-00009,Permanent,81.94
-1009,2024-04-05,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,CONF-BACK-ENG,Software Engineering,Technical,Other,,Permanent,85.29
-1010,2019-08-23,1,Hiring,Finance,Novaryn Tech,Novaryn Tech - Paris,Finance & Administration,FA-FIN,Finance,Operations,Headhunter,CTR-NVT-00010,Permanent,89.18
-1011,2024-11-28,1,Hiring,Finance,Novaryn Tech,Novaryn Tech - Paris,Finance & Administration,SR-FA-FIN,Finance,Operations,Other,CTR-NVT-00011,Permanent,68.31
-1012,2019-03-11,1,Hiring,Marketing,Novaryn Tech,Novaryn Tech - Paris,Commercial,CMO,Executive,Executive,Referral,CTR-NVT-00012,Permanent,85.02
-1013,2014-08-24,1,Hiring,Finance,Novaryn Tech,Novaryn Tech - Lyon,Finance & Administration,CONF-FA-FIN,Finance,Operations,Referral,CTR-NVT-00013,Permanent,80.21
-1014,2017-09-22,1,Hiring,Sales,Novaryn Tech,Novaryn Tech - Paris,Commercial,CONF-BD-SALES,Sales Development,Operations,Indeed,CTR-NVT-00014,Permanent,71.88
-1015,2018-06-18,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,DATA-ENG,Data & Analytics,Technical,Indeed,CTR-NVT-00015,Permanent,70.46
-1015,2021-06-21,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,CONF-DATA-ENG,Data & Analytics,Technical,Other,,Permanent,92.13
-1015,2024-05-25,3,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,SR-DATA-ENG,Data & Analytics,Technical,Other,,Permanent,76.16
-1016,2017-11-07,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,SR-DATA-ENG,Data & Analytics,Technical,Referral,CTR-NVT-00016,Permanent,89.16
-1017,2012-09-26,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,LEAD-SECU-ENG,Cybersecurity,Technical,Company Website,CTR-NVT-00017,Permanent,79.84
-1018,2014-02-14,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Lyon,Technology,DEVOPS-ENG,Infrastructure,Technical,LinkedIn,CTR-NVT-00018,Permanent,82.11
-1018,2017-02-05,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Lyon,Technology,CONF-DEVOPS-ENG,Infrastructure,Technical,Other,,Permanent,95.74
-1018,2020-03-10,3,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Lyon,Technology,SR-DEVOPS-ENG,Infrastructure,Technical,Other,,Permanent,82.09
-1019,2021-05-23,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Toulouse,Technology,SR-DATA-SCI,AI & Machine Learning,Technical,LinkedIn,CTR-NVT-00019,Permanent,81.29
-1019,2024-05-26,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Toulouse,Technology,LEAD-DATA-SCI,AI & Machine Learning,Technical,Other,,Permanent,94.84
-1020,2022-07-10,1,Hiring,Product,Novaryn Tech,Novaryn Tech - Paris,Technology,PO-PROD,Product Management,Technical,LinkedIn,CTR-NVT-00020,Permanent,85.14
-1021,2015-04-09,1,Hiring,Finance,Novaryn Tech,Novaryn Tech - Lyon,Finance & Administration,CONF-FA-FIN,Finance,Operations,Company Website,CTR-NVT-00021,Permanent,80.0
-1022,2023-04-01,1,Hiring,Sales,Novaryn Tech,Novaryn Tech - Lyon,Commercial,AM-SALES,Enterprise Sales,Operations,Headhunter,CTR-NVT-00022,Permanent,81.39
-1023,2016-12-03,1,Hiring,Sales,Novaryn Tech,Novaryn Tech - Paris,Commercial,CONF-SMGR-SALES,Sales Management,Operations,Referral,CTR-NVT-00023,Permanent,71.49
-1023,2019-11-27,2,Promotion,Sales,Novaryn Tech,Novaryn Tech - Paris,Commercial,SR-SMGR-SALES,Sales Management,Operations,Other,,Permanent,92.21
-1023,2022-12-09,3,Promotion,Sales,Novaryn Tech,Novaryn Tech - Paris,Commercial,LEAD-SMGR-SALES,Sales Management,Operations,Other,,Permanent,95.95
-1024,2013-09-19,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Lyon,Technology,FULL-ENG,Software Engineering,Technical,LinkedIn,CTR-NVT-00024,Permanent,82.83
-1024,2019-09-19,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Lyon,Technology,SR-FULL-ENG,Software Engineering,Technical,Other,,Permanent,95.94
-1025,2019-09-18,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Toulouse,Technology,CONF-DATA-ENG,Data & Analytics,Technical,Indeed,CTR-NVT-00025,Permanent,86.14
-1026,2018-04-19,1,Hiring,Finance,Novaryn Tech,Novaryn Tech - Lille,Finance & Administration,CTRL-FIN,Finance,Operations,LinkedIn,CTR-NVT-00026,Permanent,69.53
-1026,2021-03-28,2,Promotion,Finance,Novaryn Tech,Novaryn Tech - Lille,Finance & Administration,CONF-CTRL-FIN,Finance,Operations,Other,,Permanent,90.3
-1027,2023-05-27,1,Hiring,Marketing,Novaryn Tech,Novaryn Tech - Paris,Commercial,CONF-CONT-MKT,Content & Comms,Marketing,LinkedIn,CTR-NVT-00027,Fixed-term,87.82
-1028,2023-08-18,1,Hiring,Sales,Novaryn Tech,Novaryn Tech - Lyon,Commercial,SMGR-SALES,Sales Management,Operations,LinkedIn,CTR-NVT-00028,Permanent,87.49
-1029,2022-10-20,1,Hiring,Product,Novaryn Tech,Novaryn Tech - Marseille,Technology,CONF-UX-PROD,Design,Technical,LinkedIn,CTR-NVT-00029,Permanent,70.56
-1030,2024-05-27,1,Hiring,Marketing,Novaryn Tech,Novaryn Tech - Paris,Commercial,CONF-BRAND-MKT,Brand Management,Marketing,LinkedIn,CTR-NVT-00030,Permanent,86.79
-1031,2019-11-12,1,Hiring,Marketing,Novaryn Tech,Novaryn Tech - Bordeaux,Commercial,GROWTH-MKT,Growth Marketing,Marketing,Referral,CTR-NVT-00031,Permanent,87.17
-1031,2022-11-19,2,Promotion,Marketing,Novaryn Tech,Novaryn Tech - Bordeaux,Commercial,CONF-GROWTH-MKT,Growth Marketing,Marketing,Other,,Permanent,80.47
-1032,2022-11-20,1,Hiring,Marketing,Novaryn Tech,Novaryn Tech - Lyon,Commercial,BRAND-MKT,Brand Management,Marketing,Welcome to the Jungle,CTR-NVT-00032,Permanent,76.76
-1033,2023-08-25,1,Hiring,Finance,Novaryn Tech,Novaryn Tech - Lyon,Finance & Administration,FA-FIN,Finance,Operations,Headhunter,CTR-NVT-00033,Permanent,79.59
-1034,2012-12-13,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Bordeaux,Technology,INFRA-ENG,Infrastructure,Technical,Headhunter,CTR-NVT-00034,Permanent,66.78
-1034,2019-01-07,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Bordeaux,Technology,SR-INFRA-ENG,Infrastructure,Technical,Other,,Permanent,90.98
-1034,2021-12-09,3,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Bordeaux,Technology,LEAD-INFRA-ENG,Infrastructure,Technical,Other,,Permanent,79.19
-1035,2017-05-14,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,FULL-ENG,Software Engineering,Technical,Referral,CTR-NVT-00035,Fixed-term,68.43
-1035,2020-05-10,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,CONF-FULL-ENG,Software Engineering,Technical,Other,,Fixed-term,95.72
-1036,2013-02-15,1,Hiring,Product,Novaryn Tech,Novaryn Tech - Marseille,Technology,PM-PROD,Product Management,Technical,Company Website,CTR-NVT-00036,Permanent,68.58
-1036,2019-01-21,2,Promotion,Product,Novaryn Tech,Novaryn Tech - Marseille,Technology,SR-PM-PROD,Product Management,Technical,Other,,Permanent,86.73
-1036,2022-01-27,3,Promotion,Product,Novaryn Tech,Novaryn Tech - Marseille,Technology,LEAD-PM-PROD,Product Management,Technical,Other,,Permanent,84.9
-1036,2023-11-20,4,Data Change,Product,Novaryn Tech,Novaryn Tech - Marseille,Technology,LEAD-PM-PROD,Product Management,Technical,Other,,Permanent,77.23
-1037,2024-03-18,1,Hiring,Marketing,Novaryn Tech,Novaryn Tech - Paris,Commercial,GROWTH-MKT,Growth Marketing,Marketing,Company Website,CTR-NVT-00037,Fixed-term,84.34
-1038,2023-02-24,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Toulouse,Technology,SR-SECU-ENG,Cybersecurity,Technical,Other,CTR-NVT-00038,Permanent,68.96
-1039,2022-12-08,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,FULL-ENG,Software Engineering,Technical,Referral,CTR-NVT-00039,Permanent,84.49
-1040,2016-07-03,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Lille,Technology,DATA-ENG,Data & Analytics,Technical,Referral,CTR-NVT-00040,Permanent,75.84
-1040,2019-06-30,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Lille,Technology,CONF-DATA-ENG,Data & Analytics,Technical,Other,,Permanent,95.24
-1040,2022-06-05,3,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Lille,Technology,SR-DATA-ENG,Data & Analytics,Technical,Other,,Permanent,87.74
-1041,2024-09-03,1,Hiring,Marketing,Novaryn Tech,Novaryn Tech - Bordeaux,Commercial,PMM-MKT,Product Marketing,Marketing,Referral,CTR-NVT-00041,Permanent,88.75
-1042,2021-12-11,1,Hiring,Marketing,Novaryn Tech,Novaryn Tech - Paris,Commercial,CONT-MKT,Content & Comms,Marketing,LinkedIn,CTR-NVT-00042,Permanent,83.92
-1042,2024-11-12,2,Promotion,Marketing,Novaryn Tech,Novaryn Tech - Paris,Commercial,CONF-CONT-MKT,Content & Comms,Marketing,Other,,Permanent,88.89
-1043,2018-10-17,1,Hiring,HR,Novaryn Tech,Novaryn Tech - Marseille,People & Culture,SR-HRBP-HR,Human Resources,Support,Referral,CTR-NVT-00043,Permanent,71.22
-1044,2014-05-09,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Toulouse,Technology,SR-FRONT-ENG,Software Engineering,Technical,Welcome to the Jungle,CTR-NVT-00044,Permanent,68.22
-1044,2017-05-16,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Toulouse,Technology,LEAD-FRONT-ENG,Software Engineering,Technical,Other,,Permanent,84.73
-1044,2018-01-17,3,Data Change,Engineering,Novaryn Tech,Novaryn Tech - Toulouse,Technology,LEAD-FRONT-ENG,Software Engineering,Technical,Other,,Permanent,95.71
-1045,2013-07-18,1,Hiring,Marketing,Novaryn Tech,Novaryn Tech - Paris,Commercial,SR-CONT-MKT,Content & Comms,Marketing,Indeed,CTR-NVT-00045,Fixed-term,76.4
-1045,2016-07-21,2,Promotion,Marketing,Novaryn Tech,Novaryn Tech - Paris,Commercial,LEAD-CONT-MKT,Content & Comms,Marketing,Other,,Fixed-term,85.43
-1046,2014-08-07,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Toulouse,Technology,LEAD-QA-ENG,Quality Assurance,Technical,Welcome to the Jungle,CTR-NVT-00046,Permanent,89.89
-1047,2019-03-08,1,Hiring,Marketing,Novaryn Tech,Novaryn Tech - Paris,Commercial,LEAD-PMM-MKT,Product Marketing,Marketing,Referral,CTR-NVT-00047,Permanent,87.53
-1048,2018-06-29,1,Hiring,HR,Novaryn Tech,Novaryn Tech - Paris,People & Culture,PAYROLL-OP,Payroll,Operations,Other,CTR-NVT-00048,Permanent,69.71
-1049,2020-12-31,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,QA-ENG,Quality Assurance,Technical,Other,CTR-NVT-00049,Fixed-term,70.71
-1050,2012-03-12,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,SR-BACK-ENG,Software Engineering,Technical,Referral,CTR-NVT-00050,Permanent,83.35
-1050,2015-02-20,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,LEAD-BACK-ENG,Software Engineering,Technical,Other,,Permanent,80.71
-1051,2021-02-18,1,Hiring,Product,Novaryn Tech,Novaryn Tech - Paris,Technology,CONF-PO-PROD,Product Management,Technical,Headhunter,CTR-NVT-00051,Permanent,84.8
-1051,2024-02-28,2,Promotion,Product,Novaryn Tech,Novaryn Tech - Paris,Technology,SR-PO-PROD,Product Management,Technical,Other,,Permanent,81.63
-1052,2022-11-26,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,FULL-ENG,Software Engineering,Technical,Indeed,CTR-NVT-00052,Permanent,66.21
-1053,2016-12-28,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,DEVOPS-ENG,Infrastructure,Technical,LinkedIn,CTR-NVT-00053,Permanent,81.55
-1053,2023-01-11,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,SR-DEVOPS-ENG,Infrastructure,Technical,Other,,Permanent,78.55
-1054,2019-09-20,1,Hiring,Product,Novaryn Tech,Novaryn Tech - Lyon,Technology,CONF-UX-PROD,Design,Technical,LinkedIn,CTR-NVT-00054,Fixed-term,68.09
-1054,2022-10-04,2,Promotion,Product,Novaryn Tech,Novaryn Tech - Lyon,Technology,SR-UX-PROD,Design,Technical,Other,,Fixed-term,79.37
-1055,2024-03-29,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,SR-INFRA-ENG,Infrastructure,Technical,Headhunter,CTR-NVT-00055,Permanent,80.76
-1056,2024-12-17,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Lyon,Technology,DATA-SCI,AI & Machine Learning,Technical,Referral,CTR-NVT-00056,Permanent,81.54
-1057,2013-10-23,1,Hiring,Sales,Novaryn Tech,Novaryn Tech - Paris,Commercial,AM-SALES,Enterprise Sales,Operations,Referral,CTR-NVT-00057,Permanent,71.75
-1057,2016-10-01,2,Promotion,Sales,Novaryn Tech,Novaryn Tech - Paris,Commercial,CONF-AM-SALES,Enterprise Sales,Operations,Other,,Permanent,83.21
-1057,2022-11-01,3,Promotion,Sales,Novaryn Tech,Novaryn Tech - Paris,Commercial,LEAD-AM-SALES,Enterprise Sales,Operations,Other,,Permanent,80.59
-1058,2020-08-20,1,Hiring,Sales,Novaryn Tech,Novaryn Tech - Marseille,Commercial,AM-SALES,Enterprise Sales,Operations,Headhunter,CTR-NVT-00058,Permanent,67.66
-1058,2023-08-02,2,Promotion,Sales,Novaryn Tech,Novaryn Tech - Marseille,Commercial,CONF-AM-SALES,Enterprise Sales,Operations,Other,,Permanent,91.12
-1059,2018-05-12,1,Hiring,Finance,Novaryn Tech,Novaryn Tech - Bordeaux,Finance & Administration,CONF-FA-FIN,Finance,Operations,Company Website,CTR-NVT-00059,Permanent,89.33
-1059,2021-05-08,2,Promotion,Finance,Novaryn Tech,Novaryn Tech - Bordeaux,Finance & Administration,SR-FA-FIN,Finance,Operations,Other,,Permanent,82.5
-1059,2024-05-13,3,Promotion,Finance,Novaryn Tech,Novaryn Tech - Bordeaux,Finance & Administration,LEAD-FA-FIN,Finance,Operations,Other,,Permanent,98.03
-1060,2021-01-08,1,Hiring,HR,Novaryn Tech,Novaryn Tech - Marseille,People & Culture,HRBP-HR,Human Resources,Support,Welcome to the Jungle,CTR-NVT-00060,Permanent,77.02
-1060,2023-12-09,2,Promotion,HR,Novaryn Tech,Novaryn Tech - Marseille,People & Culture,CONF-HRBP-HR,Human Resources,Support,Other,,Permanent,88.78
-1061,2017-07-07,1,Hiring,Marketing,Novaryn Tech,Novaryn Tech - Bordeaux,Commercial,BRAND-MKT,Brand Management,Marketing,Other,CTR-NVT-00061,Permanent,85.88
-1061,2023-06-12,2,Promotion,Marketing,Novaryn Tech,Novaryn Tech - Bordeaux,Commercial,SR-BRAND-MKT,Brand Management,Marketing,Other,,Permanent,93.15
-1061,2024-04-10,3,Data Change,Marketing,Novaryn Tech,Novaryn Tech - Bordeaux,Commercial,SR-BRAND-MKT,Brand Management,Marketing,Other,,Permanent,88.11
-1062,2013-11-26,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Lyon,Technology,LEAD-BACK-ENG,Software Engineering,Technical,LinkedIn,CTR-NVT-00062,Permanent,76.42
-1063,2016-01-27,1,Hiring,Product,Novaryn Tech,Novaryn Tech - Lyon,Technology,CONF-PM-PROD,Product Management,Technical,LinkedIn,CTR-NVT-00063,Permanent,71.6
-1063,2019-02-18,2,Promotion,Product,Novaryn Tech,Novaryn Tech - Lyon,Technology,SR-PM-PROD,Product Management,Technical,Other,,Permanent,79.84
-1063,2022-01-15,3,Promotion,Product,Novaryn Tech,Novaryn Tech - Lyon,Technology,LEAD-PM-PROD,Product Management,Technical,Other,,Permanent,85.92
-1064,2021-08-26,1,Hiring,HR,Novaryn Tech,Novaryn Tech - Marseille,People & Culture,HRBP-HR,Human Resources,Support,Welcome to the Jungle,CTR-NVT-00064,Fixed-term,75.65
-1064,2024-09-19,2,Promotion,HR,Novaryn Tech,Novaryn Tech - Marseille,People & Culture,CONF-HRBP-HR,Human Resources,Support,Other,,Fixed-term,90.68
-1065,2024-06-13,1,Hiring,HR,Novaryn Tech,Novaryn Tech - Toulouse,People & Culture,TA-HR,Talent Acquisition,Support,LinkedIn,CTR-NVT-00065,Permanent,81.58
-1066,2024-12-09,1,Hiring,Sales,Novaryn Tech,Novaryn Tech - Paris,Commercial,CSO,Executive,Executive,Headhunter,CTR-NVT-00066,Permanent,73.94
-1067,2023-03-23,1,Hiring,Product,Novaryn Tech,Novaryn Tech - Toulouse,Technology,CONF-UX-PROD,Design,Technical,LinkedIn,CTR-NVT-00067,Permanent,80.55
-1068,2014-10-23,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,LEAD-DATA-ENG,Data & Analytics,Technical,Welcome to the Jungle,CTR-NVT-00068,Fixed-term,67.32
-1069,2022-04-27,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Lyon,Technology,DEVOPS-ENG,Infrastructure,Technical,Company Website,CTR-NVT-00069,Fixed-term,69.57
-1070,2021-03-05,1,Hiring,Finance,Novaryn Tech,Novaryn Tech - Toulouse,Finance & Administration,SR-ADMIN-OP,Operations,Operations,Company Website,CTR-NVT-00070,Permanent,89.06
-1070,2024-02-28,2,Promotion,Finance,Novaryn Tech,Novaryn Tech - Toulouse,Finance & Administration,LEAD-ADMIN-OP,Operations,Operations,Other,,Permanent,93.18
-1071,2017-04-20,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Bordeaux,Technology,DATA-ENG,Data & Analytics,Technical,Company Website,CTR-NVT-00071,Permanent,75.54
-1071,2023-03-29,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Bordeaux,Technology,SR-DATA-ENG,Data & Analytics,Technical,Other,,Permanent,91.32
-1071,2024-03-26,3,Transfer,Engineering,Novaryn Tech,Novaryn Tech - Toulouse,Technology,SR-DATA-ENG,Data & Analytics,Technical,Other,,Permanent,94.78
-1072,2023-01-21,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Lille,Technology,ML-ENG,AI & Machine Learning,Technical,Company Website,CTR-NVT-00072,Apprenticeship,77.07
-1073,2020-10-21,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Lille,Technology,FRONT-ENG,Software Engineering,Technical,Referral,CTR-NVT-00073,Permanent,75.95
-1073,2023-11-09,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Lille,Technology,CONF-FRONT-ENG,Software Engineering,Technical,Other,,Permanent,81.89
-1074,2016-03-20,1,Hiring,Sales,Novaryn Tech,Novaryn Tech - Paris,Commercial,CSM-SALES,Customer Success,Operations,LinkedIn,CTR-NVT-00074,Permanent,87.0
-1075,2017-10-01,1,Hiring,Product,Novaryn Tech,Novaryn Tech - Toulouse,Technology,CONF-PM-PROD,Product Management,Technical,Headhunter,CTR-NVT-00075,Permanent,77.2
-1075,2023-09-05,2,Promotion,Product,Novaryn Tech,Novaryn Tech - Toulouse,Technology,LEAD-PM-PROD,Product Management,Technical,Other,,Permanent,83.76
-1076,2021-06-03,1,Hiring,Marketing,Novaryn Tech,Novaryn Tech - Toulouse,Commercial,CONF-CONT-MKT,Content & Comms,Marketing,Referral,CTR-NVT-00076,Permanent,82.61
-1077,2015-09-30,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,FRONT-ENG,Software Engineering,Technical,LinkedIn,CTR-NVT-00077,Permanent,79.42
-1077,2018-10-12,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,CONF-FRONT-ENG,Software Engineering,Technical,Other,,Permanent,93.21
-1077,2021-10-14,3,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,SR-FRONT-ENG,Software Engineering,Technical,Other,,Permanent,91.41
-1077,2024-10-12,4,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,LEAD-FRONT-ENG,Software Engineering,Technical,Other,,Permanent,93.99
-1078,2024-01-16,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Marseille,Technology,QA-ENG,Quality Assurance,Technical,Indeed,CTR-NVT-00078,Permanent,81.59
-1079,2015-11-23,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Lille,Technology,DEVOPS-ENG,Infrastructure,Technical,LinkedIn,CTR-NVT-00079,Fixed-term,68.72
-1079,2024-10-24,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Lille,Technology,LEAD-DEVOPS-ENG,Infrastructure,Technical,Other,,Fixed-term,92.15
-1080,2017-08-15,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,SR-DATA-SCI,AI & Machine Learning,Technical,Headhunter,CTR-NVT-00080,Permanent,86.22
-1081,2016-01-18,1,Hiring,Sales,Novaryn Tech,Novaryn Tech - Paris,Commercial,CONF-BD-SALES,Sales Development,Operations,LinkedIn,CTR-NVT-00081,Permanent,66.87
-1081,2019-01-03,2,Promotion,Sales,Novaryn Tech,Novaryn Tech - Paris,Commercial,SR-BD-SALES,Sales Development,Operations,Other,,Permanent,83.28
-1081,2022-01-20,3,Promotion,Sales,Novaryn Tech,Novaryn Tech - Paris,Commercial,LEAD-BD-SALES,Sales Development,Operations,Other,,Permanent,82.9
-1082,2020-04-04,1,Hiring,Product,Novaryn Tech,Novaryn Tech - Paris,Technology,LEAD-PM-PROD,Product Management,Technical,Indeed,CTR-NVT-00082,Permanent,75.08
-1083,2014-04-02,1,Hiring,Sales,Novaryn Tech,Novaryn Tech - Marseille,Commercial,LEAD-AM-SALES,Enterprise Sales,Operations,Referral,CTR-NVT-00083,Fixed-term,76.48
-1084,2020-01-16,1,Hiring,Finance,Novaryn Tech,Novaryn Tech - Paris,Finance & Administration,CTRL-FIN,Finance,Operations,Headhunter,CTR-NVT-00084,Permanent,76.2
-1085,2018-12-04,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Lyon,Technology,SECU-ENG,Cybersecurity,Technical,LinkedIn,CTR-NVT-00085,Apprenticeship,67.97
-1085,2021-12-15,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Lyon,Technology,CONF-SECU-ENG,Cybersecurity,Technical,Other,,Apprenticeship,74.39
-1085,2024-11-06,3,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Lyon,Technology,SR-SECU-ENG,Cybersecurity,Technical,Other,,Apprenticeship,88.26
-1086,2013-08-25,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,BACK-ENG,Software Engineering,Technical,LinkedIn,CTR-NVT-00086,Permanent,84.79
-1086,2019-09-20,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,SR-BACK-ENG,Software Engineering,Technical,Other,,Permanent,87.18
-1086,2022-09-06,3,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,LEAD-BACK-ENG,Software Engineering,Technical,Other,,Permanent,88.04
-1087,2018-01-10,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Toulouse,Technology,SR-QA-ENG,Quality Assurance,Technical,Other,CTR-NVT-00087,Permanent,85.63
-1088,2019-12-11,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Lyon,Technology,LEAD-ML-ENG,AI & Machine Learning,Technical,Referral,CTR-NVT-00088,Permanent,73.3
-1089,2023-02-12,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Lyon,Technology,BACK-ENG,Software Engineering,Technical,Welcome to the Jungle,CTR-NVT-00089,Permanent,80.0
-1090,2013-01-11,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Marseille,Technology,CONF-FRONT-ENG,Software Engineering,Technical,Company Website,CTR-NVT-00090,Permanent,74.08
-1090,2015-12-18,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Marseille,Technology,SR-FRONT-ENG,Software Engineering,Technical,Other,,Permanent,92.71
-1090,2019-01-02,3,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Marseille,Technology,LEAD-FRONT-ENG,Software Engineering,Technical,Other,,Permanent,85.81
-1091,2017-10-09,1,Hiring,Product,Novaryn Tech,Novaryn Tech - Toulouse,Technology,PO-PROD,Product Management,Technical,Referral,CTR-NVT-00091,Permanent,85.0
-1091,2020-10-02,2,Promotion,Product,Novaryn Tech,Novaryn Tech - Toulouse,Technology,CONF-PO-PROD,Product Management,Technical,Other,,Permanent,89.45
-1091,2023-09-19,3,Promotion,Product,Novaryn Tech,Novaryn Tech - Toulouse,Technology,SR-PO-PROD,Product Management,Technical,Other,,Permanent,86.83
-1092,2015-04-05,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Lille,Technology,CONF-FULL-ENG,Software Engineering,Technical,Headhunter,CTR-NVT-00092,Permanent,83.56
-1092,2018-03-22,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Lille,Technology,SR-FULL-ENG,Software Engineering,Technical,Other,,Permanent,89.44
-1092,2021-05-04,3,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Lille,Technology,LEAD-FULL-ENG,Software Engineering,Technical,Other,,Permanent,96.75
-1093,2019-08-19,1,Hiring,Sales,Novaryn Tech,Novaryn Tech - Paris,Commercial,AM-SALES,Enterprise Sales,Operations,Headhunter,CTR-NVT-00093,Apprenticeship,85.61
-1093,2022-08-10,2,Promotion,Sales,Novaryn Tech,Novaryn Tech - Paris,Commercial,CONF-AM-SALES,Enterprise Sales,Operations,Other,,Apprenticeship,76.37
-1094,2015-02-14,1,Hiring,Product,Novaryn Tech,Novaryn Tech - Lille,Technology,CONF-PM-PROD,Product Management,Technical,Headhunter,CTR-NVT-00094,Permanent,88.17
-1094,2021-03-05,2,Promotion,Product,Novaryn Tech,Novaryn Tech - Lille,Technology,LEAD-PM-PROD,Product Management,Technical,Other,,Permanent,97.62
-1095,2016-04-01,1,Hiring,Sales,Novaryn Tech,Novaryn Tech - Paris,Commercial,CONF-BD-SALES,Sales Development,Operations,LinkedIn,CTR-NVT-00095,Permanent,79.73
-1095,2019-04-02,2,Promotion,Sales,Novaryn Tech,Novaryn Tech - Paris,Commercial,SR-BD-SALES,Sales Development,Operations,Other,,Permanent,76.1
-1096,2021-05-12,1,Hiring,Sales,Novaryn Tech,Novaryn Tech - Lyon,Commercial,LEAD-BD-SALES,Sales Development,Operations,LinkedIn,CTR-NVT-00096,Permanent,75.82
-1097,2023-02-04,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,QA-ENG,Quality Assurance,Technical,Headhunter,CTR-NVT-00097,Permanent,88.11
-1098,2013-08-02,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,DATA-SCI,AI & Machine Learning,Technical,LinkedIn,CTR-NVT-00098,Permanent,87.75
-1098,2019-08-24,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,SR-DATA-SCI,AI & Machine Learning,Technical,Other,,Permanent,78.82
-1098,2022-08-10,3,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,LEAD-DATA-SCI,AI & Machine Learning,Technical,Other,,Permanent,91.34
-1099,2018-11-30,1,Hiring,Product,Novaryn Tech,Novaryn Tech - Paris,Technology,CONF-UX-PROD,Design,Technical,Welcome to the Jungle,CTR-NVT-00099,Permanent,87.03
-1099,2021-12-08,2,Promotion,Product,Novaryn Tech,Novaryn Tech - Paris,Technology,SR-UX-PROD,Design,Technical,Other,,Permanent,96.15
-1100,2015-08-21,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Marseille,Technology,CONF-ML-ENG,AI & Machine Learning,Technical,LinkedIn,CTR-NVT-00100,Permanent,89.09
-1100,2021-07-30,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Marseille,Technology,LEAD-ML-ENG,AI & Machine Learning,Technical,Other,,Permanent,81.04
-1101,2014-10-20,1,Hiring,Finance,Novaryn Tech,Novaryn Tech - Paris,Finance & Administration,ADMIN-OP,Operations,Operations,Headhunter,CTR-NVT-00101,Permanent,87.16
-1101,2017-11-12,2,Promotion,Finance,Novaryn Tech,Novaryn Tech - Paris,Finance & Administration,CONF-ADMIN-OP,Operations,Operations,Other,,Permanent,89.43
-1102,2018-08-22,1,Hiring,Product,Novaryn Tech,Novaryn Tech - Paris,Technology,CONF-PM-PROD,Product Management,Technical,Welcome to the Jungle,CTR-NVT-00102,Permanent,80.81
-1102,2021-08-31,2,Promotion,Product,Novaryn Tech,Novaryn Tech - Paris,Technology,SR-PM-PROD,Product Management,Technical,Other,,Permanent,91.72
-1103,2016-11-07,1,Hiring,Sales,Novaryn Tech,Novaryn Tech - Toulouse,Commercial,PRE-SALES,Sales Engineering,Technical,Welcome to the Jungle,CTR-NVT-00103,Fixed-term,68.32
-1104,2024-06-05,1,Hiring,HR,Novaryn Tech,Novaryn Tech - Paris,People & Culture,CONF-TA-HR,Talent Acquisition,Support,Referral,CTR-NVT-00104,Permanent,78.56
-1105,2024-03-22,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,BACK-ENG,Software Engineering,Technical,Headhunter,CTR-NVT-00105,Permanent,82.76
-1106,2015-03-25,1,Hiring,Sales,Novaryn Tech,Novaryn Tech - Paris,Commercial,SMGR-SALES,Sales Management,Operations,Welcome to the Jungle,CTR-NVT-00106,Permanent,79.06
-1106,2018-04-24,2,Promotion,Sales,Novaryn Tech,Novaryn Tech - Paris,Commercial,CONF-SMGR-SALES,Sales Management,Operations,Other,,Permanent,88.68
-1106,2021-04-11,3,Promotion,Sales,Novaryn Tech,Novaryn Tech - Paris,Commercial,SR-SMGR-SALES,Sales Management,Operations,Other,,Permanent,95.67
-1106,2024-04-20,4,Promotion,Sales,Novaryn Tech,Novaryn Tech - Paris,Commercial,LEAD-SMGR-SALES,Sales Management,Operations,Other,,Permanent,96.64
-1107,2012-12-29,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Lyon,Technology,QA-ENG,Quality Assurance,Technical,Company Website,CTR-NVT-00107,Permanent,78.07
-1107,2015-12-08,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Lyon,Technology,CONF-QA-ENG,Quality Assurance,Technical,Other,,Permanent,75.17
-1107,2018-12-16,3,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Lyon,Technology,SR-QA-ENG,Quality Assurance,Technical,Other,,Permanent,92.5
-1107,2021-12-17,4,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Lyon,Technology,LEAD-QA-ENG,Quality Assurance,Technical,Other,,Permanent,93.03
-1108,2021-03-23,1,Hiring,HR,Novaryn Tech,Novaryn Tech - Bordeaux,People & Culture,HRBP-HR,Human Resources,Support,LinkedIn,CTR-NVT-00108,Permanent,66.55
-1109,2017-05-02,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Lyon,Technology,SR-SECU-ENG,Cybersecurity,Technical,LinkedIn,CTR-NVT-00109,Permanent,78.53
-1109,2020-04-30,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Lyon,Technology,LEAD-SECU-ENG,Cybersecurity,Technical,Other,,Permanent,80.25
-1110,2021-12-08,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Lyon,Technology,CONF-DATA-ENG,Data & Analytics,Technical,Headhunter,CTR-NVT-00110,Fixed-term,83.49
-1111,2021-01-13,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,FULL-ENG,Software Engineering,Technical,Other,CTR-NVT-00111,Permanent,79.03
-1111,2024-02-02,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,CONF-FULL-ENG,Software Engineering,Technical,Other,,Permanent,91.53
-1112,2020-08-21,1,Hiring,Sales,Novaryn Tech,Novaryn Tech - Paris,Commercial,SR-BD-SALES,Sales Development,Operations,Indeed,CTR-NVT-00112,Permanent,82.32
-1112,2023-08-15,2,Promotion,Sales,Novaryn Tech,Novaryn Tech - Paris,Commercial,LEAD-BD-SALES,Sales Development,Operations,Other,,Permanent,86.53
-1113,2013-03-01,1,Hiring,HR,Novaryn Tech,Novaryn Tech - Bordeaux,People & Culture,TA-HR,Talent Acquisition,Support,Indeed,CTR-NVT-00113,Permanent,89.4
-1113,2016-03-06,2,Promotion,HR,Novaryn Tech,Novaryn Tech - Bordeaux,People & Culture,CONF-TA-HR,Talent Acquisition,Support,Other,,Permanent,75.18
-1113,2022-03-26,3,Promotion,HR,Novaryn Tech,Novaryn Tech - Bordeaux,People & Culture,LEAD-TA-HR,Talent Acquisition,Support,Other,,Permanent,95.18
-1114,2016-01-01,1,Hiring,HR,Novaryn Tech,Novaryn Tech - Bordeaux,People & Culture,SR-TA-HR,Talent Acquisition,Support,Headhunter,CTR-NVT-00114,Fixed-term,85.75
-1115,2021-09-09,1,Hiring,Product,Novaryn Tech,Novaryn Tech - Paris,Technology,SCRM-PROD,Agile Methodology,Operations,Company Website,CTR-NVT-00115,Fixed-term,81.19
-1116,2022-02-11,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,FRONT-ENG,Software Engineering,Technical,Company Website,CTR-NVT-00116,Fixed-term,80.08
-1117,2013-05-24,1,Hiring,Product,Novaryn Tech,Novaryn Tech - Paris,Technology,PM-PROD,Product Management,Technical,Company Website,CTR-NVT-00117,Permanent,72.35
-1117,2016-06-06,2,Promotion,Product,Novaryn Tech,Novaryn Tech - Paris,Technology,CONF-PM-PROD,Product Management,Technical,Other,,Permanent,75.64
-1118,2021-12-05,1,Hiring,Product,Novaryn Tech,Novaryn Tech - Lyon,Technology,PM-PROD,Product Management,Technical,Indeed,CTR-NVT-00118,Fixed-term,66.02
-1118,2024-11-21,2,Promotion,Product,Novaryn Tech,Novaryn Tech - Lyon,Technology,CONF-PM-PROD,Product Management,Technical,Other,,Fixed-term,76.86
-1119,2017-05-19,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,FRONT-ENG,Software Engineering,Technical,Referral,CTR-NVT-00119,Permanent,71.38
-1119,2020-06-03,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,CONF-FRONT-ENG,Software Engineering,Technical,Other,,Permanent,94.62
-1119,2023-06-17,3,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,SR-FRONT-ENG,Software Engineering,Technical,Other,,Permanent,83.1
-1120,2023-05-24,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,SR-DATA-SCI,AI & Machine Learning,Technical,LinkedIn,CTR-NVT-00120,Permanent,80.39
-1121,2016-07-08,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,SR-DATA-ENG,Data & Analytics,Technical,Headhunter,CTR-NVT-00121,Permanent,77.26
-1121,2019-06-30,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,LEAD-DATA-ENG,Data & Analytics,Technical,Other,,Permanent,79.6
-1122,2023-06-05,1,Hiring,Marketing,Novaryn Tech,Novaryn Tech - Bordeaux,Commercial,LEAD-GROWTH-MKT,Growth Marketing,Marketing,Headhunter,CTR-NVT-00122,Permanent,78.13
-1123,2019-10-12,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Bordeaux,Technology,BACK-ENG,Software Engineering,Technical,Referral,CTR-NVT-00123,Permanent,78.02
-1124,2013-03-26,1,Hiring,Sales,Novaryn Tech,Novaryn Tech - Lyon,Commercial,CSM-SALES,Customer Success,Operations,Headhunter,CTR-NVT-00124,Permanent,78.58
-1124,2016-03-18,2,Promotion,Sales,Novaryn Tech,Novaryn Tech - Lyon,Commercial,CONF-CSM-SALES,Customer Success,Operations,Other,,Permanent,78.87
-1124,2019-03-17,3,Promotion,Sales,Novaryn Tech,Novaryn Tech - Lyon,Commercial,SR-CSM-SALES,Customer Success,Operations,Other,,Permanent,83.28
-1124,2022-04-25,4,Promotion,Sales,Novaryn Tech,Novaryn Tech - Lyon,Commercial,LEAD-CSM-SALES,Customer Success,Operations,Other,,Permanent,94.56
-1125,2022-07-26,1,Hiring,Marketing,Novaryn Tech,Novaryn Tech - Paris,Commercial,CONF-CONT-MKT,Content & Comms,Marketing,LinkedIn,CTR-NVT-00125,Permanent,89.92
-1126,2013-03-31,1,Hiring,Finance,Novaryn Tech,Novaryn Tech - Toulouse,Finance & Administration,CTRL-FIN,Finance,Operations,Referral,CTR-NVT-00126,Permanent,89.53
-1126,2016-04-12,2,Promotion,Finance,Novaryn Tech,Novaryn Tech - Toulouse,Finance & Administration,CONF-CTRL-FIN,Finance,Operations,Other,,Permanent,81.61
-1126,2019-04-11,3,Promotion,Finance,Novaryn Tech,Novaryn Tech - Toulouse,Finance & Administration,SR-CTRL-FIN,Finance,Operations,Other,,Permanent,89.5
-1126,2022-03-03,4,Promotion,Finance,Novaryn Tech,Novaryn Tech - Toulouse,Finance & Administration,LEAD-CTRL-FIN,Finance,Operations,Other,,Permanent,93.02
-1127,2016-07-05,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,FULL-ENG,Software Engineering,Technical,Company Website,CTR-NVT-00127,Apprenticeship,87.9
-1127,2022-07-09,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,SR-FULL-ENG,Software Engineering,Technical,Other,,Apprenticeship,91.93
-1127,2024-07-07,3,Data Change,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,SR-FULL-ENG,Software Engineering,Technical,Other,,Apprenticeship,84.86
-1128,2013-03-03,1,Hiring,Finance,Novaryn Tech,Novaryn Tech - Paris,Finance & Administration,CFO,Executive,Executive,Company Website,CTR-NVT-00128,Permanent,77.72
-1129,2016-11-05,1,Hiring,Finance,Novaryn Tech,Novaryn Tech - Toulouse,Finance & Administration,CONF-ADMIN-OP,Operations,Operations,Welcome to the Jungle,CTR-NVT-00129,Fixed-term,72.41
-1129,2022-10-11,2,Promotion,Finance,Novaryn Tech,Novaryn Tech - Toulouse,Finance & Administration,LEAD-ADMIN-OP,Operations,Operations,Other,,Fixed-term,98.86
-1130,2021-03-29,1,Hiring,Sales,Novaryn Tech,Novaryn Tech - Paris,Commercial,LEAD-AM-SALES,Enterprise Sales,Operations,Headhunter,CTR-NVT-00130,Permanent,88.91
-1131,2023-02-15,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,CONF-FRONT-ENG,Software Engineering,Technical,Indeed,CTR-NVT-00131,Permanent,65.18
-1132,2021-06-08,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Lyon,Technology,BACK-ENG,Software Engineering,Technical,Referral,CTR-NVT-00132,Fixed-term,80.74
-1132,2024-06-21,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Lyon,Technology,CONF-BACK-ENG,Software Engineering,Technical,Other,,Fixed-term,83.33
-1133,2013-10-05,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,INFRA-ENG,Infrastructure,Technical,LinkedIn,CTR-NVT-00133,Permanent,78.44
-1134,2013-12-18,1,Hiring,HR,Novaryn Tech,Novaryn Tech - Marseille,People & Culture,TA-HR,Talent Acquisition,Support,Welcome to the Jungle,CTR-NVT-00134,Permanent,88.49
-1134,2019-12-17,2,Promotion,HR,Novaryn Tech,Novaryn Tech - Marseille,People & Culture,SR-TA-HR,Talent Acquisition,Support,Other,,Permanent,91.77
-1134,2022-11-22,3,Promotion,HR,Novaryn Tech,Novaryn Tech - Marseille,People & Culture,LEAD-TA-HR,Talent Acquisition,Support,Other,,Permanent,79.19
-1135,2021-05-30,1,Hiring,Sales,Novaryn Tech,Novaryn Tech - Paris,Commercial,CSM-SALES,Customer Success,Operations,Indeed,CTR-NVT-00135,Permanent,78.95
-1135,2024-05-14,2,Promotion,Sales,Novaryn Tech,Novaryn Tech - Paris,Commercial,CONF-CSM-SALES,Customer Success,Operations,Other,,Permanent,94.04
-1136,2016-10-16,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,CONF-ML-ENG,AI & Machine Learning,Technical,Referral,CTR-NVT-00136,Fixed-term,76.28
-1136,2019-10-06,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,SR-ML-ENG,AI & Machine Learning,Technical,Other,,Fixed-term,76.37
-1137,2024-03-17,1,Hiring,Sales,Novaryn Tech,Novaryn Tech - Toulouse,Commercial,CONF-AM-SALES,Enterprise Sales,Operations,Indeed,CTR-NVT-00137,Permanent,81.04
-1138,2023-09-11,1,Hiring,Finance,Novaryn Tech,Novaryn Tech - Paris,Finance & Administration,CONF-ADMIN-OP,Operations,Operations,Referral,CTR-NVT-00138,Permanent,83.9
-1139,2020-04-23,1,Hiring,Finance,Novaryn Tech,Novaryn Tech - Paris,Finance & Administration,CONF-ADMIN-OP,Operations,Operations,Referral,CTR-NVT-00139,Permanent,82.52
-1139,2023-05-22,2,Promotion,Finance,Novaryn Tech,Novaryn Tech - Paris,Finance & Administration,SR-ADMIN-OP,Operations,Operations,Other,,Permanent,87.06
-1140,2013-07-27,1,Hiring,Finance,Novaryn Tech,Novaryn Tech - Toulouse,Finance & Administration,CONF-CTRL-FIN,Finance,Operations,Other,CTR-NVT-00140,Permanent,82.15
-1140,2016-07-15,2,Promotion,Finance,Novaryn Tech,Novaryn Tech - Toulouse,Finance & Administration,SR-CTRL-FIN,Finance,Operations,Other,,Permanent,92.84
-1140,2019-07-22,3,Promotion,Finance,Novaryn Tech,Novaryn Tech - Toulouse,Finance & Administration,LEAD-CTRL-FIN,Finance,Operations,Other,,Permanent,96.09
-1140,2020-07-16,4,Transfer,Finance,Novaryn Tech,Novaryn Tech - Paris,Finance & Administration,LEAD-CTRL-FIN,Finance,Operations,Other,,Permanent,90.67
-1141,2016-09-15,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Toulouse,Technology,SR-FRONT-ENG,Software Engineering,Technical,LinkedIn,CTR-NVT-00141,Fixed-term,84.92
-1142,2017-09-03,1,Hiring,HR,Novaryn Tech,Novaryn Tech - Paris,People & Culture,CHRO,Executive,Executive,LinkedIn,CTR-NVT-00142,Permanent,80.85
-1143,2016-06-15,1,Hiring,Finance,Novaryn Tech,Novaryn Tech - Paris,Finance & Administration,CONF-FA-FIN,Finance,Operations,Indeed,CTR-NVT-00143,Permanent,87.17
-1144,2019-07-08,1,Hiring,Product,Novaryn Tech,Novaryn Tech - Lyon,Technology,PM-PROD,Product Management,Technical,LinkedIn,CTR-NVT-00144,Permanent,88.93
-1144,2022-08-02,2,Promotion,Product,Novaryn Tech,Novaryn Tech - Lyon,Technology,CONF-PM-PROD,Product Management,Technical,Other,,Permanent,86.21
-1145,2019-04-11,1,Hiring,Product,Novaryn Tech,Novaryn Tech - Lyon,Technology,LEAD-PM-PROD,Product Management,Technical,LinkedIn,CTR-NVT-00145,Permanent,65.13
-1146,2013-04-12,1,Hiring,Product,Novaryn Tech,Novaryn Tech - Marseille,Technology,CONF-SCRM-PROD,Agile Methodology,Operations,LinkedIn,CTR-NVT-00146,Permanent,78.43
-1146,2019-04-29,2,Promotion,Product,Novaryn Tech,Novaryn Tech - Marseille,Technology,LEAD-SCRM-PROD,Agile Methodology,Operations,Other,,Permanent,94.31
-1147,2012-08-11,1,Hiring,Sales,Novaryn Tech,Novaryn Tech - Paris,Commercial,CSM-SALES,Customer Success,Operations,Referral,CTR-NVT-00147,Permanent,70.29
-1147,2021-07-23,2,Promotion,Sales,Novaryn Tech,Novaryn Tech - Paris,Commercial,LEAD-CSM-SALES,Customer Success,Operations,Other,,Permanent,82.86
-1148,2021-05-26,1,Hiring,HR,Novaryn Tech,Novaryn Tech - Paris,People & Culture,LEAD-HRBP-HR,Human Resources,Support,Referral,CTR-NVT-00148,Permanent,69.86
-1149,2014-03-02,1,Hiring,Sales,Novaryn Tech,Novaryn Tech - Paris,Commercial,SR-AM-SALES,Enterprise Sales,Operations,Company Website,CTR-NVT-00149,Permanent,84.99
-1150,2018-03-15,1,Hiring,Product,Novaryn Tech,Novaryn Tech - Toulouse,Technology,CONF-UX-PROD,Design,Technical,Indeed,CTR-NVT-00150,Permanent,88.31
-1150,2024-03-20,2,Promotion,Product,Novaryn Tech,Novaryn Tech - Toulouse,Technology,LEAD-UX-PROD,Design,Technical,Other,,Permanent,79.61
-1151,2015-07-29,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,CONF-DATA-ENG,Data & Analytics,Technical,Indeed,CTR-NVT-00151,Permanent,71.27
-1151,2018-08-05,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,SR-DATA-ENG,Data & Analytics,Technical,Other,,Permanent,86.72
-1151,2021-07-07,3,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,LEAD-DATA-ENG,Data & Analytics,Technical,Other,,Permanent,92.77
-1152,2023-05-07,1,Hiring,Product,Novaryn Tech,Novaryn Tech - Toulouse,Technology,UX-PROD,Design,Technical,Headhunter,CTR-NVT-00152,Permanent,72.13
-1152,2024-06-08,2,Data Change,Product,Novaryn Tech,Novaryn Tech - Toulouse,Technology,UX-PROD,Design,Technical,Other,,Permanent,84.15
-1153,2021-07-10,1,Hiring,Product,Novaryn Tech,Novaryn Tech - Toulouse,Technology,SCRM-PROD,Agile Methodology,Operations,LinkedIn,CTR-NVT-00153,Permanent,73.21
-1154,2024-10-01,1,Hiring,Marketing,Novaryn Tech,Novaryn Tech - Lyon,Commercial,BRAND-MKT,Brand Management,Marketing,LinkedIn,CTR-NVT-00154,Permanent,68.81
-1155,2014-10-06,1,Hiring,Product,Novaryn Tech,Novaryn Tech - Bordeaux,Technology,PO-PROD,Product Management,Technical,Welcome to the Jungle,CTR-NVT-00155,Permanent,85.19
-1155,2020-09-26,2,Promotion,Product,Novaryn Tech,Novaryn Tech - Bordeaux,Technology,SR-PO-PROD,Product Management,Technical,Other,,Permanent,81.42
-1155,2023-10-23,3,Promotion,Product,Novaryn Tech,Novaryn Tech - Bordeaux,Technology,LEAD-PO-PROD,Product Management,Technical,Other,,Permanent,92.1
-1156,2012-06-03,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Lyon,Technology,INFRA-ENG,Infrastructure,Technical,Other,CTR-NVT-00156,Fixed-term,73.99
-1156,2018-06-03,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Lyon,Technology,SR-INFRA-ENG,Infrastructure,Technical,Other,,Fixed-term,86.18
-1156,2021-05-23,3,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Lyon,Technology,LEAD-INFRA-ENG,Infrastructure,Technical,Other,,Fixed-term,88.71
-1157,2017-08-26,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Toulouse,Technology,SR-FULL-ENG,Software Engineering,Technical,Referral,CTR-NVT-00157,Permanent,81.14
-1157,2020-08-13,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Toulouse,Technology,LEAD-FULL-ENG,Software Engineering,Technical,Other,,Permanent,96.89
-1158,2024-07-03,1,Hiring,Marketing,Novaryn Tech,Novaryn Tech - Paris,Commercial,LEAD-PMM-MKT,Product Marketing,Marketing,Referral,CTR-NVT-00158,Permanent,78.47
-1159,2014-09-16,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Toulouse,Technology,FULL-ENG,Software Engineering,Technical,Company Website,CTR-NVT-00159,Permanent,87.16
-1159,2017-08-21,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Toulouse,Technology,CONF-FULL-ENG,Software Engineering,Technical,Other,,Permanent,93.63
-1159,2023-10-08,3,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Toulouse,Technology,LEAD-FULL-ENG,Software Engineering,Technical,Other,,Permanent,90.8
-1160,2012-08-28,1,Hiring,Marketing,Novaryn Tech,Novaryn Tech - Toulouse,Commercial,PMM-MKT,Product Marketing,Marketing,LinkedIn,CTR-NVT-00160,Permanent,79.75
-1160,2018-09-01,2,Promotion,Marketing,Novaryn Tech,Novaryn Tech - Toulouse,Commercial,SR-PMM-MKT,Product Marketing,Marketing,Other,,Permanent,95.67
-1160,2021-09-08,3,Promotion,Marketing,Novaryn Tech,Novaryn Tech - Toulouse,Commercial,LEAD-PMM-MKT,Product Marketing,Marketing,Other,,Permanent,95.05
-1161,2015-05-25,1,Hiring,HR,Novaryn Tech,Novaryn Tech - Paris,People & Culture,LEAD-TA-HR,Talent Acquisition,Support,LinkedIn,CTR-NVT-00161,Permanent,70.58
-1162,2017-03-11,1,Hiring,Product,Novaryn Tech,Novaryn Tech - Paris,Technology,PM-PROD,Product Management,Technical,Welcome to the Jungle,CTR-NVT-00162,Fixed-term,83.33
-1162,2020-03-10,2,Promotion,Product,Novaryn Tech,Novaryn Tech - Paris,Technology,CONF-PM-PROD,Product Management,Technical,Other,,Fixed-term,85.02
-1162,2023-03-04,3,Promotion,Product,Novaryn Tech,Novaryn Tech - Paris,Technology,SR-PM-PROD,Product Management,Technical,Other,,Fixed-term,87.05
-1163,2012-05-27,1,Hiring,Sales,Novaryn Tech,Novaryn Tech - Marseille,Commercial,CONF-CSM-SALES,Customer Success,Operations,Company Website,CTR-NVT-00163,Permanent,86.2
-1163,2018-05-07,2,Promotion,Sales,Novaryn Tech,Novaryn Tech - Marseille,Commercial,LEAD-CSM-SALES,Customer Success,Operations,Other,,Permanent,94.66
-1164,2017-08-01,1,Hiring,Marketing,Novaryn Tech,Novaryn Tech - Lyon,Commercial,SR-CONT-MKT,Content & Comms,Marketing,Referral,CTR-NVT-00164,Permanent,68.98
-1164,2020-08-07,2,Promotion,Marketing,Novaryn Tech,Novaryn Tech - Lyon,Commercial,LEAD-CONT-MKT,Content & Comms,Marketing,Other,,Permanent,92.51
-1165,2016-09-30,1,Hiring,Product,Novaryn Tech,Novaryn Tech - Paris,Technology,SR-PO-PROD,Product Management,Technical,LinkedIn,CTR-NVT-00165,Permanent,83.4
-1165,2019-09-22,2,Promotion,Product,Novaryn Tech,Novaryn Tech - Paris,Technology,LEAD-PO-PROD,Product Management,Technical,Other,,Permanent,78.89
-1166,2020-08-31,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,DEVOPS-ENG,Infrastructure,Technical,LinkedIn,CTR-NVT-00166,Permanent,70.79
-1166,2023-08-15,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,CONF-DEVOPS-ENG,Infrastructure,Technical,Other,,Permanent,74.94
-1167,2021-02-13,1,Hiring,HR,Novaryn Tech,Novaryn Tech - Paris,People & Culture,CONF-PAYROLL-OP,Payroll,Operations,LinkedIn,CTR-NVT-00167,Permanent,87.69
-1167,2024-02-13,2,Promotion,HR,Novaryn Tech,Novaryn Tech - Paris,People & Culture,SR-PAYROLL-OP,Payroll,Operations,Other,,Permanent,96.19
-1168,2013-12-17,1,Hiring,Sales,Novaryn Tech,Novaryn Tech - Bordeaux,Commercial,CSM-SALES,Customer Success,Operations,Company Website,CTR-NVT-00168,Permanent,66.0
-1168,2016-11-23,2,Promotion,Sales,Novaryn Tech,Novaryn Tech - Bordeaux,Commercial,CONF-CSM-SALES,Customer Success,Operations,Other,,Permanent,89.48
-1168,2020-01-09,3,Promotion,Sales,Novaryn Tech,Novaryn Tech - Bordeaux,Commercial,SR-CSM-SALES,Customer Success,Operations,Other,,Permanent,82.02
-1169,2021-11-16,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,LEAD-DATA-ENG,Data & Analytics,Technical,Indeed,CTR-NVT-00169,Permanent,79.25
-1170,2013-11-04,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Marseille,Technology,CONF-SECU-ENG,Cybersecurity,Technical,Company Website,CTR-NVT-00170,Permanent,74.46
-1170,2016-12-01,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Marseille,Technology,SR-SECU-ENG,Cybersecurity,Technical,Other,,Permanent,94.38
-1170,2019-10-29,3,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Marseille,Technology,LEAD-SECU-ENG,Cybersecurity,Technical,Other,,Permanent,99.4
-1171,2024-05-24,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,LEAD-BACK-ENG,Software Engineering,Technical,LinkedIn,CTR-NVT-00171,Permanent,75.15
-1172,2022-04-24,1,Hiring,HR,Novaryn Tech,Novaryn Tech - Paris,People & Culture,CONF-HRBP-HR,Human Resources,Support,LinkedIn,CTR-NVT-00172,Permanent,73.63
-1173,2018-07-21,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Marseille,Technology,BACK-ENG,Software Engineering,Technical,Company Website,CTR-NVT-00173,Permanent,87.18
-1173,2021-08-16,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Marseille,Technology,CONF-BACK-ENG,Software Engineering,Technical,Other,,Permanent,77.06
-1173,2024-06-25,3,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Marseille,Technology,SR-BACK-ENG,Software Engineering,Technical,Other,,Permanent,87.32
-1174,2012-10-02,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Lyon,Technology,SECU-ENG,Cybersecurity,Technical,LinkedIn,CTR-NVT-00174,Fixed-term,68.76
-1174,2015-10-10,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Lyon,Technology,CONF-SECU-ENG,Cybersecurity,Technical,Other,,Fixed-term,89.78
-1174,2018-09-16,3,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Lyon,Technology,SR-SECU-ENG,Cybersecurity,Technical,Other,,Fixed-term,85.12
-1174,2021-09-09,4,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Lyon,Technology,LEAD-SECU-ENG,Cybersecurity,Technical,Other,,Fixed-term,88.59
-1175,2020-11-04,1,Hiring,HR,Novaryn Tech,Novaryn Tech - Lyon,People & Culture,LEAD-HRBP-HR,Human Resources,Support,Company Website,CTR-NVT-00175,Permanent,70.27
-1176,2024-03-28,1,Hiring,Product,Novaryn Tech,Novaryn Tech - Bordeaux,Technology,CONF-PO-PROD,Product Management,Technical,Referral,CTR-NVT-00176,Permanent,85.83
-1177,2019-05-03,1,Hiring,Sales,Novaryn Tech,Novaryn Tech - Toulouse,Commercial,BD-SALES,Sales Development,Operations,Referral,CTR-NVT-00177,Permanent,66.08
-1177,2022-04-13,2,Promotion,Sales,Novaryn Tech,Novaryn Tech - Toulouse,Commercial,CONF-BD-SALES,Sales Development,Operations,Other,,Permanent,76.96
-1178,2017-08-13,1,Hiring,Sales,Novaryn Tech,Novaryn Tech - Paris,Commercial,AM-SALES,Enterprise Sales,Operations,LinkedIn,CTR-NVT-00178,Permanent,87.27
-1178,2020-07-24,2,Promotion,Sales,Novaryn Tech,Novaryn Tech - Paris,Commercial,CONF-AM-SALES,Enterprise Sales,Operations,Other,,Permanent,79.68
-1178,2023-08-08,3,Promotion,Sales,Novaryn Tech,Novaryn Tech - Paris,Commercial,SR-AM-SALES,Enterprise Sales,Operations,Other,,Permanent,89.19
-1179,2023-04-15,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Marseille,Technology,CONF-INFRA-ENG,Infrastructure,Technical,LinkedIn,CTR-NVT-00179,Permanent,65.47
-1180,2017-02-09,1,Hiring,Sales,Novaryn Tech,Novaryn Tech - Toulouse,Commercial,SR-SMGR-SALES,Sales Management,Operations,Welcome to the Jungle,CTR-NVT-00180,Fixed-term,81.54
-1180,2020-01-15,2,Promotion,Sales,Novaryn Tech,Novaryn Tech - Toulouse,Commercial,LEAD-SMGR-SALES,Sales Management,Operations,Other,,Fixed-term,82.77
-1181,2023-05-06,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,CONF-DATA-SCI,AI & Machine Learning,Technical,Headhunter,CTR-NVT-00181,Permanent,76.79
-1182,2018-11-05,1,Hiring,Sales,Novaryn Tech,Novaryn Tech - Marseille,Commercial,PRE-SALES,Sales Engineering,Technical,Referral,CTR-NVT-00182,Permanent,70.48
-1182,2021-10-15,2,Promotion,Sales,Novaryn Tech,Novaryn Tech - Marseille,Commercial,CONF-PRE-SALES,Sales Engineering,Technical,Other,,Permanent,91.48
-1183,2014-03-01,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Marseille,Technology,INFRA-ENG,Infrastructure,Technical,Referral,CTR-NVT-00183,Permanent,81.49
-1183,2017-03-17,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Marseille,Technology,CONF-INFRA-ENG,Infrastructure,Technical,Other,,Permanent,89.08
-1183,2023-02-03,3,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Marseille,Technology,LEAD-INFRA-ENG,Infrastructure,Technical,Other,,Permanent,83.06
-1184,2023-04-24,1,Hiring,Product,Novaryn Tech,Novaryn Tech - Paris,Technology,CONF-PO-PROD,Product Management,Technical,LinkedIn,CTR-NVT-00184,Permanent,67.71
-1185,2024-09-22,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Lyon,Technology,FULL-ENG,Software Engineering,Technical,LinkedIn,CTR-NVT-00185,Fixed-term,86.49
-1186,2021-09-06,1,Hiring,Sales,Novaryn Tech,Novaryn Tech - Paris,Commercial,LEAD-PRE-SALES,Sales Engineering,Technical,Indeed,CTR-NVT-00186,Permanent,75.49
-1187,2021-04-27,1,Hiring,Product,Novaryn Tech,Novaryn Tech - Paris,Technology,CONF-SCRM-PROD,Agile Methodology,Operations,LinkedIn,CTR-NVT-00187,Permanent,67.41
-1187,2024-05-06,2,Promotion,Product,Novaryn Tech,Novaryn Tech - Paris,Technology,SR-SCRM-PROD,Agile Methodology,Operations,Other,,Permanent,89.2
-1188,2016-11-17,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Lille,Technology,BACK-ENG,Software Engineering,Technical,LinkedIn,CTR-NVT-00188,Apprenticeship,78.29
-1188,2022-11-29,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Lille,Technology,SR-BACK-ENG,Software Engineering,Technical,Other,,Apprenticeship,78.87
-1189,2021-11-12,1,Hiring,Sales,Novaryn Tech,Novaryn Tech - Toulouse,Commercial,AM-SALES,Enterprise Sales,Operations,Indeed,CTR-NVT-00189,Permanent,85.69
-1190,2019-07-08,1,Hiring,Sales,Novaryn Tech,Novaryn Tech - Marseille,Commercial,BD-SALES,Sales Development,Operations,Headhunter,CTR-NVT-00190,Permanent,81.23
-1190,2022-07-01,2,Promotion,Sales,Novaryn Tech,Novaryn Tech - Marseille,Commercial,CONF-BD-SALES,Sales Development,Operations,Other,,Permanent,93.25
-1191,2015-08-20,1,Hiring,Sales,Novaryn Tech,Novaryn Tech - Lyon,Commercial,SR-BD-SALES,Sales Development,Operations,LinkedIn,CTR-NVT-00191,Permanent,75.72
-1192,2024-07-09,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,CONF-INFRA-ENG,Infrastructure,Technical,LinkedIn,CTR-NVT-00192,Permanent,84.22
-1193,2013-06-10,1,Hiring,Sales,Novaryn Tech,Novaryn Tech - Paris,Commercial,AM-SALES,Enterprise Sales,Operations,Referral,CTR-NVT-00193,Fixed-term,85.12
-1193,2022-06-07,2,Promotion,Sales,Novaryn Tech,Novaryn Tech - Paris,Commercial,LEAD-AM-SALES,Enterprise Sales,Operations,Other,,Fixed-term,80.95
-1194,2023-04-18,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,CONF-DEVOPS-ENG,Infrastructure,Technical,LinkedIn,CTR-NVT-00194,Permanent,70.81
-1195,2017-09-13,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Lyon,Technology,ML-ENG,AI & Machine Learning,Technical,Referral,CTR-NVT-00195,Permanent,72.08
-1195,2023-08-26,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Lyon,Technology,SR-ML-ENG,AI & Machine Learning,Technical,Other,,Permanent,76.12
-1196,2015-12-30,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Marseille,Technology,CONF-ML-ENG,AI & Machine Learning,Technical,Headhunter,CTR-NVT-00196,Permanent,65.18
-1196,2019-01-02,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Marseille,Technology,SR-ML-ENG,AI & Machine Learning,Technical,Other,,Permanent,76.16
-1197,2015-10-27,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,FULL-ENG,Software Engineering,Technical,Company Website,CTR-NVT-00197,Permanent,72.9
-1197,2018-10-06,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,CONF-FULL-ENG,Software Engineering,Technical,Other,,Permanent,83.37
-1197,2021-10-13,3,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,SR-FULL-ENG,Software Engineering,Technical,Other,,Permanent,94.81
-1197,2024-10-20,4,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,LEAD-FULL-ENG,Software Engineering,Technical,Other,,Permanent,91.46
-1198,2012-05-31,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Lyon,Technology,ML-ENG,AI & Machine Learning,Technical,Company Website,CTR-NVT-00198,Permanent,74.94
-1198,2015-06-05,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Lyon,Technology,CONF-ML-ENG,AI & Machine Learning,Technical,Other,,Permanent,91.24
-1198,2018-05-24,3,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Lyon,Technology,SR-ML-ENG,AI & Machine Learning,Technical,Other,,Permanent,88.3
-1198,2021-05-20,4,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Lyon,Technology,LEAD-ML-ENG,AI & Machine Learning,Technical,Other,,Permanent,90.71
-1199,2020-01-31,1,Hiring,Sales,Novaryn Tech,Novaryn Tech - Lyon,Commercial,AM-SALES,Enterprise Sales,Operations,Headhunter,CTR-NVT-00199,Permanent,74.95
-1199,2023-02-25,2,Promotion,Sales,Novaryn Tech,Novaryn Tech - Lyon,Commercial,CONF-AM-SALES,Enterprise Sales,Operations,Other,,Permanent,88.5
-1200,2013-03-28,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Lyon,Technology,DATA-SCI,AI & Machine Learning,Technical,Headhunter,CTR-NVT-00200,Permanent,76.16
-1200,2019-03-11,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Lyon,Technology,SR-DATA-SCI,AI & Machine Learning,Technical,Other,,Permanent,87.18
-1201,2022-09-18,1,Hiring,Finance,Novaryn Tech,Novaryn Tech - Lyon,Finance & Administration,CONF-CTRL-FIN,Finance,Operations,Indeed,CTR-NVT-00201,Permanent,80.35
-1202,2023-11-05,1,Hiring,Finance,Novaryn Tech,Novaryn Tech - Lille,Finance & Administration,FA-FIN,Finance,Operations,Headhunter,CTR-NVT-00202,Permanent,66.3
-1203,2018-10-19,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Marseille,Technology,FRONT-ENG,Software Engineering,Technical,Company Website,CTR-NVT-00203,Permanent,80.9
-1204,2023-02-28,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,DEVOPS-ENG,Infrastructure,Technical,Referral,CTR-NVT-00204,Permanent,80.01
-1204,2024-06-11,2,Transfer,Engineering,Novaryn Tech,Novaryn Tech - Bordeaux,Technology,DEVOPS-ENG,Infrastructure,Technical,Other,,Permanent,74.0
-1205,2013-10-24,1,Hiring,Marketing,Novaryn Tech,Novaryn Tech - Marseille,Commercial,BRAND-MKT,Brand Management,Marketing,Headhunter,CTR-NVT-00205,Permanent,65.94
-1205,2016-10-19,2,Promotion,Marketing,Novaryn Tech,Novaryn Tech - Marseille,Commercial,CONF-BRAND-MKT,Brand Management,Marketing,Other,,Permanent,87.51
-1205,2019-11-08,3,Promotion,Marketing,Novaryn Tech,Novaryn Tech - Marseille,Commercial,SR-BRAND-MKT,Brand Management,Marketing,Other,,Permanent,97.2
-1205,2022-11-12,4,Promotion,Marketing,Novaryn Tech,Novaryn Tech - Marseille,Commercial,LEAD-BRAND-MKT,Brand Management,Marketing,Other,,Permanent,96.05
-1206,2014-12-28,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Bordeaux,Technology,CONF-QA-ENG,Quality Assurance,Technical,Referral,CTR-NVT-00206,Permanent,75.97
-1206,2018-01-09,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Bordeaux,Technology,SR-QA-ENG,Quality Assurance,Technical,Other,,Permanent,96.48
-1206,2020-12-10,3,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Bordeaux,Technology,LEAD-QA-ENG,Quality Assurance,Technical,Other,,Permanent,78.74
-1207,2021-06-25,1,Hiring,Sales,Novaryn Tech,Novaryn Tech - Lille,Commercial,PRE-SALES,Sales Engineering,Technical,Headhunter,CTR-NVT-00207,Permanent,77.9
-1207,2024-06-05,2,Promotion,Sales,Novaryn Tech,Novaryn Tech - Lille,Commercial,CONF-PRE-SALES,Sales Engineering,Technical,Other,,Permanent,88.83
-1208,2019-10-07,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Toulouse,Technology,LEAD-DEVOPS-ENG,Infrastructure,Technical,LinkedIn,CTR-NVT-00208,Permanent,81.38
-1209,2023-05-11,1,Hiring,Sales,Novaryn Tech,Novaryn Tech - Lyon,Commercial,CONF-AM-SALES,Enterprise Sales,Operations,LinkedIn,CTR-NVT-00209,Permanent,67.17
-1210,2019-07-13,1,Hiring,Marketing,Novaryn Tech,Novaryn Tech - Paris,Commercial,CONF-PMM-MKT,Product Marketing,Marketing,Indeed,CTR-NVT-00210,Fixed-term,74.99
-1211,2020-08-02,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,SR-BACK-ENG,Software Engineering,Technical,Company Website,CTR-NVT-00211,Permanent,70.01
-1211,2023-08-17,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,LEAD-BACK-ENG,Software Engineering,Technical,Other,,Permanent,79.51
-1211,2024-12-20,3,Data Change,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,LEAD-BACK-ENG,Software Engineering,Technical,Other,,Permanent,80.69
-1212,2019-08-02,1,Hiring,Sales,Novaryn Tech,Novaryn Tech - Paris,Commercial,SR-BD-SALES,Sales Development,Operations,Other,CTR-NVT-00212,Permanent,85.39
-1212,2022-07-15,2,Promotion,Sales,Novaryn Tech,Novaryn Tech - Paris,Commercial,LEAD-BD-SALES,Sales Development,Operations,Other,,Permanent,88.0
-1213,2020-01-28,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,FULL-ENG,Software Engineering,Technical,Headhunter,CTR-NVT-00213,Permanent,65.12
-1213,2023-01-30,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,CONF-FULL-ENG,Software Engineering,Technical,Other,,Permanent,76.34
-1213,2024-06-14,3,Data Change,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,CONF-FULL-ENG,Software Engineering,Technical,Other,,Permanent,95.68
-1214,2024-10-15,1,Hiring,Product,Novaryn Tech,Novaryn Tech - Paris,Technology,CONF-UX-PROD,Design,Technical,Welcome to the Jungle,CTR-NVT-00214,Permanent,85.07
-1215,2016-09-19,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Lille,Technology,ML-ENG,AI & Machine Learning,Technical,Headhunter,CTR-NVT-00215,Fixed-term,86.9
-1215,2022-10-03,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Lille,Technology,SR-ML-ENG,AI & Machine Learning,Technical,Other,,Fixed-term,85.74
-1216,2022-08-30,1,Hiring,Product,Novaryn Tech,Novaryn Tech - Toulouse,Technology,SR-SCRM-PROD,Agile Methodology,Operations,LinkedIn,CTR-NVT-00216,Permanent,77.09
-1217,2019-06-26,1,Hiring,Sales,Novaryn Tech,Novaryn Tech - Toulouse,Commercial,AM-SALES,Enterprise Sales,Operations,LinkedIn,CTR-NVT-00217,Permanent,73.49
-1218,2016-11-10,1,Hiring,Marketing,Novaryn Tech,Novaryn Tech - Lyon,Commercial,CONF-GROWTH-MKT,Growth Marketing,Marketing,Indeed,CTR-NVT-00218,Fixed-term,87.41
-1218,2022-10-27,2,Promotion,Marketing,Novaryn Tech,Novaryn Tech - Lyon,Commercial,LEAD-GROWTH-MKT,Growth Marketing,Marketing,Other,,Fixed-term,79.49
-1219,2017-09-17,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Bordeaux,Technology,QA-ENG,Quality Assurance,Technical,Referral,CTR-NVT-00219,Internship,89.85
-1219,2023-09-07,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Bordeaux,Technology,SR-QA-ENG,Quality Assurance,Technical,Other,,Internship,85.07
-1220,2013-05-15,1,Hiring,Product,Novaryn Tech,Novaryn Tech - Toulouse,Technology,CONF-PO-PROD,Product Management,Technical,LinkedIn,CTR-NVT-00220,Permanent,78.39
-1220,2019-05-03,2,Promotion,Product,Novaryn Tech,Novaryn Tech - Toulouse,Technology,LEAD-PO-PROD,Product Management,Technical,Other,,Permanent,80.05
-1221,2015-12-08,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Toulouse,Technology,FRONT-ENG,Software Engineering,Technical,Referral,CTR-NVT-00221,Permanent,85.53
-1221,2019-01-06,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Toulouse,Technology,CONF-FRONT-ENG,Software Engineering,Technical,Other,,Permanent,77.93
-1221,2021-11-21,3,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Toulouse,Technology,SR-FRONT-ENG,Software Engineering,Technical,Other,,Permanent,95.67
-1221,2025-01-07,4,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Toulouse,Technology,LEAD-FRONT-ENG,Software Engineering,Technical,Other,,Permanent,94.42
-1222,2014-08-07,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,SR-ML-ENG,AI & Machine Learning,Technical,Referral,CTR-NVT-00222,Permanent,69.75
-1223,2019-01-21,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,SR-FRONT-ENG,Software Engineering,Technical,Indeed,CTR-NVT-00223,Fixed-term,71.05
-1223,2022-01-05,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,LEAD-FRONT-ENG,Software Engineering,Technical,Other,,Fixed-term,82.46
-1224,2021-03-25,1,Hiring,Product,Novaryn Tech,Novaryn Tech - Lyon,Technology,CONF-PO-PROD,Product Management,Technical,Indeed,CTR-NVT-00224,Permanent,80.46
-1224,2024-03-01,2,Promotion,Product,Novaryn Tech,Novaryn Tech - Lyon,Technology,SR-PO-PROD,Product Management,Technical,Other,,Permanent,78.64
-1225,2013-01-21,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Bordeaux,Technology,CONF-DATA-SCI,AI & Machine Learning,Technical,Headhunter,CTR-NVT-00225,Permanent,77.32
-1225,2016-02-14,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Bordeaux,Technology,SR-DATA-SCI,AI & Machine Learning,Technical,Other,,Permanent,87.91
-1225,2019-01-21,3,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Bordeaux,Technology,LEAD-DATA-SCI,AI & Machine Learning,Technical,Other,,Permanent,86.17
-1226,2018-08-17,1,Hiring,Sales,Novaryn Tech,Novaryn Tech - Marseille,Commercial,LEAD-CSM-SALES,Customer Success,Operations,Company Website,CTR-NVT-00226,Fixed-term,87.45
-1227,2021-10-17,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,CONF-BACK-ENG,Software Engineering,Technical,Welcome to the Jungle,CTR-NVT-00227,Permanent,79.36
-1227,2024-09-28,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,SR-BACK-ENG,Software Engineering,Technical,Other,,Permanent,97.66
-1228,2012-02-06,1,Hiring,Finance,Novaryn Tech,Novaryn Tech - Paris,Finance & Administration,CONF-ADMIN-OP,Operations,Operations,LinkedIn,CTR-NVT-00228,Fixed-term,72.01
-1228,2015-02-12,2,Promotion,Finance,Novaryn Tech,Novaryn Tech - Paris,Finance & Administration,SR-ADMIN-OP,Operations,Operations,Other,,Fixed-term,78.82
-1228,2018-02-03,3,Promotion,Finance,Novaryn Tech,Novaryn Tech - Paris,Finance & Administration,LEAD-ADMIN-OP,Operations,Operations,Other,,Fixed-term,88.52
-1229,2024-10-25,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,CONF-INFRA-ENG,Infrastructure,Technical,Referral,CTR-NVT-00229,Permanent,77.56
-1230,2021-02-26,1,Hiring,Product,Novaryn Tech,Novaryn Tech - Paris,Technology,SCRM-PROD,Agile Methodology,Operations,Referral,CTR-NVT-00230,Permanent,82.16
-1230,2024-02-03,2,Promotion,Product,Novaryn Tech,Novaryn Tech - Paris,Technology,CONF-SCRM-PROD,Agile Methodology,Operations,Other,,Permanent,89.36
-1231,2015-10-02,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Lille,Technology,CONF-ML-ENG,AI & Machine Learning,Technical,Referral,CTR-NVT-00231,Permanent,82.23
-1231,2018-09-15,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Lille,Technology,SR-ML-ENG,AI & Machine Learning,Technical,Other,,Permanent,84.35
-1231,2021-09-25,3,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Lille,Technology,LEAD-ML-ENG,AI & Machine Learning,Technical,Other,,Permanent,91.48
-1232,2016-08-22,1,Hiring,HR,Novaryn Tech,Novaryn Tech - Paris,People & Culture,LEAD-PAYROLL-OP,Payroll,Operations,Welcome to the Jungle,CTR-NVT-00232,Permanent,78.71
-1233,2012-06-29,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Bordeaux,Technology,CONF-ML-ENG,AI & Machine Learning,Technical,Referral,CTR-NVT-00233,Permanent,76.78
-1233,2015-06-22,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Bordeaux,Technology,SR-ML-ENG,AI & Machine Learning,Technical,Other,,Permanent,80.05
-1233,2018-06-25,3,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Bordeaux,Technology,LEAD-ML-ENG,AI & Machine Learning,Technical,Other,,Permanent,93.42
-1234,2023-05-19,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,FRONT-ENG,Software Engineering,Technical,Indeed,CTR-NVT-00234,Internship,86.36
-1235,2024-04-26,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Bordeaux,Technology,SR-ML-ENG,AI & Machine Learning,Technical,Welcome to the Jungle,CTR-NVT-00235,Permanent,69.5
-1236,2014-03-04,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,SR-FRONT-ENG,Software Engineering,Technical,Referral,CTR-NVT-00236,Permanent,79.4
-1236,2017-02-08,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,LEAD-FRONT-ENG,Software Engineering,Technical,Other,,Permanent,93.86
-1237,2022-01-25,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Lyon,Technology,CONF-FRONT-ENG,Software Engineering,Technical,Headhunter,CTR-NVT-00237,Permanent,78.88
-1238,2012-06-17,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Lyon,Technology,LEAD-SECU-ENG,Cybersecurity,Technical,Headhunter,CTR-NVT-00238,Permanent,85.0
-1239,2019-04-17,1,Hiring,Sales,Novaryn Tech,Novaryn Tech - Paris,Commercial,CONF-PRE-SALES,Sales Engineering,Technical,Company Website,CTR-NVT-00239,Permanent,76.82
-1239,2022-04-13,2,Promotion,Sales,Novaryn Tech,Novaryn Tech - Paris,Commercial,SR-PRE-SALES,Sales Engineering,Technical,Other,,Permanent,86.99
-1240,2015-02-03,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,DEVOPS-ENG,Infrastructure,Technical,LinkedIn,CTR-NVT-00240,Permanent,86.23
-1240,2018-02-19,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,CONF-DEVOPS-ENG,Infrastructure,Technical,Other,,Permanent,80.95
-1240,2021-01-20,3,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,SR-DEVOPS-ENG,Infrastructure,Technical,Other,,Permanent,88.37
-1240,2024-01-29,4,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,LEAD-DEVOPS-ENG,Infrastructure,Technical,Other,,Permanent,80.18
-1241,2018-06-13,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,CONF-FULL-ENG,Software Engineering,Technical,LinkedIn,CTR-NVT-00241,Permanent,70.39
-1241,2021-07-06,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,SR-FULL-ENG,Software Engineering,Technical,Other,,Permanent,89.86
-1241,2024-06-04,3,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,LEAD-FULL-ENG,Software Engineering,Technical,Other,,Permanent,83.71
-1242,2019-09-26,1,Hiring,HR,Novaryn Tech,Novaryn Tech - Marseille,People & Culture,SR-HRBP-HR,Human Resources,Support,Referral,CTR-NVT-00242,Permanent,78.94
-1243,2024-12-13,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Marseille,Technology,CONF-SECU-ENG,Cybersecurity,Technical,Other,CTR-NVT-00243,Permanent,75.29
-1244,2024-10-16,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Bordeaux,Technology,DATA-ENG,Data & Analytics,Technical,Other,CTR-NVT-00244,Permanent,81.99
-1245,2013-05-23,1,Hiring,Sales,Novaryn Tech,Novaryn Tech - Paris,Commercial,BD-SALES,Sales Development,Operations,Headhunter,CTR-NVT-00245,Permanent,79.42
-1245,2016-05-27,2,Promotion,Sales,Novaryn Tech,Novaryn Tech - Paris,Commercial,CONF-BD-SALES,Sales Development,Operations,Other,,Permanent,77.84
-1245,2022-06-05,3,Promotion,Sales,Novaryn Tech,Novaryn Tech - Paris,Commercial,LEAD-BD-SALES,Sales Development,Operations,Other,,Permanent,89.23
-1246,2024-09-28,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,LEAD-FULL-ENG,Software Engineering,Technical,LinkedIn,CTR-NVT-00246,Permanent,76.17
-1247,2015-10-25,1,Hiring,Marketing,Novaryn Tech,Novaryn Tech - Marseille,Commercial,SR-CONT-MKT,Content & Comms,Marketing,Referral,CTR-NVT-00247,Permanent,80.34
-1247,2018-10-04,2,Promotion,Marketing,Novaryn Tech,Novaryn Tech - Marseille,Commercial,LEAD-CONT-MKT,Content & Comms,Marketing,Other,,Permanent,97.1
-1248,2023-02-01,1,Hiring,Sales,Novaryn Tech,Novaryn Tech - Lyon,Commercial,CONF-PRE-SALES,Sales Engineering,Technical,Referral,CTR-NVT-00248,Permanent,88.21
-1249,2012-07-11,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Toulouse,Technology,BACK-ENG,Software Engineering,Technical,Referral,CTR-NVT-00249,Internship,80.31
-1249,2015-08-08,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Toulouse,Technology,CONF-BACK-ENG,Software Engineering,Technical,Other,,Internship,75.57
-1249,2018-06-25,3,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Toulouse,Technology,SR-BACK-ENG,Software Engineering,Technical,Other,,Internship,82.9
-1250,2012-05-06,1,Hiring,Marketing,Novaryn Tech,Novaryn Tech - Paris,Commercial,CONF-BRAND-MKT,Brand Management,Marketing,LinkedIn,CTR-NVT-00250,Permanent,80.13
-1250,2015-06-01,2,Promotion,Marketing,Novaryn Tech,Novaryn Tech - Paris,Commercial,SR-BRAND-MKT,Brand Management,Marketing,Other,,Permanent,85.79
+1001,2024-08-12,1,Hiring,Sales,Novaryn Tech,Novaryn Tech - Marseille,Commercial,CSM-SALES,Customer Success,Operations,Indeed,CTR-NVT-00001,Permanent,74.58
+1001,2025-09-20,2,Data Change,Sales,Novaryn Tech,Novaryn Tech - Marseille,Commercial,CSM-SALES,Customer Success,Operations,Other,,Permanent,95.75
+1002,2015-10-18,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,BACK-ENG,Software Engineering,Technical,Referral,CTR-NVT-00002,Permanent,87.3
+1002,2021-09-19,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,SR-BACK-ENG,Software Engineering,Technical,Other,,Permanent,90.89
+1002,2024-10-03,3,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,LEAD-BACK-ENG,Software Engineering,Technical,Other,,Permanent,82.98
+1003,2013-09-28,1,Hiring,HR,Novaryn Tech,Novaryn Tech - Lyon,People & Culture,PAYROLL-OP,Payroll,Operations,Headhunter,CTR-NVT-00003,Permanent,72.8
+1003,2016-09-30,2,Promotion,HR,Novaryn Tech,Novaryn Tech - Lyon,People & Culture,CONF-PAYROLL-OP,Payroll,Operations,Other,,Permanent,86.95
+1003,2019-10-20,3,Promotion,HR,Novaryn Tech,Novaryn Tech - Lyon,People & Culture,SR-PAYROLL-OP,Payroll,Operations,Other,,Permanent,77.01
+1004,2021-04-11,1,Hiring,Sales,Novaryn Tech,Novaryn Tech - Paris,Commercial,LEAD-CSM-SALES,Customer Success,Operations,LinkedIn,CTR-NVT-00004,Permanent,78.01
+1005,2019-03-06,1,Hiring,Sales,Novaryn Tech,Novaryn Tech - Toulouse,Commercial,CONF-CSM-SALES,Customer Success,Operations,Welcome to the Jungle,CTR-NVT-00005,Permanent,75.84
+1005,2025-04-02,2,Promotion,Sales,Novaryn Tech,Novaryn Tech - Toulouse,Commercial,LEAD-CSM-SALES,Customer Success,Operations,Other,,Permanent,88.78
+1006,2013-08-05,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,ML-ENG,AI & Machine Learning,Technical,Other,CTR-NVT-00006,Internship,69.12
+1006,2022-07-20,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,LEAD-ML-ENG,AI & Machine Learning,Technical,Other,,Internship,94.0
+1007,2020-08-06,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Toulouse,Technology,CONF-QA-ENG,Quality Assurance,Technical,Referral,CTR-NVT-00007,Permanent,83.35
+1007,2023-07-17,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Toulouse,Technology,SR-QA-ENG,Quality Assurance,Technical,Other,,Permanent,78.71
+1008,2015-05-20,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,SR-BACK-ENG,Software Engineering,Technical,Indeed,CTR-NVT-00008,Permanent,84.8
+1008,2018-05-30,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,LEAD-BACK-ENG,Software Engineering,Technical,Other,,Permanent,83.63
+1009,2019-08-23,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,BACK-ENG,Software Engineering,Technical,Company Website,CTR-NVT-00009,Permanent,66.21
+1010,2025-10-08,1,Hiring,Finance,Novaryn Tech,Novaryn Tech - Paris,Finance & Administration,SR-FA-FIN,Finance,Operations,Company Website,CTR-NVT-00010,Permanent,65.49
+1011,2025-09-16,1,Hiring,Finance,Novaryn Tech,Novaryn Tech - Paris,Finance & Administration,LEAD-FA-FIN,Finance,Operations,LinkedIn,CTR-NVT-00011,Permanent,75.42
+1012,2019-03-11,1,Hiring,Marketing,Novaryn Tech,Novaryn Tech - Paris,Commercial,CMO,Executive,Executive,Other,CTR-NVT-00012,Permanent,78.68
+1013,2014-08-24,1,Hiring,Finance,Novaryn Tech,Novaryn Tech - Lyon,Finance & Administration,SR-FA-FIN,Finance,Operations,Indeed,CTR-NVT-00013,Permanent,68.83
+1014,2017-09-22,1,Hiring,Sales,Novaryn Tech,Novaryn Tech - Paris,Commercial,BD-SALES,Sales Development,Operations,LinkedIn,CTR-NVT-00014,Permanent,72.53
+1015,2018-06-18,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,LEAD-DATA-ENG,Data & Analytics,Technical,Referral,CTR-NVT-00015,Fixed-term,80.14
+1016,2017-11-07,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,CONF-DATA-ENG,Data & Analytics,Technical,LinkedIn,CTR-NVT-00016,Permanent,85.77
+1016,2020-11-23,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,SR-DATA-ENG,Data & Analytics,Technical,Other,,Permanent,89.59
+1016,2023-11-27,3,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,LEAD-DATA-ENG,Data & Analytics,Technical,Other,,Permanent,80.34
+1017,2025-09-24,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,SECU-ENG,Cybersecurity,Technical,LinkedIn,CTR-NVT-00017,Fixed-term,69.99
+1018,2019-10-25,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Lyon,Technology,DEVOPS-ENG,Infrastructure,Technical,LinkedIn,CTR-NVT-00018,Fixed-term,78.08
+1018,2022-11-09,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Lyon,Technology,CONF-DEVOPS-ENG,Infrastructure,Technical,Other,,Fixed-term,83.01
+1018,2025-10-30,3,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Lyon,Technology,SR-DEVOPS-ENG,Infrastructure,Technical,Other,,Fixed-term,86.92
+1019,2018-06-10,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Toulouse,Technology,CONF-DATA-SCI,AI & Machine Learning,Technical,Other,CTR-NVT-00019,Permanent,88.33
+1019,2021-05-11,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Toulouse,Technology,SR-DATA-SCI,AI & Machine Learning,Technical,Other,,Permanent,76.28
+1019,2024-05-18,3,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Toulouse,Technology,LEAD-DATA-SCI,AI & Machine Learning,Technical,Other,,Permanent,96.38
+1020,2016-12-26,1,Hiring,Product,Novaryn Tech,Novaryn Tech - Paris,Technology,SR-PO-PROD,Product Management,Technical,Welcome to the Jungle,CTR-NVT-00020,Permanent,68.73
+1020,2019-12-28,2,Promotion,Product,Novaryn Tech,Novaryn Tech - Paris,Technology,LEAD-PO-PROD,Product Management,Technical,Other,,Permanent,79.65
+1021,2018-02-25,1,Hiring,Finance,Novaryn Tech,Novaryn Tech - Lyon,Finance & Administration,CONF-FA-FIN,Finance,Operations,Referral,CTR-NVT-00021,Permanent,87.62
+1021,2021-02-24,2,Promotion,Finance,Novaryn Tech,Novaryn Tech - Lyon,Finance & Administration,SR-FA-FIN,Finance,Operations,Other,,Permanent,97.75
+1021,2024-02-24,3,Promotion,Finance,Novaryn Tech,Novaryn Tech - Lyon,Finance & Administration,LEAD-FA-FIN,Finance,Operations,Other,,Permanent,79.1
+1022,2023-12-27,1,Hiring,Sales,Novaryn Tech,Novaryn Tech - Lyon,Commercial,AM-SALES,Enterprise Sales,Operations,Headhunter,CTR-NVT-00022,Permanent,86.85
+1023,2023-04-01,1,Hiring,Sales,Novaryn Tech,Novaryn Tech - Paris,Commercial,SR-SMGR-SALES,Sales Management,Operations,Referral,CTR-NVT-00023,Permanent,74.01
+1024,2016-12-03,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Lyon,Technology,FULL-ENG,Software Engineering,Technical,LinkedIn,CTR-NVT-00024,Permanent,75.65
+1024,2019-12-27,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Lyon,Technology,CONF-FULL-ENG,Software Engineering,Technical,Other,,Permanent,90.68
+1024,2022-12-27,3,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Lyon,Technology,SR-FULL-ENG,Software Engineering,Technical,Other,,Permanent,79.04
+1024,2025-11-24,4,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Lyon,Technology,LEAD-FULL-ENG,Software Engineering,Technical,Other,,Permanent,85.87
+1025,2013-09-19,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Toulouse,Technology,DATA-ENG,Data & Analytics,Technical,Headhunter,CTR-NVT-00025,Permanent,80.55
+1025,2019-10-11,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Toulouse,Technology,SR-DATA-ENG,Data & Analytics,Technical,Other,,Permanent,83.54
+1025,2022-09-14,3,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Toulouse,Technology,LEAD-DATA-ENG,Data & Analytics,Technical,Other,,Permanent,99.17
+1026,2019-09-18,1,Hiring,Finance,Novaryn Tech,Novaryn Tech - Lille,Finance & Administration,CTRL-FIN,Finance,Operations,Referral,CTR-NVT-00026,Permanent,74.64
+1027,2014-10-07,1,Hiring,Marketing,Novaryn Tech,Novaryn Tech - Paris,Commercial,CONT-MKT,Content & Comms,Marketing,Referral,CTR-NVT-00027,Fixed-term,84.92
+1027,2017-10-21,2,Promotion,Marketing,Novaryn Tech,Novaryn Tech - Paris,Commercial,CONF-CONT-MKT,Content & Comms,Marketing,Other,,Fixed-term,89.98
+1028,2015-07-25,1,Hiring,Sales,Novaryn Tech,Novaryn Tech - Lyon,Commercial,SMGR-SALES,Sales Management,Operations,Indeed,CTR-NVT-00028,Permanent,87.78
+1028,2018-07-31,2,Promotion,Sales,Novaryn Tech,Novaryn Tech - Lyon,Commercial,CONF-SMGR-SALES,Sales Management,Operations,Other,,Permanent,88.92
+1028,2021-07-19,3,Promotion,Sales,Novaryn Tech,Novaryn Tech - Lyon,Commercial,SR-SMGR-SALES,Sales Management,Operations,Other,,Permanent,93.14
+1028,2024-08-19,4,Promotion,Sales,Novaryn Tech,Novaryn Tech - Lyon,Commercial,LEAD-SMGR-SALES,Sales Management,Operations,Other,,Permanent,93.06
+1029,2023-08-18,1,Hiring,Product,Novaryn Tech,Novaryn Tech - Marseille,Technology,UX-PROD,Design,Technical,LinkedIn,CTR-NVT-00029,Permanent,89.34
+1030,2022-05-13,1,Hiring,Marketing,Novaryn Tech,Novaryn Tech - Paris,Commercial,CONF-BRAND-MKT,Brand Management,Marketing,Referral,CTR-NVT-00030,Permanent,88.01
+1030,2025-05-09,2,Promotion,Marketing,Novaryn Tech,Novaryn Tech - Paris,Commercial,SR-BRAND-MKT,Brand Management,Marketing,Other,,Permanent,85.7
+1031,2021-02-01,1,Hiring,Marketing,Novaryn Tech,Novaryn Tech - Bordeaux,Commercial,GROWTH-MKT,Growth Marketing,Marketing,Headhunter,CTR-NVT-00031,Permanent,72.86
+1032,2019-11-12,1,Hiring,Marketing,Novaryn Tech,Novaryn Tech - Lyon,Commercial,BRAND-MKT,Brand Management,Marketing,Headhunter,CTR-NVT-00032,Permanent,84.19
+1032,2022-11-18,2,Promotion,Marketing,Novaryn Tech,Novaryn Tech - Lyon,Commercial,CONF-BRAND-MKT,Brand Management,Marketing,Other,,Permanent,78.93
+1033,2022-11-20,1,Hiring,Finance,Novaryn Tech,Novaryn Tech - Lyon,Finance & Administration,SR-FA-FIN,Finance,Operations,Referral,CTR-NVT-00033,Permanent,77.98
+1034,2023-08-25,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Bordeaux,Technology,INFRA-ENG,Infrastructure,Technical,Headhunter,CTR-NVT-00034,Permanent,75.82
+1035,2025-03-14,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,SR-FULL-ENG,Software Engineering,Technical,Headhunter,CTR-NVT-00035,Permanent,77.05
+1036,2025-12-24,1,Hiring,Product,Novaryn Tech,Novaryn Tech - Marseille,Technology,PM-PROD,Product Management,Technical,Headhunter,CTR-NVT-00036,Permanent,81.04
+1037,2018-10-28,1,Hiring,Marketing,Novaryn Tech,Novaryn Tech - Paris,Commercial,SR-GROWTH-MKT,Growth Marketing,Marketing,Referral,CTR-NVT-00037,Permanent,85.66
+1038,2015-08-04,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Toulouse,Technology,CONF-SECU-ENG,Cybersecurity,Technical,LinkedIn,CTR-NVT-00038,Permanent,65.29
+1038,2021-08-04,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Toulouse,Technology,LEAD-SECU-ENG,Cybersecurity,Technical,Other,,Permanent,96.74
+1039,2017-05-09,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,SR-FULL-ENG,Software Engineering,Technical,Indeed,CTR-NVT-00039,Permanent,66.87
+1039,2020-04-24,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,LEAD-FULL-ENG,Software Engineering,Technical,Other,,Permanent,85.28
+1040,2020-06-29,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Lille,Technology,DATA-ENG,Data & Analytics,Technical,Headhunter,CTR-NVT-00040,Permanent,77.67
+1040,2023-06-23,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Lille,Technology,CONF-DATA-ENG,Data & Analytics,Technical,Other,,Permanent,82.87
+1041,2019-10-22,1,Hiring,Marketing,Novaryn Tech,Novaryn Tech - Bordeaux,Commercial,PMM-MKT,Product Marketing,Marketing,Welcome to the Jungle,CTR-NVT-00041,Permanent,76.48
+1041,2025-11-15,2,Promotion,Marketing,Novaryn Tech,Novaryn Tech - Bordeaux,Commercial,SR-PMM-MKT,Product Marketing,Marketing,Other,,Permanent,86.97
+1042,2014-05-17,1,Hiring,Marketing,Novaryn Tech,Novaryn Tech - Paris,Commercial,CONT-MKT,Content & Comms,Marketing,Referral,CTR-NVT-00042,Permanent,89.52
+1042,2020-05-12,2,Promotion,Marketing,Novaryn Tech,Novaryn Tech - Paris,Commercial,SR-CONT-MKT,Content & Comms,Marketing,Other,,Permanent,85.07
+1042,2023-04-17,3,Promotion,Marketing,Novaryn Tech,Novaryn Tech - Paris,Commercial,LEAD-CONT-MKT,Content & Comms,Marketing,Other,,Permanent,96.17
+1043,2021-07-20,1,Hiring,HR,Novaryn Tech,Novaryn Tech - Marseille,People & Culture,SR-HRBP-HR,Human Resources,Support,Indeed,CTR-NVT-00043,Permanent,89.08
+1043,2024-08-15,2,Promotion,HR,Novaryn Tech,Novaryn Tech - Marseille,People & Culture,LEAD-HRBP-HR,Human Resources,Support,Other,,Permanent,89.18
+1044,2024-09-15,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Toulouse,Technology,CONF-FRONT-ENG,Software Engineering,Technical,Welcome to the Jungle,CTR-NVT-00044,Fixed-term,81.79
+1045,2021-12-04,1,Hiring,Marketing,Novaryn Tech,Novaryn Tech - Paris,Commercial,LEAD-CONT-MKT,Content & Comms,Marketing,Welcome to the Jungle,CTR-NVT-00045,Permanent,74.08
+1045,2023-02-05,2,Data Change,Marketing,Novaryn Tech,Novaryn Tech - Paris,Commercial,LEAD-CONT-MKT,Content & Comms,Marketing,Other,,Permanent,80.3
+1046,2015-09-24,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Toulouse,Technology,QA-ENG,Quality Assurance,Technical,Indeed,CTR-NVT-00046,Internship,84.19
+1046,2018-10-09,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Toulouse,Technology,CONF-QA-ENG,Quality Assurance,Technical,Other,,Internship,88.46
+1046,2024-10-12,3,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Toulouse,Technology,LEAD-QA-ENG,Quality Assurance,Technical,Other,,Internship,92.5
+1047,2020-05-24,1,Hiring,Marketing,Novaryn Tech,Novaryn Tech - Paris,Commercial,CONF-PMM-MKT,Product Marketing,Marketing,Company Website,CTR-NVT-00047,Fixed-term,85.75
+1048,2012-10-19,1,Hiring,HR,Novaryn Tech,Novaryn Tech - Paris,People & Culture,PAYROLL-OP,Payroll,Operations,Company Website,CTR-NVT-00048,Permanent,78.05
+1048,2018-09-29,2,Promotion,HR,Novaryn Tech,Novaryn Tech - Paris,People & Culture,SR-PAYROLL-OP,Payroll,Operations,Other,,Permanent,86.83
+1049,2022-09-03,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,QA-ENG,Quality Assurance,Technical,LinkedIn,CTR-NVT-00049,Permanent,75.23
+1049,2025-08-16,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,CONF-QA-ENG,Quality Assurance,Technical,Other,,Permanent,78.13
+1050,2019-03-08,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,CONF-BACK-ENG,Software Engineering,Technical,LinkedIn,CTR-NVT-00050,Permanent,74.82
+1050,2022-03-28,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,SR-BACK-ENG,Software Engineering,Technical,Other,,Permanent,80.19
+1050,2025-03-26,3,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,LEAD-BACK-ENG,Software Engineering,Technical,Other,,Permanent,87.12
+1051,2018-07-18,1,Hiring,Product,Novaryn Tech,Novaryn Tech - Paris,Technology,PO-PROD,Product Management,Technical,Welcome to the Jungle,CTR-NVT-00051,Permanent,85.94
+1051,2021-08-06,2,Promotion,Product,Novaryn Tech,Novaryn Tech - Paris,Technology,CONF-PO-PROD,Product Management,Technical,Other,,Permanent,93.62
+1051,2024-07-25,3,Promotion,Product,Novaryn Tech,Novaryn Tech - Paris,Technology,SR-PO-PROD,Product Management,Technical,Other,,Permanent,97.04
+1052,2019-12-18,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,FULL-ENG,Software Engineering,Technical,Referral,CTR-NVT-00052,Permanent,77.47
+1052,2022-11-21,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,CONF-FULL-ENG,Software Engineering,Technical,Other,,Permanent,86.17
+1052,2025-12-25,3,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,SR-FULL-ENG,Software Engineering,Technical,Other,,Permanent,86.62
+1053,2012-03-12,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,DEVOPS-ENG,Infrastructure,Technical,Company Website,CTR-NVT-00053,Internship,88.03
+1053,2015-03-19,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,CONF-DEVOPS-ENG,Infrastructure,Technical,Other,,Internship,77.82
+1053,2021-03-24,3,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,LEAD-DEVOPS-ENG,Infrastructure,Technical,Other,,Internship,91.21
+1054,2013-12-12,1,Hiring,Product,Novaryn Tech,Novaryn Tech - Lyon,Technology,SR-UX-PROD,Design,Technical,Company Website,CTR-NVT-00054,Permanent,77.6
+1054,2016-12-20,2,Promotion,Product,Novaryn Tech,Novaryn Tech - Lyon,Technology,LEAD-UX-PROD,Design,Technical,Other,,Permanent,98.15
+1055,2022-11-26,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,SR-INFRA-ENG,Infrastructure,Technical,LinkedIn,CTR-NVT-00055,Permanent,71.84
+1056,2016-12-28,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Lyon,Technology,CONF-DATA-SCI,AI & Machine Learning,Technical,Company Website,CTR-NVT-00056,Fixed-term,76.32
+1056,2019-12-24,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Lyon,Technology,SR-DATA-SCI,AI & Machine Learning,Technical,Other,,Fixed-term,89.26
+1057,2019-09-20,1,Hiring,Sales,Novaryn Tech,Novaryn Tech - Paris,Commercial,AM-SALES,Enterprise Sales,Operations,LinkedIn,CTR-NVT-00057,Fixed-term,86.08
+1057,2022-09-10,2,Promotion,Sales,Novaryn Tech,Novaryn Tech - Paris,Commercial,CONF-AM-SALES,Enterprise Sales,Operations,Other,,Fixed-term,89.66
+1058,2024-03-29,1,Hiring,Sales,Novaryn Tech,Novaryn Tech - Marseille,Commercial,CONF-AM-SALES,Enterprise Sales,Operations,Referral,CTR-NVT-00058,Permanent,70.02
+1059,2024-12-17,1,Hiring,Finance,Novaryn Tech,Novaryn Tech - Bordeaux,Finance & Administration,LEAD-FA-FIN,Finance,Operations,Indeed,CTR-NVT-00059,Permanent,72.26
+1060,2013-10-23,1,Hiring,HR,Novaryn Tech,Novaryn Tech - Marseille,People & Culture,HRBP-HR,Human Resources,Support,Headhunter,CTR-NVT-00060,Permanent,81.81
+1061,2020-08-20,1,Hiring,Marketing,Novaryn Tech,Novaryn Tech - Bordeaux,Commercial,LEAD-BRAND-MKT,Brand Management,Marketing,Headhunter,CTR-NVT-00061,Permanent,82.36
+1062,2018-05-12,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Lyon,Technology,BACK-ENG,Software Engineering,Technical,LinkedIn,CTR-NVT-00062,Fixed-term,67.89
+1062,2021-05-12,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Lyon,Technology,CONF-BACK-ENG,Software Engineering,Technical,Other,,Fixed-term,86.82
+1063,2025-03-31,1,Hiring,Product,Novaryn Tech,Novaryn Tech - Lyon,Technology,LEAD-PM-PROD,Product Management,Technical,Indeed,CTR-NVT-00063,Permanent,81.86
+1064,2017-07-07,1,Hiring,HR,Novaryn Tech,Novaryn Tech - Marseille,People & Culture,SR-HRBP-HR,Human Resources,Support,Indeed,CTR-NVT-00064,Permanent,78.35
+1065,2013-11-26,1,Hiring,HR,Novaryn Tech,Novaryn Tech - Toulouse,People & Culture,SR-TA-HR,Talent Acquisition,Support,LinkedIn,CTR-NVT-00065,Fixed-term,65.32
+1065,2016-11-20,2,Promotion,HR,Novaryn Tech,Novaryn Tech - Toulouse,People & Culture,LEAD-TA-HR,Talent Acquisition,Support,Other,,Fixed-term,81.2
+1066,2016-01-27,1,Hiring,Sales,Novaryn Tech,Novaryn Tech - Paris,Commercial,CSO,Executive,Executive,Referral,CTR-NVT-00066,Permanent,70.0
+1067,2021-08-26,1,Hiring,Product,Novaryn Tech,Novaryn Tech - Toulouse,Technology,CONF-UX-PROD,Design,Technical,Company Website,CTR-NVT-00067,Permanent,69.02
+1067,2024-08-12,2,Promotion,Product,Novaryn Tech,Novaryn Tech - Toulouse,Technology,SR-UX-PROD,Design,Technical,Other,,Permanent,79.22
+1067,2025-12-27,3,Transfer,Product,Novaryn Tech,Novaryn Tech - Paris,Technology,SR-UX-PROD,Design,Technical,Other,,Permanent,80.97
+1068,2024-06-13,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,CONF-DATA-ENG,Data & Analytics,Technical,LinkedIn,CTR-NVT-00068,Permanent,76.31
+1069,2024-12-09,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Lyon,Technology,DEVOPS-ENG,Infrastructure,Technical,Indeed,CTR-NVT-00069,Permanent,81.89
+1070,2014-02-20,1,Hiring,Finance,Novaryn Tech,Novaryn Tech - Toulouse,Finance & Administration,ADMIN-OP,Operations,Operations,Headhunter,CTR-NVT-00070,Permanent,70.61
+1070,2017-02-14,2,Promotion,Finance,Novaryn Tech,Novaryn Tech - Toulouse,Finance & Administration,CONF-ADMIN-OP,Operations,Operations,Other,,Permanent,79.23
+1071,2020-02-01,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Bordeaux,Technology,CONF-DATA-ENG,Data & Analytics,Technical,Indeed,CTR-NVT-00071,Permanent,81.61
+1071,2026-02-21,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Bordeaux,Technology,LEAD-DATA-ENG,Data & Analytics,Technical,Other,,Permanent,99.47
+1072,2016-07-05,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Lille,Technology,SR-ML-ENG,AI & Machine Learning,Technical,Headhunter,CTR-NVT-00072,Permanent,78.8
+1072,2019-06-21,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Lille,Technology,LEAD-ML-ENG,AI & Machine Learning,Technical,Other,,Permanent,82.47
+1073,2019-03-14,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Lille,Technology,FRONT-ENG,Software Engineering,Technical,Indeed,CTR-NVT-00073,Fixed-term,86.51
+1073,2022-02-26,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Lille,Technology,CONF-FRONT-ENG,Software Engineering,Technical,Other,,Fixed-term,94.05
+1074,2024-11-06,1,Hiring,Sales,Novaryn Tech,Novaryn Tech - Paris,Commercial,CSM-SALES,Customer Success,Operations,LinkedIn,CTR-NVT-00074,Permanent,83.88
+1075,2017-04-20,1,Hiring,Product,Novaryn Tech,Novaryn Tech - Toulouse,Technology,CONF-PM-PROD,Product Management,Technical,LinkedIn,CTR-NVT-00075,Permanent,80.08
+1076,2023-01-21,1,Hiring,Marketing,Novaryn Tech,Novaryn Tech - Toulouse,Commercial,CONF-CONT-MKT,Content & Comms,Marketing,LinkedIn,CTR-NVT-00076,Permanent,69.44
+1077,2020-10-21,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,LEAD-FRONT-ENG,Software Engineering,Technical,Company Website,CTR-NVT-00077,Permanent,69.34
+1078,2016-03-20,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Marseille,Technology,QA-ENG,Quality Assurance,Technical,Referral,CTR-NVT-00078,Permanent,74.43
+1078,2019-03-25,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Marseille,Technology,CONF-QA-ENG,Quality Assurance,Technical,Other,,Permanent,79.81
+1078,2022-04-13,3,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Marseille,Technology,SR-QA-ENG,Quality Assurance,Technical,Other,,Permanent,81.61
+1078,2025-04-04,4,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Marseille,Technology,LEAD-QA-ENG,Quality Assurance,Technical,Other,,Permanent,98.62
+1079,2017-10-01,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Lille,Technology,CONF-DEVOPS-ENG,Infrastructure,Technical,Other,CTR-NVT-00079,Permanent,79.92
+1079,2023-10-24,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Lille,Technology,LEAD-DEVOPS-ENG,Infrastructure,Technical,Other,,Permanent,92.56
+1080,2021-06-03,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,DATA-SCI,AI & Machine Learning,Technical,LinkedIn,CTR-NVT-00080,Permanent,79.32
+1080,2024-06-23,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,CONF-DATA-SCI,AI & Machine Learning,Technical,Other,,Permanent,89.57
+1081,2015-09-30,1,Hiring,Sales,Novaryn Tech,Novaryn Tech - Paris,Commercial,BD-SALES,Sales Development,Operations,Referral,CTR-NVT-00081,Permanent,88.92
+1081,2018-10-20,2,Promotion,Sales,Novaryn Tech,Novaryn Tech - Paris,Commercial,CONF-BD-SALES,Sales Development,Operations,Other,,Permanent,85.11
+1081,2021-10-04,3,Promotion,Sales,Novaryn Tech,Novaryn Tech - Paris,Commercial,SR-BD-SALES,Sales Development,Operations,Other,,Permanent,84.88
+1081,2024-10-26,4,Promotion,Sales,Novaryn Tech,Novaryn Tech - Paris,Commercial,LEAD-BD-SALES,Sales Development,Operations,Other,,Permanent,82.69
+1082,2024-01-16,1,Hiring,Product,Novaryn Tech,Novaryn Tech - Paris,Technology,CONF-PM-PROD,Product Management,Technical,Referral,CTR-NVT-00082,Permanent,74.02
+1083,2013-02-22,1,Hiring,Sales,Novaryn Tech,Novaryn Tech - Marseille,Commercial,AM-SALES,Enterprise Sales,Operations,LinkedIn,CTR-NVT-00083,Permanent,83.82
+1083,2016-02-27,2,Promotion,Sales,Novaryn Tech,Novaryn Tech - Marseille,Commercial,CONF-AM-SALES,Enterprise Sales,Operations,Other,,Permanent,92.12
+1083,2022-03-06,3,Promotion,Sales,Novaryn Tech,Novaryn Tech - Marseille,Commercial,LEAD-AM-SALES,Enterprise Sales,Operations,Other,,Permanent,85.61
+1084,2013-03-16,1,Hiring,Finance,Novaryn Tech,Novaryn Tech - Paris,Finance & Administration,CONF-CTRL-FIN,Finance,Operations,LinkedIn,CTR-NVT-00084,Permanent,81.06
+1084,2019-02-16,2,Promotion,Finance,Novaryn Tech,Novaryn Tech - Paris,Finance & Administration,LEAD-CTRL-FIN,Finance,Operations,Other,,Permanent,93.02
+1085,2016-09-26,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Lyon,Technology,SECU-ENG,Cybersecurity,Technical,Referral,CTR-NVT-00085,Permanent,87.9
+1085,2022-09-30,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Lyon,Technology,SR-SECU-ENG,Cybersecurity,Technical,Other,,Permanent,91.93
+1085,2025-09-29,3,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Lyon,Technology,LEAD-SECU-ENG,Cybersecurity,Technical,Other,,Permanent,96.09
+1086,2021-03-04,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,SR-BACK-ENG,Software Engineering,Technical,Headhunter,CTR-NVT-00086,Permanent,85.07
+1086,2024-02-05,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,LEAD-BACK-ENG,Software Engineering,Technical,Other,,Permanent,84.52
+1087,2021-09-18,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Toulouse,Technology,QA-ENG,Quality Assurance,Technical,Headhunter,CTR-NVT-00087,Apprenticeship,73.01
+1087,2024-08-25,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Toulouse,Technology,CONF-QA-ENG,Quality Assurance,Technical,Other,,Apprenticeship,77.68
+1088,2016-02-18,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Lyon,Technology,CONF-ML-ENG,AI & Machine Learning,Technical,Referral,CTR-NVT-00088,Permanent,78.45
+1088,2019-01-23,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Lyon,Technology,SR-ML-ENG,AI & Machine Learning,Technical,Other,,Permanent,80.64
+1088,2022-02-01,3,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Lyon,Technology,LEAD-ML-ENG,AI & Machine Learning,Technical,Other,,Permanent,97.03
+1089,2015-03-29,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Lyon,Technology,CONF-BACK-ENG,Software Engineering,Technical,Referral,CTR-NVT-00089,Permanent,67.6
+1089,2018-04-12,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Lyon,Technology,SR-BACK-ENG,Software Engineering,Technical,Other,,Permanent,95.33
+1090,2023-03-18,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Marseille,Technology,FRONT-ENG,Software Engineering,Technical,Indeed,CTR-NVT-00090,Permanent,85.42
+1090,2024-03-09,2,Transfer,Engineering,Novaryn Tech,Novaryn Tech - Lyon,Technology,FRONT-ENG,Software Engineering,Technical,Other,,Permanent,89.92
+1091,2019-03-17,1,Hiring,Product,Novaryn Tech,Novaryn Tech - Toulouse,Technology,PO-PROD,Product Management,Technical,LinkedIn,CTR-NVT-00091,Fixed-term,65.95
+1091,2022-02-26,2,Promotion,Product,Novaryn Tech,Novaryn Tech - Toulouse,Technology,CONF-PO-PROD,Product Management,Technical,Other,,Fixed-term,91.47
+1091,2025-03-23,3,Promotion,Product,Novaryn Tech,Novaryn Tech - Toulouse,Technology,SR-PO-PROD,Product Management,Technical,Other,,Fixed-term,94.08
+1092,2024-05-27,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Lille,Technology,LEAD-FULL-ENG,Software Engineering,Technical,Company Website,CTR-NVT-00092,Permanent,75.19
+1093,2023-02-12,1,Hiring,Sales,Novaryn Tech,Novaryn Tech - Paris,Commercial,SR-AM-SALES,Enterprise Sales,Operations,Referral,CTR-NVT-00093,Permanent,75.11
+1093,2026-02-06,2,Promotion,Sales,Novaryn Tech,Novaryn Tech - Paris,Commercial,LEAD-AM-SALES,Enterprise Sales,Operations,Other,,Permanent,92.81
+1094,2013-01-11,1,Hiring,Product,Novaryn Tech,Novaryn Tech - Lille,Technology,PM-PROD,Product Management,Technical,Headhunter,CTR-NVT-00094,Permanent,81.04
+1094,2016-01-29,2,Promotion,Product,Novaryn Tech,Novaryn Tech - Lille,Technology,CONF-PM-PROD,Product Management,Technical,Other,,Permanent,90.41
+1094,2019-02-04,3,Promotion,Product,Novaryn Tech,Novaryn Tech - Lille,Technology,SR-PM-PROD,Product Management,Technical,Other,,Permanent,77.6
+1095,2017-10-09,1,Hiring,Sales,Novaryn Tech,Novaryn Tech - Paris,Commercial,CONF-BD-SALES,Sales Development,Operations,Indeed,CTR-NVT-00095,Permanent,84.67
+1095,2020-09-14,2,Promotion,Sales,Novaryn Tech,Novaryn Tech - Paris,Commercial,SR-BD-SALES,Sales Development,Operations,Other,,Permanent,82.19
+1096,2015-04-05,1,Hiring,Sales,Novaryn Tech,Novaryn Tech - Lyon,Commercial,LEAD-BD-SALES,Sales Development,Operations,Indeed,CTR-NVT-00096,Permanent,85.55
+1096,2016-03-30,2,Transfer,Sales,Novaryn Tech,Novaryn Tech - Paris,Commercial,LEAD-BD-SALES,Sales Development,Operations,Other,,Permanent,90.67
+1097,2019-08-19,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,LEAD-QA-ENG,Quality Assurance,Technical,Welcome to the Jungle,CTR-NVT-00097,Permanent,84.92
+1098,2015-02-14,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,CONF-DATA-SCI,AI & Machine Learning,Technical,LinkedIn,CTR-NVT-00098,Permanent,72.37
+1098,2018-02-03,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,SR-DATA-SCI,AI & Machine Learning,Technical,Other,,Permanent,90.9
+1099,2016-04-01,1,Hiring,Product,Novaryn Tech,Novaryn Tech - Paris,Technology,UX-PROD,Design,Technical,Indeed,CTR-NVT-00099,Permanent,83.23
+1099,2019-05-01,2,Promotion,Product,Novaryn Tech,Novaryn Tech - Paris,Technology,CONF-UX-PROD,Design,Technical,Other,,Permanent,74.25
+1099,2025-03-04,3,Promotion,Product,Novaryn Tech,Novaryn Tech - Paris,Technology,LEAD-UX-PROD,Design,Technical,Other,,Permanent,78.11
+1100,2025-09-29,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Marseille,Technology,ML-ENG,AI & Machine Learning,Technical,LinkedIn,CTR-NVT-00100,Internship,78.43
+1101,2012-11-10,1,Hiring,Finance,Novaryn Tech,Novaryn Tech - Paris,Finance & Administration,SR-ADMIN-OP,Operations,Operations,LinkedIn,CTR-NVT-00101,Permanent,72.62
+1102,2012-04-01,1,Hiring,Product,Novaryn Tech,Novaryn Tech - Paris,Technology,LEAD-PM-PROD,Product Management,Technical,Referral,CTR-NVT-00102,Permanent,73.6
+1103,2016-01-08,1,Hiring,Sales,Novaryn Tech,Novaryn Tech - Toulouse,Commercial,CONF-PRE-SALES,Sales Engineering,Technical,Headhunter,CTR-NVT-00103,Permanent,81.15
+1103,2018-12-19,2,Promotion,Sales,Novaryn Tech,Novaryn Tech - Toulouse,Commercial,SR-PRE-SALES,Sales Engineering,Technical,Other,,Permanent,80.05
+1103,2021-12-25,3,Promotion,Sales,Novaryn Tech,Novaryn Tech - Toulouse,Commercial,LEAD-PRE-SALES,Sales Engineering,Technical,Other,,Permanent,82.28
+1104,2020-04-05,1,Hiring,HR,Novaryn Tech,Novaryn Tech - Paris,People & Culture,TA-HR,Talent Acquisition,Support,Referral,CTR-NVT-00104,Permanent,84.99
+1105,2018-10-27,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,SR-BACK-ENG,Software Engineering,Technical,Company Website,CTR-NVT-00105,Fixed-term,88.31
+1106,2018-06-12,1,Hiring,Sales,Novaryn Tech,Novaryn Tech - Paris,Commercial,SMGR-SALES,Sales Management,Operations,LinkedIn,CTR-NVT-00106,Permanent,78.74
+1106,2021-05-17,2,Promotion,Sales,Novaryn Tech,Novaryn Tech - Paris,Commercial,CONF-SMGR-SALES,Sales Management,Operations,Other,,Permanent,79.52
+1106,2024-06-19,3,Promotion,Sales,Novaryn Tech,Novaryn Tech - Paris,Commercial,SR-SMGR-SALES,Sales Management,Operations,Other,,Permanent,86.72
+1107,2016-07-05,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Lyon,Technology,CONF-QA-ENG,Quality Assurance,Technical,LinkedIn,CTR-NVT-00107,Permanent,68.21
+1107,2022-07-14,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Lyon,Technology,LEAD-QA-ENG,Quality Assurance,Technical,Other,,Permanent,79.54
+1108,2019-03-13,1,Hiring,HR,Novaryn Tech,Novaryn Tech - Bordeaux,People & Culture,HRBP-HR,Human Resources,Support,Referral,CTR-NVT-00108,Apprenticeship,77.15
+1108,2022-03-25,2,Promotion,HR,Novaryn Tech,Novaryn Tech - Bordeaux,People & Culture,CONF-HRBP-HR,Human Resources,Support,Other,,Apprenticeship,80.72
+1108,2025-03-19,3,Promotion,HR,Novaryn Tech,Novaryn Tech - Bordeaux,People & Culture,SR-HRBP-HR,Human Resources,Support,Other,,Apprenticeship,88.47
+1109,2024-03-22,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Lyon,Technology,LEAD-SECU-ENG,Cybersecurity,Technical,Headhunter,CTR-NVT-00109,Permanent,88.97
+1110,2015-03-25,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Lyon,Technology,CONF-DATA-ENG,Data & Analytics,Technical,Referral,CTR-NVT-00110,Permanent,72.83
+1111,2012-12-29,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,FULL-ENG,Software Engineering,Technical,Indeed,CTR-NVT-00111,Permanent,71.92
+1111,2016-01-11,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,CONF-FULL-ENG,Software Engineering,Technical,Other,,Permanent,90.13
+1111,2021-12-21,3,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,LEAD-FULL-ENG,Software Engineering,Technical,Other,,Permanent,95.04
+1112,2017-05-02,1,Hiring,Sales,Novaryn Tech,Novaryn Tech - Paris,Commercial,CONF-BD-SALES,Sales Development,Operations,Welcome to the Jungle,CTR-NVT-00112,Permanent,67.72
+1112,2020-04-07,2,Promotion,Sales,Novaryn Tech,Novaryn Tech - Paris,Commercial,SR-BD-SALES,Sales Development,Operations,Other,,Permanent,94.52
+1113,2021-12-08,1,Hiring,HR,Novaryn Tech,Novaryn Tech - Bordeaux,People & Culture,TA-HR,Talent Acquisition,Support,Headhunter,CTR-NVT-00113,Permanent,78.47
+1113,2025-01-03,2,Promotion,HR,Novaryn Tech,Novaryn Tech - Bordeaux,People & Culture,CONF-TA-HR,Talent Acquisition,Support,Other,,Permanent,87.79
+1114,2021-01-13,1,Hiring,HR,Novaryn Tech,Novaryn Tech - Bordeaux,People & Culture,TA-HR,Talent Acquisition,Support,LinkedIn,CTR-NVT-00114,Fixed-term,87.3
+1115,2020-08-21,1,Hiring,Product,Novaryn Tech,Novaryn Tech - Paris,Technology,CONF-SCRM-PROD,Agile Methodology,Operations,Other,CTR-NVT-00115,Permanent,85.32
+1115,2023-09-09,2,Promotion,Product,Novaryn Tech,Novaryn Tech - Paris,Technology,SR-SCRM-PROD,Agile Methodology,Operations,Other,,Permanent,88.98
+1116,2013-03-01,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,LEAD-FRONT-ENG,Software Engineering,Technical,Company Website,CTR-NVT-00116,Permanent,78.79
+1117,2023-06-27,1,Hiring,Product,Novaryn Tech,Novaryn Tech - Paris,Technology,PM-PROD,Product Management,Technical,Other,CTR-NVT-00117,Permanent,89.97
+1118,2014-01-14,1,Hiring,Product,Novaryn Tech,Novaryn Tech - Lyon,Technology,SR-PM-PROD,Product Management,Technical,Company Website,CTR-NVT-00118,Fixed-term,84.38
+1118,2016-12-29,2,Promotion,Product,Novaryn Tech,Novaryn Tech - Lyon,Technology,LEAD-PM-PROD,Product Management,Technical,Other,,Fixed-term,97.61
+1119,2021-11-06,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,LEAD-FRONT-ENG,Software Engineering,Technical,Headhunter,CTR-NVT-00119,Permanent,86.43
+1120,2013-05-24,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,DATA-SCI,AI & Machine Learning,Technical,LinkedIn,CTR-NVT-00120,Internship,77.53
+1120,2016-05-17,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,CONF-DATA-SCI,AI & Machine Learning,Technical,Other,,Internship,85.05
+1121,2021-12-05,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,CONF-DATA-ENG,Data & Analytics,Technical,Referral,CTR-NVT-00121,Permanent,80.35
+1121,2024-12-07,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,SR-DATA-ENG,Data & Analytics,Technical,Other,,Permanent,79.09
+1122,2017-05-19,1,Hiring,Marketing,Novaryn Tech,Novaryn Tech - Bordeaux,Commercial,LEAD-GROWTH-MKT,Growth Marketing,Marketing,LinkedIn,CTR-NVT-00122,Permanent,79.16
+1123,2023-05-24,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Bordeaux,Technology,BACK-ENG,Software Engineering,Technical,Welcome to the Jungle,CTR-NVT-00123,Permanent,86.8
+1124,2016-07-08,1,Hiring,Sales,Novaryn Tech,Novaryn Tech - Lyon,Commercial,CONF-CSM-SALES,Customer Success,Operations,Referral,CTR-NVT-00124,Permanent,83.3
+1124,2022-07-26,2,Promotion,Sales,Novaryn Tech,Novaryn Tech - Lyon,Commercial,LEAD-CSM-SALES,Customer Success,Operations,Other,,Permanent,88.73
+1124,2024-02-24,3,Transfer,Sales,Novaryn Tech,Novaryn Tech - Paris,Commercial,LEAD-CSM-SALES,Customer Success,Operations,Other,,Permanent,88.71
+1125,2023-06-05,1,Hiring,Marketing,Novaryn Tech,Novaryn Tech - Paris,Commercial,CONT-MKT,Content & Comms,Marketing,LinkedIn,CTR-NVT-00125,Permanent,77.95
+1126,2019-10-12,1,Hiring,Finance,Novaryn Tech,Novaryn Tech - Toulouse,Finance & Administration,CTRL-FIN,Finance,Operations,Welcome to the Jungle,CTR-NVT-00126,Permanent,74.7
+1126,2022-02-22,2,Data Change,Finance,Novaryn Tech,Novaryn Tech - Toulouse,Finance & Administration,CTRL-FIN,Finance,Operations,Other,,Permanent,74.58
+1127,2013-03-26,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,FULL-ENG,Software Engineering,Technical,Welcome to the Jungle,CTR-NVT-00127,Permanent,89.21
+1127,2016-03-13,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,CONF-FULL-ENG,Software Engineering,Technical,Other,,Permanent,92.37
+1127,2019-03-30,3,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,SR-FULL-ENG,Software Engineering,Technical,Other,,Permanent,88.54
+1127,2022-03-20,4,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,LEAD-FULL-ENG,Software Engineering,Technical,Other,,Permanent,86.04
+1128,2022-07-26,1,Hiring,Finance,Novaryn Tech,Novaryn Tech - Paris,Finance & Administration,CFO,Executive,Executive,Indeed,CTR-NVT-00128,Permanent,85.89
+1129,2013-03-31,1,Hiring,Finance,Novaryn Tech,Novaryn Tech - Toulouse,Finance & Administration,ADMIN-OP,Operations,Operations,LinkedIn,CTR-NVT-00129,Permanent,74.41
+1129,2019-03-23,2,Promotion,Finance,Novaryn Tech,Novaryn Tech - Toulouse,Finance & Administration,SR-ADMIN-OP,Operations,Operations,Other,,Permanent,93.98
+1129,2022-04-20,3,Promotion,Finance,Novaryn Tech,Novaryn Tech - Toulouse,Finance & Administration,LEAD-ADMIN-OP,Operations,Operations,Other,,Permanent,88.61
+1130,2020-08-09,1,Hiring,Sales,Novaryn Tech,Novaryn Tech - Paris,Commercial,AM-SALES,Enterprise Sales,Operations,Indeed,CTR-NVT-00130,Permanent,77.55
+1130,2023-07-20,2,Promotion,Sales,Novaryn Tech,Novaryn Tech - Paris,Commercial,CONF-AM-SALES,Enterprise Sales,Operations,Other,,Permanent,79.06
+1131,2017-12-08,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,CONF-FRONT-ENG,Software Engineering,Technical,Company Website,CTR-NVT-00131,Permanent,72.02
+1131,2020-11-18,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,SR-FRONT-ENG,Software Engineering,Technical,Other,,Permanent,83.97
+1132,2018-04-15,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Lyon,Technology,BACK-ENG,Software Engineering,Technical,Referral,CTR-NVT-00132,Permanent,70.76
+1133,2019-06-15,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,CONF-INFRA-ENG,Infrastructure,Technical,Company Website,CTR-NVT-00133,Permanent,76.97
+1133,2022-05-26,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,SR-INFRA-ENG,Infrastructure,Technical,Other,,Permanent,90.24
+1133,2025-05-31,3,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,LEAD-INFRA-ENG,Infrastructure,Technical,Other,,Permanent,78.95
+1134,2025-09-24,1,Hiring,HR,Novaryn Tech,Novaryn Tech - Marseille,People & Culture,CONF-TA-HR,Talent Acquisition,Support,LinkedIn,CTR-NVT-00134,Permanent,69.03
+1135,2012-02-18,1,Hiring,Sales,Novaryn Tech,Novaryn Tech - Paris,Commercial,CONF-CSM-SALES,Customer Success,Operations,LinkedIn,CTR-NVT-00135,Permanent,65.98
+1135,2015-01-22,2,Promotion,Sales,Novaryn Tech,Novaryn Tech - Paris,Commercial,SR-CSM-SALES,Customer Success,Operations,Other,,Permanent,79.66
+1136,2017-02-03,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,ML-ENG,AI & Machine Learning,Technical,Headhunter,CTR-NVT-00136,Permanent,75.14
+1136,2023-03-01,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,SR-ML-ENG,AI & Machine Learning,Technical,Other,,Permanent,91.83
+1137,2014-04-14,1,Hiring,Sales,Novaryn Tech,Novaryn Tech - Toulouse,Commercial,CONF-AM-SALES,Enterprise Sales,Operations,Welcome to the Jungle,CTR-NVT-00137,Permanent,67.14
+1137,2017-04-14,2,Promotion,Sales,Novaryn Tech,Novaryn Tech - Toulouse,Commercial,SR-AM-SALES,Enterprise Sales,Operations,Other,,Permanent,95.08
+1137,2020-05-07,3,Promotion,Sales,Novaryn Tech,Novaryn Tech - Toulouse,Commercial,LEAD-AM-SALES,Enterprise Sales,Operations,Other,,Permanent,87.04
+1138,2013-10-27,1,Hiring,Finance,Novaryn Tech,Novaryn Tech - Paris,Finance & Administration,SR-ADMIN-OP,Operations,Operations,Other,CTR-NVT-00138,Permanent,79.57
+1139,2016-08-19,1,Hiring,Finance,Novaryn Tech,Novaryn Tech - Paris,Finance & Administration,ADMIN-OP,Operations,Operations,Indeed,CTR-NVT-00139,Permanent,77.77
+1139,2019-09-01,2,Promotion,Finance,Novaryn Tech,Novaryn Tech - Paris,Finance & Administration,CONF-ADMIN-OP,Operations,Operations,Other,,Permanent,81.54
+1139,2022-08-26,3,Promotion,Finance,Novaryn Tech,Novaryn Tech - Paris,Finance & Administration,SR-ADMIN-OP,Operations,Operations,Other,,Permanent,77.51
+1139,2025-07-28,4,Promotion,Finance,Novaryn Tech,Novaryn Tech - Paris,Finance & Administration,LEAD-ADMIN-OP,Operations,Operations,Other,,Permanent,80.39
+1140,2015-08-01,1,Hiring,Finance,Novaryn Tech,Novaryn Tech - Toulouse,Finance & Administration,CONF-CTRL-FIN,Finance,Operations,Headhunter,CTR-NVT-00140,Fixed-term,86.49
+1140,2018-07-28,2,Promotion,Finance,Novaryn Tech,Novaryn Tech - Toulouse,Finance & Administration,SR-CTRL-FIN,Finance,Operations,Other,,Fixed-term,94.18
+1140,2021-07-13,3,Promotion,Finance,Novaryn Tech,Novaryn Tech - Toulouse,Finance & Administration,LEAD-CTRL-FIN,Finance,Operations,Other,,Fixed-term,88.47
+1141,2023-09-11,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Toulouse,Technology,FRONT-ENG,Software Engineering,Technical,LinkedIn,CTR-NVT-00141,Permanent,65.98
+1142,2020-04-23,1,Hiring,HR,Novaryn Tech,Novaryn Tech - Paris,People & Culture,CHRO,Executive,Executive,Indeed,CTR-NVT-00142,Permanent,77.58
+1143,2013-07-27,1,Hiring,Finance,Novaryn Tech,Novaryn Tech - Paris,Finance & Administration,CONF-FA-FIN,Finance,Operations,Welcome to the Jungle,CTR-NVT-00143,Permanent,77.06
+1143,2016-08-04,2,Promotion,Finance,Novaryn Tech,Novaryn Tech - Paris,Finance & Administration,SR-FA-FIN,Finance,Operations,Other,,Permanent,87.86
+1143,2019-08-26,3,Promotion,Finance,Novaryn Tech,Novaryn Tech - Paris,Finance & Administration,LEAD-FA-FIN,Finance,Operations,Other,,Permanent,95.05
+1144,2016-09-15,1,Hiring,Product,Novaryn Tech,Novaryn Tech - Lyon,Technology,PM-PROD,Product Management,Technical,Headhunter,CTR-NVT-00144,Fixed-term,78.05
+1144,2019-08-18,2,Promotion,Product,Novaryn Tech,Novaryn Tech - Lyon,Technology,CONF-PM-PROD,Product Management,Technical,Other,,Fixed-term,89.35
+1144,2022-10-15,3,Promotion,Product,Novaryn Tech,Novaryn Tech - Lyon,Technology,SR-PM-PROD,Product Management,Technical,Other,,Fixed-term,93.65
+1145,2017-09-03,1,Hiring,Product,Novaryn Tech,Novaryn Tech - Lyon,Technology,SR-PM-PROD,Product Management,Technical,Company Website,CTR-NVT-00145,Fixed-term,79.73
+1146,2016-06-15,1,Hiring,Product,Novaryn Tech,Novaryn Tech - Marseille,Technology,CONF-SCRM-PROD,Agile Methodology,Operations,Indeed,CTR-NVT-00146,Permanent,82.42
+1146,2019-05-24,2,Promotion,Product,Novaryn Tech,Novaryn Tech - Marseille,Technology,SR-SCRM-PROD,Agile Methodology,Operations,Other,,Permanent,81.6
+1147,2019-07-08,1,Hiring,Sales,Novaryn Tech,Novaryn Tech - Paris,Commercial,CONF-CSM-SALES,Customer Success,Operations,Headhunter,CTR-NVT-00147,Permanent,67.1
+1147,2022-07-12,2,Promotion,Sales,Novaryn Tech,Novaryn Tech - Paris,Commercial,SR-CSM-SALES,Customer Success,Operations,Other,,Permanent,84.99
+1147,2025-07-23,3,Promotion,Sales,Novaryn Tech,Novaryn Tech - Paris,Commercial,LEAD-CSM-SALES,Customer Success,Operations,Other,,Permanent,94.36
+1148,2012-03-01,1,Hiring,HR,Novaryn Tech,Novaryn Tech - Paris,People & Culture,HRBP-HR,Human Resources,Support,Company Website,CTR-NVT-00148,Permanent,67.95
+1148,2015-03-12,2,Promotion,HR,Novaryn Tech,Novaryn Tech - Paris,People & Culture,CONF-HRBP-HR,Human Resources,Support,Other,,Permanent,78.52
+1148,2021-02-05,3,Promotion,HR,Novaryn Tech,Novaryn Tech - Paris,People & Culture,LEAD-HRBP-HR,Human Resources,Support,Other,,Permanent,81.41
+1149,2023-10-03,1,Hiring,Sales,Novaryn Tech,Novaryn Tech - Paris,Commercial,AM-SALES,Enterprise Sales,Operations,Referral,CTR-NVT-00149,Permanent,71.34
+1150,2012-08-11,1,Hiring,Product,Novaryn Tech,Novaryn Tech - Toulouse,Technology,UX-PROD,Design,Technical,Indeed,CTR-NVT-00150,Apprenticeship,75.59
+1150,2015-07-29,2,Promotion,Product,Novaryn Tech,Novaryn Tech - Toulouse,Technology,CONF-UX-PROD,Design,Technical,Other,,Apprenticeship,95.82
+1150,2018-07-25,3,Promotion,Product,Novaryn Tech,Novaryn Tech - Toulouse,Technology,SR-UX-PROD,Design,Technical,Other,,Apprenticeship,85.09
+1151,2021-05-26,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,CONF-DATA-ENG,Data & Analytics,Technical,Referral,CTR-NVT-00151,Permanent,74.26
+1151,2024-05-12,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,SR-DATA-ENG,Data & Analytics,Technical,Other,,Permanent,97.75
+1152,2014-03-02,1,Hiring,Product,Novaryn Tech,Novaryn Tech - Toulouse,Technology,LEAD-UX-PROD,Design,Technical,LinkedIn,CTR-NVT-00152,Permanent,84.35
+1153,2018-03-15,1,Hiring,Product,Novaryn Tech,Novaryn Tech - Toulouse,Technology,SR-SCRM-PROD,Agile Methodology,Operations,Company Website,CTR-NVT-00153,Permanent,68.45
+1154,2015-07-29,1,Hiring,Marketing,Novaryn Tech,Novaryn Tech - Lyon,Commercial,BRAND-MKT,Brand Management,Marketing,LinkedIn,CTR-NVT-00154,Permanent,70.74
+1154,2024-07-31,2,Promotion,Marketing,Novaryn Tech,Novaryn Tech - Lyon,Commercial,LEAD-BRAND-MKT,Brand Management,Marketing,Other,,Permanent,86.81
+1155,2023-05-07,1,Hiring,Product,Novaryn Tech,Novaryn Tech - Bordeaux,Technology,SR-PO-PROD,Product Management,Technical,Indeed,CTR-NVT-00155,Permanent,78.76
+1156,2025-04-09,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Lyon,Technology,INFRA-ENG,Infrastructure,Technical,Welcome to the Jungle,CTR-NVT-00156,Permanent,82.67
+1157,2022-07-23,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Toulouse,Technology,LEAD-FULL-ENG,Software Engineering,Technical,Indeed,CTR-NVT-00157,Permanent,89.11
+1157,2023-05-12,2,Transfer,Engineering,Novaryn Tech,Novaryn Tech - Bordeaux,Technology,LEAD-FULL-ENG,Software Engineering,Technical,Other,,Permanent,95.15
+1158,2014-10-06,1,Hiring,Marketing,Novaryn Tech,Novaryn Tech - Paris,Commercial,PMM-MKT,Product Marketing,Marketing,LinkedIn,CTR-NVT-00158,Permanent,75.88
+1158,2017-09-20,2,Promotion,Marketing,Novaryn Tech,Novaryn Tech - Paris,Commercial,CONF-PMM-MKT,Product Marketing,Marketing,Other,,Permanent,82.16
+1158,2020-10-22,3,Promotion,Marketing,Novaryn Tech,Novaryn Tech - Paris,Commercial,SR-PMM-MKT,Product Marketing,Marketing,Other,,Permanent,84.46
+1159,2012-06-03,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Toulouse,Technology,CONF-FULL-ENG,Software Engineering,Technical,Referral,CTR-NVT-00159,Fixed-term,78.03
+1159,2018-07-03,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Toulouse,Technology,LEAD-FULL-ENG,Software Engineering,Technical,Other,,Fixed-term,95.02
+1160,2017-08-26,1,Hiring,Marketing,Novaryn Tech,Novaryn Tech - Toulouse,Commercial,PMM-MKT,Product Marketing,Marketing,Referral,CTR-NVT-00160,Fixed-term,77.36
+1160,2020-09-19,2,Promotion,Marketing,Novaryn Tech,Novaryn Tech - Toulouse,Commercial,CONF-PMM-MKT,Product Marketing,Marketing,Other,,Fixed-term,88.45
+1161,2024-07-03,1,Hiring,HR,Novaryn Tech,Novaryn Tech - Paris,People & Culture,SR-TA-HR,Talent Acquisition,Support,Welcome to the Jungle,CTR-NVT-00161,Permanent,65.84
+1162,2014-09-16,1,Hiring,Product,Novaryn Tech,Novaryn Tech - Paris,Technology,PM-PROD,Product Management,Technical,Company Website,CTR-NVT-00162,Fixed-term,77.9
+1162,2017-08-27,2,Promotion,Product,Novaryn Tech,Novaryn Tech - Paris,Technology,CONF-PM-PROD,Product Management,Technical,Other,,Fixed-term,88.83
+1162,2020-09-27,3,Promotion,Product,Novaryn Tech,Novaryn Tech - Paris,Technology,SR-PM-PROD,Product Management,Technical,Other,,Fixed-term,76.01
+1162,2023-09-03,4,Promotion,Product,Novaryn Tech,Novaryn Tech - Paris,Technology,LEAD-PM-PROD,Product Management,Technical,Other,,Fixed-term,95.15
+1163,2012-08-28,1,Hiring,Sales,Novaryn Tech,Novaryn Tech - Marseille,Commercial,CSM-SALES,Customer Success,Operations,Headhunter,CTR-NVT-00163,Permanent,74.88
+1163,2015-08-31,2,Promotion,Sales,Novaryn Tech,Novaryn Tech - Marseille,Commercial,CONF-CSM-SALES,Customer Success,Operations,Other,,Permanent,74.34
+1164,2015-05-25,1,Hiring,Marketing,Novaryn Tech,Novaryn Tech - Lyon,Commercial,CONF-CONT-MKT,Content & Comms,Marketing,LinkedIn,CTR-NVT-00164,Permanent,83.15
+1164,2018-06-01,2,Promotion,Marketing,Novaryn Tech,Novaryn Tech - Lyon,Commercial,SR-CONT-MKT,Content & Comms,Marketing,Other,,Permanent,83.66
+1165,2017-03-11,1,Hiring,Product,Novaryn Tech,Novaryn Tech - Paris,Technology,SR-PO-PROD,Product Management,Technical,LinkedIn,CTR-NVT-00165,Permanent,80.16
+1165,2020-04-09,2,Promotion,Product,Novaryn Tech,Novaryn Tech - Paris,Technology,LEAD-PO-PROD,Product Management,Technical,Other,,Permanent,86.89
+1165,2021-04-23,3,Data Change,Product,Novaryn Tech,Novaryn Tech - Paris,Technology,LEAD-PO-PROD,Product Management,Technical,Other,,Permanent,84.66
+1166,2012-05-27,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,DEVOPS-ENG,Infrastructure,Technical,LinkedIn,CTR-NVT-00166,Permanent,78.97
+1166,2015-05-18,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,CONF-DEVOPS-ENG,Infrastructure,Technical,Other,,Permanent,94.83
+1167,2018-10-11,1,Hiring,HR,Novaryn Tech,Novaryn Tech - Paris,People & Culture,CONF-PAYROLL-OP,Payroll,Operations,Referral,CTR-NVT-00167,Permanent,85.33
+1167,2021-10-25,2,Promotion,HR,Novaryn Tech,Novaryn Tech - Paris,People & Culture,SR-PAYROLL-OP,Payroll,Operations,Other,,Permanent,85.74
+1167,2024-10-11,3,Promotion,HR,Novaryn Tech,Novaryn Tech - Paris,People & Culture,LEAD-PAYROLL-OP,Payroll,Operations,Other,,Permanent,94.94
+1168,2013-03-07,1,Hiring,Sales,Novaryn Tech,Novaryn Tech - Bordeaux,Commercial,CSM-SALES,Customer Success,Operations,Indeed,CTR-NVT-00168,Permanent,89.03
+1168,2016-03-06,2,Promotion,Sales,Novaryn Tech,Novaryn Tech - Bordeaux,Commercial,CONF-CSM-SALES,Customer Success,Operations,Other,,Permanent,93.72
+1168,2022-02-21,3,Promotion,Sales,Novaryn Tech,Novaryn Tech - Bordeaux,Commercial,LEAD-CSM-SALES,Customer Success,Operations,Other,,Permanent,79.49
+1169,2022-11-30,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,DATA-ENG,Data & Analytics,Technical,LinkedIn,CTR-NVT-00169,Permanent,89.85
+1170,2023-07-24,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Marseille,Technology,CONF-SECU-ENG,Cybersecurity,Technical,LinkedIn,CTR-NVT-00170,Permanent,72.89
+1171,2012-06-20,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,LEAD-BACK-ENG,Software Engineering,Technical,LinkedIn,CTR-NVT-00171,Permanent,77.91
+1171,2013-10-02,2,Transfer,Engineering,Novaryn Tech,Novaryn Tech - Bordeaux,Technology,LEAD-BACK-ENG,Software Engineering,Technical,Other,,Permanent,74.33
+1172,2015-01-14,1,Hiring,HR,Novaryn Tech,Novaryn Tech - Paris,People & Culture,LEAD-HRBP-HR,Human Resources,Support,Referral,CTR-NVT-00172,Permanent,81.84
+1173,2012-08-25,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Marseille,Technology,SR-BACK-ENG,Software Engineering,Technical,Company Website,CTR-NVT-00173,Fixed-term,66.9
+1174,2019-05-24,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Lyon,Technology,CONF-SECU-ENG,Cybersecurity,Technical,Headhunter,CTR-NVT-00174,Permanent,73.84
+1174,2025-06-23,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Lyon,Technology,LEAD-SECU-ENG,Cybersecurity,Technical,Other,,Permanent,94.42
+1175,2025-05-18,1,Hiring,HR,Novaryn Tech,Novaryn Tech - Lyon,People & Culture,CONF-HRBP-HR,Human Resources,Support,Company Website,CTR-NVT-00175,Permanent,69.75
+1176,2022-04-24,1,Hiring,Product,Novaryn Tech,Novaryn Tech - Bordeaux,Technology,SR-PO-PROD,Product Management,Technical,Company Website,CTR-NVT-00176,Permanent,70.87
+1176,2025-04-10,2,Promotion,Product,Novaryn Tech,Novaryn Tech - Bordeaux,Technology,LEAD-PO-PROD,Product Management,Technical,Other,,Permanent,82.55
+1177,2018-07-21,1,Hiring,Sales,Novaryn Tech,Novaryn Tech - Toulouse,Commercial,BD-SALES,Sales Development,Operations,Headhunter,CTR-NVT-00177,Permanent,71.24
+1177,2021-06-30,2,Promotion,Sales,Novaryn Tech,Novaryn Tech - Toulouse,Commercial,CONF-BD-SALES,Sales Development,Operations,Other,,Permanent,91.14
+1177,2024-06-26,3,Promotion,Sales,Novaryn Tech,Novaryn Tech - Toulouse,Commercial,SR-BD-SALES,Sales Development,Operations,Other,,Permanent,90.87
+1178,2016-05-01,1,Hiring,Sales,Novaryn Tech,Novaryn Tech - Paris,Commercial,AM-SALES,Enterprise Sales,Operations,Welcome to the Jungle,CTR-NVT-00178,Internship,80.35
+1178,2022-04-03,2,Promotion,Sales,Novaryn Tech,Novaryn Tech - Paris,Commercial,SR-AM-SALES,Enterprise Sales,Operations,Other,,Internship,94.66
+1178,2025-04-21,3,Promotion,Sales,Novaryn Tech,Novaryn Tech - Paris,Commercial,LEAD-AM-SALES,Enterprise Sales,Operations,Other,,Internship,88.83
+1179,2019-06-02,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Marseille,Technology,INFRA-ENG,Infrastructure,Technical,LinkedIn,CTR-NVT-00179,Permanent,87.42
+1179,2025-06-20,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Marseille,Technology,SR-INFRA-ENG,Infrastructure,Technical,Other,,Permanent,96.15
+1180,2025-09-20,1,Hiring,Sales,Novaryn Tech,Novaryn Tech - Toulouse,Commercial,SMGR-SALES,Sales Management,Operations,LinkedIn,CTR-NVT-00180,Permanent,70.55
+1181,2019-05-03,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,DATA-SCI,AI & Machine Learning,Technical,LinkedIn,CTR-NVT-00181,Permanent,66.35
+1181,2025-05-07,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,SR-DATA-SCI,AI & Machine Learning,Technical,Other,,Permanent,76.72
+1182,2017-08-13,1,Hiring,Sales,Novaryn Tech,Novaryn Tech - Marseille,Commercial,SR-PRE-SALES,Sales Engineering,Technical,Referral,CTR-NVT-00182,Permanent,86.51
+1183,2023-04-15,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Marseille,Technology,CONF-INFRA-ENG,Infrastructure,Technical,Company Website,CTR-NVT-00183,Permanent,68.01
+1184,2017-02-09,1,Hiring,Product,Novaryn Tech,Novaryn Tech - Paris,Technology,PO-PROD,Product Management,Technical,Welcome to the Jungle,CTR-NVT-00184,Permanent,72.89
+1184,2020-02-22,2,Promotion,Product,Novaryn Tech,Novaryn Tech - Paris,Technology,CONF-PO-PROD,Product Management,Technical,Other,,Permanent,78.64
+1184,2023-01-30,3,Promotion,Product,Novaryn Tech,Novaryn Tech - Paris,Technology,SR-PO-PROD,Product Management,Technical,Other,,Permanent,83.96
+1185,2023-05-06,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Lyon,Technology,SR-FULL-ENG,Software Engineering,Technical,Referral,CTR-NVT-00185,Permanent,71.57
+1186,2018-11-05,1,Hiring,Sales,Novaryn Tech,Novaryn Tech - Paris,Commercial,SR-PRE-SALES,Sales Engineering,Technical,Headhunter,CTR-NVT-00186,Permanent,88.96
+1186,2021-10-17,2,Promotion,Sales,Novaryn Tech,Novaryn Tech - Paris,Commercial,LEAD-PRE-SALES,Sales Engineering,Technical,Other,,Permanent,88.97
+1187,2014-03-01,1,Hiring,Product,Novaryn Tech,Novaryn Tech - Paris,Technology,SCRM-PROD,Agile Methodology,Operations,Indeed,CTR-NVT-00187,Apprenticeship,82.52
+1187,2017-03-25,2,Promotion,Product,Novaryn Tech,Novaryn Tech - Paris,Technology,CONF-SCRM-PROD,Agile Methodology,Operations,Other,,Apprenticeship,82.81
+1187,2020-03-07,3,Promotion,Product,Novaryn Tech,Novaryn Tech - Paris,Technology,SR-SCRM-PROD,Agile Methodology,Operations,Other,,Apprenticeship,78.89
+1187,2023-02-13,4,Promotion,Product,Novaryn Tech,Novaryn Tech - Paris,Technology,LEAD-SCRM-PROD,Agile Methodology,Operations,Other,,Apprenticeship,95.91
+1188,2023-04-24,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Lille,Technology,CONF-BACK-ENG,Software Engineering,Technical,Indeed,CTR-NVT-00188,Permanent,85.1
+1189,2024-09-22,1,Hiring,Sales,Novaryn Tech,Novaryn Tech - Toulouse,Commercial,SR-AM-SALES,Enterprise Sales,Operations,Headhunter,CTR-NVT-00189,Permanent,86.41
+1190,2021-09-06,1,Hiring,Sales,Novaryn Tech,Novaryn Tech - Marseille,Commercial,BD-SALES,Sales Development,Operations,Company Website,CTR-NVT-00190,Permanent,85.0
+1191,2021-04-27,1,Hiring,Sales,Novaryn Tech,Novaryn Tech - Lyon,Commercial,BD-SALES,Sales Development,Operations,LinkedIn,CTR-NVT-00191,Permanent,65.24
+1191,2024-04-05,2,Promotion,Sales,Novaryn Tech,Novaryn Tech - Lyon,Commercial,CONF-BD-SALES,Sales Development,Operations,Other,,Permanent,95.9
+1192,2016-11-17,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,SR-INFRA-ENG,Infrastructure,Technical,Headhunter,CTR-NVT-00192,Permanent,77.93
+1193,2025-05-14,1,Hiring,Sales,Novaryn Tech,Novaryn Tech - Paris,Commercial,AM-SALES,Enterprise Sales,Operations,Company Website,CTR-NVT-00193,Permanent,72.5
+1194,2023-02-20,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,SR-DEVOPS-ENG,Infrastructure,Technical,Headhunter,CTR-NVT-00194,Permanent,79.2
+1194,2026-03-06,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,LEAD-DEVOPS-ENG,Infrastructure,Technical,Other,,Permanent,81.59
+1195,2019-07-08,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Lyon,Technology,LEAD-ML-ENG,AI & Machine Learning,Technical,Referral,CTR-NVT-00195,Permanent,71.36
+1196,2015-08-20,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Marseille,Technology,SR-ML-ENG,AI & Machine Learning,Technical,Indeed,CTR-NVT-00196,Permanent,67.41
+1197,2025-07-03,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,SR-FULL-ENG,Software Engineering,Technical,LinkedIn,CTR-NVT-00197,Permanent,74.01
+1198,2013-06-10,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Lyon,Technology,ML-ENG,AI & Machine Learning,Technical,Headhunter,CTR-NVT-00198,Permanent,85.25
+1198,2016-06-06,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Lyon,Technology,CONF-ML-ENG,AI & Machine Learning,Technical,Other,,Permanent,76.67
+1199,2023-04-18,1,Hiring,Sales,Novaryn Tech,Novaryn Tech - Lyon,Commercial,CONF-AM-SALES,Enterprise Sales,Operations,LinkedIn,CTR-NVT-00199,Permanent,79.4
+1200,2025-12-03,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Lyon,Technology,SR-DATA-SCI,AI & Machine Learning,Technical,Referral,CTR-NVT-00200,Permanent,69.36
+1201,2017-04-12,1,Hiring,Finance,Novaryn Tech,Novaryn Tech - Lyon,Finance & Administration,CONF-CTRL-FIN,Finance,Operations,Headhunter,CTR-NVT-00201,Permanent,73.88
+1201,2023-04-29,2,Promotion,Finance,Novaryn Tech,Novaryn Tech - Lyon,Finance & Administration,LEAD-CTRL-FIN,Finance,Operations,Other,,Permanent,87.83
+1201,2025-08-04,3,Data Change,Finance,Novaryn Tech,Novaryn Tech - Lyon,Finance & Administration,LEAD-CTRL-FIN,Finance,Operations,Other,,Permanent,83.59
+1202,2014-07-04,1,Hiring,Finance,Novaryn Tech,Novaryn Tech - Lille,Finance & Administration,SR-FA-FIN,Finance,Operations,LinkedIn,CTR-NVT-00202,Permanent,88.91
+1203,2016-03-01,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Marseille,Technology,CONF-FRONT-ENG,Software Engineering,Technical,Referral,CTR-NVT-00203,Permanent,88.21
+1203,2019-03-10,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Marseille,Technology,SR-FRONT-ENG,Software Engineering,Technical,Other,,Permanent,88.58
+1203,2020-03-09,3,Data Change,Engineering,Novaryn Tech,Novaryn Tech - Marseille,Technology,SR-FRONT-ENG,Software Engineering,Technical,Other,,Permanent,77.71
+1204,2025-01-27,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,DEVOPS-ENG,Infrastructure,Technical,Indeed,CTR-NVT-00204,Fixed-term,72.92
+1205,2019-01-19,1,Hiring,Marketing,Novaryn Tech,Novaryn Tech - Marseille,Commercial,CONF-BRAND-MKT,Brand Management,Marketing,LinkedIn,CTR-NVT-00205,Permanent,71.69
+1205,2022-01-06,2,Promotion,Marketing,Novaryn Tech,Novaryn Tech - Marseille,Commercial,SR-BRAND-MKT,Brand Management,Marketing,Other,,Permanent,95.53
+1206,2023-11-05,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Bordeaux,Technology,QA-ENG,Quality Assurance,Technical,Referral,CTR-NVT-00206,Permanent,83.7
+1207,2018-10-19,1,Hiring,Sales,Novaryn Tech,Novaryn Tech - Lille,Commercial,PRE-SALES,Sales Engineering,Technical,Indeed,CTR-NVT-00207,Permanent,76.26
+1207,2021-11-12,2,Promotion,Sales,Novaryn Tech,Novaryn Tech - Lille,Commercial,CONF-PRE-SALES,Sales Engineering,Technical,Other,,Permanent,74.51
+1208,2023-02-28,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Toulouse,Technology,DEVOPS-ENG,Infrastructure,Technical,Company Website,CTR-NVT-00208,Fixed-term,88.51
+1208,2024-03-04,2,Data Change,Engineering,Novaryn Tech,Novaryn Tech - Toulouse,Technology,DEVOPS-ENG,Infrastructure,Technical,Other,,Fixed-term,74.58
+1209,2025-02-05,1,Hiring,Sales,Novaryn Tech,Novaryn Tech - Lyon,Commercial,SR-AM-SALES,Enterprise Sales,Operations,Indeed,CTR-NVT-00209,Permanent,66.59
+1210,2019-03-26,1,Hiring,Marketing,Novaryn Tech,Novaryn Tech - Paris,Commercial,PMM-MKT,Product Marketing,Marketing,Referral,CTR-NVT-00210,Fixed-term,78.71
+1210,2022-03-21,2,Promotion,Marketing,Novaryn Tech,Novaryn Tech - Paris,Commercial,CONF-PMM-MKT,Product Marketing,Marketing,Other,,Fixed-term,85.53
+1211,2025-09-05,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,BACK-ENG,Software Engineering,Technical,Headhunter,CTR-NVT-00211,Permanent,80.45
+1212,2012-11-08,1,Hiring,Sales,Novaryn Tech,Novaryn Tech - Paris,Commercial,CONF-BD-SALES,Sales Development,Operations,Headhunter,CTR-NVT-00212,Permanent,88.29
+1212,2015-10-23,2,Promotion,Sales,Novaryn Tech,Novaryn Tech - Paris,Commercial,SR-BD-SALES,Sales Development,Operations,Other,,Permanent,81.44
+1212,2018-11-18,3,Promotion,Sales,Novaryn Tech,Novaryn Tech - Paris,Commercial,LEAD-BD-SALES,Sales Development,Operations,Other,,Permanent,80.78
+1213,2019-10-07,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,CONF-FULL-ENG,Software Engineering,Technical,Welcome to the Jungle,CTR-NVT-00213,Permanent,69.27
+1213,2022-09-29,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,SR-FULL-ENG,Software Engineering,Technical,Other,,Permanent,94.93
+1213,2025-10-07,3,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,LEAD-FULL-ENG,Software Engineering,Technical,Other,,Permanent,88.28
+1214,2023-05-11,1,Hiring,Product,Novaryn Tech,Novaryn Tech - Paris,Technology,UX-PROD,Design,Technical,Welcome to the Jungle,CTR-NVT-00214,Permanent,88.37
+1215,2019-07-13,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Lille,Technology,SR-ML-ENG,AI & Machine Learning,Technical,LinkedIn,CTR-NVT-00215,Permanent,68.38
+1216,2021-04-27,1,Hiring,Product,Novaryn Tech,Novaryn Tech - Toulouse,Technology,SCRM-PROD,Agile Methodology,Operations,Indeed,CTR-NVT-00216,Permanent,79.77
+1216,2024-05-14,2,Promotion,Product,Novaryn Tech,Novaryn Tech - Toulouse,Technology,CONF-SCRM-PROD,Agile Methodology,Operations,Other,,Permanent,87.99
+1217,2024-08-25,1,Hiring,Sales,Novaryn Tech,Novaryn Tech - Toulouse,Commercial,CONF-AM-SALES,Enterprise Sales,Operations,Headhunter,CTR-NVT-00217,Permanent,78.09
+1218,2016-05-29,1,Hiring,Marketing,Novaryn Tech,Novaryn Tech - Lyon,Commercial,CONF-GROWTH-MKT,Growth Marketing,Marketing,LinkedIn,CTR-NVT-00218,Permanent,72.74
+1218,2019-06-02,2,Promotion,Marketing,Novaryn Tech,Novaryn Tech - Lyon,Commercial,SR-GROWTH-MKT,Growth Marketing,Marketing,Other,,Permanent,81.0
+1218,2022-05-18,3,Promotion,Marketing,Novaryn Tech,Novaryn Tech - Lyon,Commercial,LEAD-GROWTH-MKT,Growth Marketing,Marketing,Other,,Permanent,86.05
+1219,2016-09-19,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Bordeaux,Technology,CONF-QA-ENG,Quality Assurance,Technical,LinkedIn,CTR-NVT-00219,Permanent,72.59
+1219,2019-10-11,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Bordeaux,Technology,SR-QA-ENG,Quality Assurance,Technical,Other,,Permanent,92.68
+1219,2022-09-07,3,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Bordeaux,Technology,LEAD-QA-ENG,Quality Assurance,Technical,Other,,Permanent,88.32
+1219,2024-08-10,4,Data Change,Engineering,Novaryn Tech,Novaryn Tech - Bordeaux,Technology,LEAD-QA-ENG,Quality Assurance,Technical,Other,,Permanent,79.49
+1220,2016-01-26,1,Hiring,Product,Novaryn Tech,Novaryn Tech - Toulouse,Technology,SR-PO-PROD,Product Management,Technical,LinkedIn,CTR-NVT-00220,Permanent,84.15
+1221,2013-04-26,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Toulouse,Technology,FRONT-ENG,Software Engineering,Technical,Headhunter,CTR-NVT-00221,Permanent,84.92
+1221,2016-04-08,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Toulouse,Technology,CONF-FRONT-ENG,Software Engineering,Technical,Other,,Permanent,83.06
+1221,2019-04-21,3,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Toulouse,Technology,SR-FRONT-ENG,Software Engineering,Technical,Other,,Permanent,81.5
+1222,2016-08-15,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,LEAD-ML-ENG,AI & Machine Learning,Technical,Indeed,CTR-NVT-00222,Permanent,85.71
+1223,2021-03-10,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,FRONT-ENG,Software Engineering,Technical,Company Website,CTR-NVT-00223,Permanent,66.98
+1223,2024-03-13,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,CONF-FRONT-ENG,Software Engineering,Technical,Other,,Permanent,90.82
+1224,2014-07-26,1,Hiring,Product,Novaryn Tech,Novaryn Tech - Lyon,Technology,PO-PROD,Product Management,Technical,Welcome to the Jungle,CTR-NVT-00224,Permanent,85.19
+1224,2020-08-12,2,Promotion,Product,Novaryn Tech,Novaryn Tech - Lyon,Technology,SR-PO-PROD,Product Management,Technical,Other,,Permanent,87.7
+1224,2023-07-08,3,Promotion,Product,Novaryn Tech,Novaryn Tech - Lyon,Technology,LEAD-PO-PROD,Product Management,Technical,Other,,Permanent,96.78
+1225,2023-10-22,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Bordeaux,Technology,SR-DATA-SCI,AI & Machine Learning,Technical,LinkedIn,CTR-NVT-00225,Permanent,72.24
+1226,2015-08-22,1,Hiring,Sales,Novaryn Tech,Novaryn Tech - Marseille,Commercial,SR-CSM-SALES,Customer Success,Operations,LinkedIn,CTR-NVT-00226,Permanent,80.44
+1226,2018-08-31,2,Promotion,Sales,Novaryn Tech,Novaryn Tech - Marseille,Commercial,LEAD-CSM-SALES,Customer Success,Operations,Other,,Permanent,88.82
+1227,2018-12-07,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,CONF-BACK-ENG,Software Engineering,Technical,Headhunter,CTR-NVT-00227,Permanent,68.8
+1227,2024-11-13,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,LEAD-BACK-ENG,Software Engineering,Technical,Other,,Permanent,84.21
+1228,2019-12-05,1,Hiring,Finance,Novaryn Tech,Novaryn Tech - Paris,Finance & Administration,ADMIN-OP,Operations,Operations,Company Website,CTR-NVT-00228,Permanent,75.96
+1228,2022-11-10,2,Promotion,Finance,Novaryn Tech,Novaryn Tech - Paris,Finance & Administration,CONF-ADMIN-OP,Operations,Operations,Other,,Permanent,77.32
+1228,2025-11-26,3,Promotion,Finance,Novaryn Tech,Novaryn Tech - Paris,Finance & Administration,SR-ADMIN-OP,Operations,Operations,Other,,Permanent,85.25
+1229,2015-07-09,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,INFRA-ENG,Infrastructure,Technical,LinkedIn,CTR-NVT-00229,Apprenticeship,77.46
+1229,2018-07-23,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,CONF-INFRA-ENG,Infrastructure,Technical,Other,,Apprenticeship,91.41
+1229,2021-08-01,3,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,SR-INFRA-ENG,Infrastructure,Technical,Other,,Apprenticeship,92.51
+1229,2024-06-26,4,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,LEAD-INFRA-ENG,Infrastructure,Technical,Other,,Apprenticeship,95.06
+1230,2025-02-04,1,Hiring,Product,Novaryn Tech,Novaryn Tech - Paris,Technology,SR-SCRM-PROD,Agile Methodology,Operations,Referral,CTR-NVT-00230,Permanent,69.54
+1231,2012-05-01,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Lille,Technology,LEAD-ML-ENG,AI & Machine Learning,Technical,Company Website,CTR-NVT-00231,Permanent,71.25
+1232,2012-02-06,1,Hiring,HR,Novaryn Tech,Novaryn Tech - Paris,People & Culture,CONF-PAYROLL-OP,Payroll,Operations,Referral,CTR-NVT-00232,Permanent,65.32
+1233,2024-10-25,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Bordeaux,Technology,ML-ENG,AI & Machine Learning,Technical,Headhunter,CTR-NVT-00233,Permanent,89.37
+1234,2021-02-26,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,FRONT-ENG,Software Engineering,Technical,Referral,CTR-NVT-00234,Permanent,89.86
+1234,2024-03-14,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,CONF-FRONT-ENG,Software Engineering,Technical,Other,,Permanent,90.96
+1235,2015-09-25,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Bordeaux,Technology,SR-ML-ENG,AI & Machine Learning,Technical,Referral,CTR-NVT-00235,Permanent,89.55
+1235,2018-10-08,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Bordeaux,Technology,LEAD-ML-ENG,AI & Machine Learning,Technical,Other,,Permanent,99.15
+1236,2020-04-05,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,CONF-FRONT-ENG,Software Engineering,Technical,Headhunter,CTR-NVT-00236,Permanent,68.97
+1237,2017-09-19,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Lyon,Technology,FRONT-ENG,Software Engineering,Technical,Other,CTR-NVT-00237,Fixed-term,78.74
+1237,2020-09-19,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Lyon,Technology,CONF-FRONT-ENG,Software Engineering,Technical,Other,,Fixed-term,88.05
+1237,2023-10-15,3,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Lyon,Technology,SR-FRONT-ENG,Software Engineering,Technical,Other,,Fixed-term,77.15
+1238,2014-10-22,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Lyon,Technology,SECU-ENG,Cybersecurity,Technical,LinkedIn,CTR-NVT-00238,Fixed-term,89.33
+1238,2017-10-19,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Lyon,Technology,CONF-SECU-ENG,Cybersecurity,Technical,Other,,Fixed-term,81.14
+1238,2020-10-09,3,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Lyon,Technology,SR-SECU-ENG,Cybersecurity,Technical,Other,,Fixed-term,88.86
+1238,2023-10-07,4,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Lyon,Technology,LEAD-SECU-ENG,Cybersecurity,Technical,Other,,Fixed-term,78.2
+1238,2025-08-23,5,Transfer,Engineering,Novaryn Tech,Novaryn Tech - Marseille,Technology,LEAD-SECU-ENG,Cybersecurity,Technical,Other,,Fixed-term,91.27
+1239,2022-08-02,1,Hiring,Sales,Novaryn Tech,Novaryn Tech - Paris,Commercial,PRE-SALES,Sales Engineering,Technical,Company Website,CTR-NVT-00239,Permanent,71.22
+1239,2025-08-15,2,Promotion,Sales,Novaryn Tech,Novaryn Tech - Paris,Commercial,CONF-PRE-SALES,Sales Engineering,Technical,Other,,Permanent,87.61
+1240,2022-01-25,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,CONF-DEVOPS-ENG,Infrastructure,Technical,LinkedIn,CTR-NVT-00240,Permanent,89.92
+1240,2024-12-29,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,SR-DEVOPS-ENG,Infrastructure,Technical,Other,,Permanent,83.82
+1241,2012-06-17,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,FULL-ENG,Software Engineering,Technical,Indeed,CTR-NVT-00241,Permanent,78.41
+1241,2015-06-18,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,CONF-FULL-ENG,Software Engineering,Technical,Other,,Permanent,79.12
+1242,2019-04-17,1,Hiring,HR,Novaryn Tech,Novaryn Tech - Marseille,People & Culture,CONF-HRBP-HR,Human Resources,Support,Referral,CTR-NVT-00242,Permanent,85.14
+1242,2022-03-30,2,Promotion,HR,Novaryn Tech,Novaryn Tech - Marseille,People & Culture,SR-HRBP-HR,Human Resources,Support,Other,,Permanent,76.47
+1242,2025-05-03,3,Promotion,HR,Novaryn Tech,Novaryn Tech - Marseille,People & Culture,LEAD-HRBP-HR,Human Resources,Support,Other,,Permanent,80.96
+1243,2015-02-03,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Marseille,Technology,SECU-ENG,Cybersecurity,Technical,LinkedIn,CTR-NVT-00243,Permanent,77.13
+1243,2018-01-22,2,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Marseille,Technology,CONF-SECU-ENG,Cybersecurity,Technical,Other,,Permanent,85.94
+1243,2021-02-09,3,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Marseille,Technology,SR-SECU-ENG,Cybersecurity,Technical,Other,,Permanent,80.11
+1243,2024-02-19,4,Promotion,Engineering,Novaryn Tech,Novaryn Tech - Marseille,Technology,LEAD-SECU-ENG,Cybersecurity,Technical,Other,,Permanent,88.3
+1244,2018-06-13,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Bordeaux,Technology,SR-DATA-ENG,Data & Analytics,Technical,LinkedIn,CTR-NVT-00244,Permanent,79.97
+1245,2019-09-26,1,Hiring,Sales,Novaryn Tech,Novaryn Tech - Paris,Commercial,BD-SALES,Sales Development,Operations,LinkedIn,CTR-NVT-00245,Permanent,78.28
+1245,2022-10-18,2,Promotion,Sales,Novaryn Tech,Novaryn Tech - Paris,Commercial,CONF-BD-SALES,Sales Development,Operations,Other,,Permanent,79.79
+1245,2025-08-27,3,Promotion,Sales,Novaryn Tech,Novaryn Tech - Paris,Commercial,SR-BD-SALES,Sales Development,Operations,Other,,Permanent,93.07
+1246,2024-12-13,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Paris,Technology,FULL-ENG,Software Engineering,Technical,LinkedIn,CTR-NVT-00246,Apprenticeship,83.34
+1247,2024-10-16,1,Hiring,Marketing,Novaryn Tech,Novaryn Tech - Marseille,Commercial,CONT-MKT,Content & Comms,Marketing,Indeed,CTR-NVT-00247,Permanent,80.49
+1248,2013-05-23,1,Hiring,Sales,Novaryn Tech,Novaryn Tech - Lyon,Commercial,CONF-PRE-SALES,Sales Engineering,Technical,Indeed,CTR-NVT-00248,Fixed-term,80.5
+1248,2016-04-27,2,Promotion,Sales,Novaryn Tech,Novaryn Tech - Lyon,Commercial,SR-PRE-SALES,Sales Engineering,Technical,Other,,Fixed-term,90.48
+1248,2019-05-17,3,Promotion,Sales,Novaryn Tech,Novaryn Tech - Lyon,Commercial,LEAD-PRE-SALES,Sales Engineering,Technical,Other,,Fixed-term,82.18
+1249,2024-09-28,1,Hiring,Engineering,Novaryn Tech,Novaryn Tech - Toulouse,Technology,BACK-ENG,Software Engineering,Technical,Other,CTR-NVT-00249,Permanent,84.14
+1250,2017-12-14,1,Hiring,Marketing,Novaryn Tech,Novaryn Tech - Paris,Commercial,SR-BRAND-MKT,Brand Management,Marketing,Welcome to the Jungle,CTR-NVT-00250,Permanent,72.08
+1250,2020-12-04,2,Promotion,Marketing,Novaryn Tech,Novaryn Tech - Paris,Commercial,LEAD-BRAND-MKT,Brand Management,Marketing,Other,,Permanent,80.43

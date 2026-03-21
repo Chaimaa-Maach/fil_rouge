@@ -1,29 +1,4 @@
-"""
-╔══════════════════════════════════════════════════════════════════════════════╗
-║   Novaryn Tech — SAP SuccessFactors Data Generator  v4.0                   ║
-║   250 employees | French DeepTech | PostgreSQL-aligned CSV exports          ║
-║                                                                              ║
-║   NEW in v4 (vs v3):                                                         ║
-║   ✓ entry_level concept: employees can be hired as Senior/Lead directly     ║
-║       reflecting experience from previous companies                          ║
-║   ✓ Hiring job_info row reflects entry_level (not always Junior)            ║
-║   ✓ Promotions only happen above entry_level                                ║
-║   ✓ hire_annual_sal = salary at entry_level (always ≤ current salary)      ║
-║                                                                              ║
-║   BUG FIXES vs v3:                                                           ║
-║   ✓ [CRITICAL] Transfer NameError: city-update block moved inside if guard  ║
-║   ✓ [CRITICAL] C-suite org chart: each exec reports to None (top-level)     ║
-║       instead of all reporting to CTO                                        ║
-║   ✓ [MEDIUM]  assign_managers_and_hr called only once; exec hierarchy       ║
-║       applied last so it cannot be overwritten                               ║
-║   ✓ [MEDIUM]  sen_level kept in sync with actual job_info promotions        ║
-║   ✓ [MEDIUM]  pay_component_recurring: hire row uses hire_annual_sal/12,    ║
-║       a second row at review_date reflects current salary                   ║
-║   ✓ [MINOR]   PERFAWARD date guard changed >= to > (off-by-one on hire date)║
-║   ✓ [MINOR]   add_event defined once outside employee loop                  ║
-║   ✓ [MINOR]   assign_executive_hierarchy documented and separated           ║
-╚══════════════════════════════════════════════════════════════════════════════╝
-"""
+
 
 import csv
 import random
@@ -31,7 +6,7 @@ import os
 from datetime import date, timedelta
 from collections import defaultdict
 
-# ── Optional dependencies ────────────────────────────────────
+
 try:
     from faker import Faker
     fake = Faker("fr_FR")
@@ -49,10 +24,10 @@ except ImportError:
 
 random.seed(42)
 
-OUTPUT_DIR = "../../../teeeeeeest_sap/novaryn_data_v3"
+OUTPUT_DIR = "./novaryn_data_v3"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-TODAY = date(2025, 3, 1)
+TODAY = date(2026, 3, 9)   # Real reference date for 2026 market salary comparison
 
 # ─────────────────────────────────────────────────────────────
 # CONSTANTS  (all values match DB CHECK constraints exactly)
@@ -418,6 +393,10 @@ def build_employees() -> list:
         base_code, title, bu, grp, jf, sal_min, sal_max, _ = entry
         is_exec = base_code in EXECUTIVE_CODES
 
+        # Store salary band — needed by gen_compensation_info to compute
+        # the correct salary at each intermediate promotion level
+        # (CONF salary, SR salary, LEAD salary) not just hire and current.
+
         e = {}
         e["user_id"]  = 1001 + i
         e["gender"]   = random.choices([GENDER_M, GENDER_F], [62, 38])[0]
@@ -446,7 +425,7 @@ def build_employees() -> list:
         e["email"] = email
 
         # Hire date ≤ TODAY  (chk_hire_date)
-        e["hire_date"] = rand_date(date(2012, 1, 1), date(2024, 12, 31))
+        e["hire_date"] = rand_date(date(2012, 1, 1), date(2025, 12, 31))
 
         # City — executives always in Paris
         if is_exec:
@@ -469,6 +448,19 @@ def build_employees() -> list:
         # Someone can be hired directly as Senior or Lead even if they
         # just joined Novaryn Tech — they already had that level elsewhere.
         e["entry_level"]  = assign_entry_level(is_exec)
+
+        # ── PRIOR EXPERIENCE: years worked BEFORE joining Novaryn ──────
+        # Derived from entry_level so it is coherent with the level at hire.
+        # These ranges mirror the scraper brackets (0,1,2,3,4,5,8,10,15,30)
+        # so the compa-ratio join works without extra transformation.
+        PRIOR_EXP_RANGE = {
+            0: (0,  2),   # Junior   — fresh grad or very early career
+            1: (3,  5),   # Confirmé — a few years elsewhere
+            2: (6,  9),   # Senior   — solid mid-career
+            3: (10, 20),  # Lead     — experienced hire
+        }
+        lo, hi = PRIOR_EXP_RANGE[e["entry_level"]]
+        e["prior_exp_years"] = random.randint(lo, hi)
 
         # ── CURRENT LEVEL: entry_level + promotions earned at Novaryn ──
         # Every 3 years at Novaryn earns one level up (capped at Lead=3)
@@ -537,6 +529,10 @@ def build_employees() -> list:
             e["car_allowance_annual"] = round(random.choice([350,400,450,500]) * 12, 2)
         else:
             e["car_allowance_annual"] = 0.00
+
+        # Salary band — kept for promotion-linked comp records in Phase 4
+        e["sal_min"] = sal_min
+        e["sal_max"] = sal_max
 
         # Hire source
         e["hire_source"] = random.choices(HIRE_SOURCES, HIRE_WEIGHTS)[0]
@@ -798,26 +794,38 @@ def sync_job_codes(employees: list, job_rows: list):
 def gen_basic_user_info(employees: list):
     fields = ["user_id","status","username","first_name","last_name","gender",
               "email","hiredate","manager","hr","job_code","division",
-              "location","city","state","zip","country"]
-    rows = [{
-        "user_id":    e["user_id"],
-        "status":     e["status"],
-        "username":   e["username"],
-        "first_name": e["first"],
-        "last_name":  e["last"],
-        "gender":     e["gender"],
-        "email":      e["email"],
-        "hiredate":   e["hire_date"],
-        "manager":    e["manager_id"] if e["manager_id"] else "",
-        "hr":         e["hr_id"]      if e["hr_id"]      else "",
-        "job_code":   e["job_code"],
-        "division":   e["division"],
-        "location":   e["location"],
-        "city":       e["city"],
-        "state":      e["state"],
-        "zip":        e["zip"],
-        "country":    "France",
-    } for e in employees]
+              "location","city","state","zip","country",
+              "prior_exp_years","tenure_at_novaryn_years","total_exp_years"]
+    rows = []
+    for e in employees:
+        tenure  = round(years_since(e["hire_date"]), 1)
+        total   = round(e["prior_exp_years"] + tenure, 1)
+        rows.append({
+            "user_id":                 e["user_id"],
+            "status":                  e["status"],
+            "username":                e["username"],
+            "first_name":              e["first"],
+            "last_name":               e["last"],
+            "gender":                  e["gender"],
+            "email":                   e["email"],
+            "hiredate":                e["hire_date"],
+            "manager":                 e["manager_id"] if e["manager_id"] else "",
+            "hr":                      e["hr_id"]      if e["hr_id"]      else "",
+            "job_code":                e["job_code"],
+            "division":                e["division"],
+            "location":                e["location"],
+            "city":                    e["city"],
+            "state":                   e["state"],
+            "zip":                     e["zip"],
+            "country":                 "France",
+            # ── Experience columns (for compa-ratio join with scraper data) ──
+            # prior_exp_years       : years worked before joining Novaryn
+            # tenure_at_novaryn_years: years since hire_date at Novaryn
+            # total_exp_years        : prior + tenure = total career experience
+            "prior_exp_years":         e["prior_exp_years"],
+            "tenure_at_novaryn_years": tenure,
+            "total_exp_years":         total,
+        })
     write_csv("01_basic_user_info.csv", fields, rows)
 
 # ── 2. job_info ─────────────────────────────────────────────
@@ -828,72 +836,130 @@ def gen_job_info(job_rows: list):
     write_csv("02_job_info.csv", fields, job_rows)
 
 # ── 3. compensation_info ────────────────────────────────────
-def gen_compensation_info(employees: list):
+def gen_compensation_info(employees: list, job_rows: list):
     """
-    SALARY LOGIC (annual EUR — single source of truth):
-    ┌─────────────────────────────────────────────────────────┐
-    │ e["annual_salary"]          → gross annual salary       │
-    │ bonus_base_amount           → ANNUAL (= annual_salary)  │
-    │ targetIncentive             → ANNUAL bonus target       │
-    │ carAllowance                → ANNUAL (as in DB schema)  │
-    │ monthly breakdown           → in pay_component_recurring│
-    └─────────────────────────────────────────────────────────┘
+    SALARY LOGIC — one record per career event:
+    ┌─────────────────────────────────────────────────────────────┐
+    │  Event         │ Salary used                                │
+    │  ─────────────────────────────────────────────────────────  │
+    │  Hiring        │ hire_annual_sal  (entry_level band)        │
+    │  Each Promotion│ salary for that level (CONF/SR/LEAD band)  │
+    │  Annual review │ current annual_salary (latest level)       │
+    └─────────────────────────────────────────────────────────────┘
+    This ensures that a Lead promoted in 2024 has a 2024 salary
+    record at Lead pay — not a 2019 "Data Change" record.
     """
     fields = ["user_id","start_date","event_reason","bonus","bonus_base_amount",
               "carallowance","paygroup","paytype","payrollid","targetincentive"]
 
-    rows = []
+    # Build promotion lookup: user_id → [(promo_date, job_code), ...]
+    promotions = defaultdict(list)
+    for r in job_rows:
+        if r["event_reason"] == EV_PROMOTION:
+            promotions[r["user_id"]].append((r["start_date"], r["job_code"]))
+
+    # Prefix → level (to compute salary at each promo step)
+    prefix_to_level = {v: k for k, v in LEVEL_PREFIX.items()}
+
+    rows      = []
     used_pids = set()
+    pid_ctr   = {}  # user_id → counter for unique payroll IDs per employee
+
+    def next_pid(uid):
+        pid_ctr[uid] = pid_ctr.get(uid, 0) + 1
+        pid = f"PAY-NVT-{uid:04d}" if pid_ctr[uid] == 1 else f"PAY-NVT-{uid:04d}-{pid_ctr[uid]}"
+        used_pids.add(pid)
+        return pid
 
     for e in employees:
-        used_pids.add(e["payroll_id"])
+        sal_min = e["sal_min"]
+        sal_max = e["sal_max"]
 
-        # ── Record 1: Initial comp at hire
-        # hire_annual_sal is derived from entry_level — the salary Novaryn
-        # offered based on the experience the candidate brought with them.
-        # If they were hired as Senior, they get a Senior salary from day 1.
-        hire_sal = e["hire_annual_sal"]          # ANNUAL, based on entry_level
+        # ── Record 1: Hiring ─────────────────────────────────────────
+        hire_sal = e["hire_annual_sal"]
         hire_bon = round(e["bonus_pct"] * 0.75, 2)
         rows.append({
             "user_id":           e["user_id"],
             "start_date":        e["hire_date"],
             "event_reason":      EV_HIRING,
             "bonus":             hire_bon,
-            "bonus_base_amount": hire_sal,          # ANNUAL
-            "carallowance":      0.00,              # ANNUAL (no car on day 1)
+            "bonus_base_amount": hire_sal,
+            "carallowance":      0.00,
             "paygroup":          e["pay_group"],
             "paytype":           e["pay_type"],
-            "payrollid":         e["payroll_id"],
+            "payrollid":         next_pid(e["user_id"]),
             "targetincentive":   round(hire_sal * hire_bon / 100, 2),
         })
 
-        # ── Record 2: Current (after first annual review ≥ 9 months)
+        # ── Records 2…N: one per Promotion ───────────────────────────
+        # The salary jumps at each promotion to reflect the new level band.
+        # This is how it works in real SAP SF: each job change triggers
+        # a compensation change event on the same effective date.
+        for promo_date, promo_jc in sorted(promotions[e["user_id"]]):
+            base     = e["base_code"]
+            raw_pfx  = promo_jc[: len(promo_jc) - len(base)]
+            lvl      = prefix_to_level.get(raw_pfx, e["entry_level"])
+            promo_sal = min(
+                _salary_for_level(sal_min, sal_max, lvl),
+                e["annual_salary"]          # never exceed current salary
+            )
+            # Car allowance unlocks at SR+ for eligible BUs
+            car = 0.00
+            if lvl >= 2 and e["bu"] in (BU_SALES, BU_ENGINEERING):
+                car = e["car_allowance_annual"]
+
+            rows.append({
+                "user_id":           e["user_id"],
+                "start_date":        promo_date,
+                "event_reason":      EV_PROMOTION,
+                "bonus":             round(e["bonus_pct"] * (0.80 + lvl * 0.07), 2),
+                "bonus_base_amount": promo_sal,
+                "carallowance":      car,
+                "paygroup":          e["pay_group"],
+                "paytype":           e["pay_type"],
+                "payrollid":         next_pid(e["user_id"]),
+                "targetincentive":   round(promo_sal * e["bonus_pct"] / 100, 2),
+            })
+
+        # ── Final record: latest annual review anchored to TODAY ─────
+        # Always placed 1–14 months before TODAY so EVERY employee has
+        # a 2025/2026 salary record regardless of when their last
+        # promotion was.  This is the record used for the compa-ratio.
         if years_since(e["hire_date"]) >= 0.75:
-            review_date = e["hire_date"] + timedelta(days=random.randint(270, 380))
+            last_event_date = (
+                max(d for d, _ in promotions[e["user_id"]])
+                if promotions[e["user_id"]]
+                else e["hire_date"]
+            )
+            # Anchor: between 1 and 14 months before TODAY
+            review_date = TODAY - timedelta(days=random.randint(30, 425))
+            # Must be strictly after last career event (no backdating)
+            if review_date <= last_event_date:
+                review_date = last_event_date + timedelta(days=random.randint(30, 90))
             if review_date < TODAY:
-                rev_pid = e["payroll_id"] + "-R"
-                if rev_pid not in used_pids:
-                    used_pids.add(rev_pid)
-                    rows.append({
-                        "user_id":           e["user_id"],
-                        "start_date":        review_date,
-                        "event_reason":      EV_DATA_CHANGE,
-                        "bonus":             e["bonus_pct"],
-                        "bonus_base_amount": e["annual_salary"],   # ANNUAL
-                        "carallowance":      e["car_allowance_annual"],  # ANNUAL
-                        "paygroup":          e["pay_group"],
-                        "paytype":           e["pay_type"],
-                        "payrollid":         rev_pid,
-                        "targetincentive":   e["target_incentive"],
-                    })
+                rows.append({
+                    "user_id":           e["user_id"],
+                    "start_date":        review_date,
+                    "event_reason":      EV_DATA_CHANGE,
+                    "bonus":             e["bonus_pct"],
+                    "bonus_base_amount": e["annual_salary"],   # ← current 2026 salary
+                    "carallowance":      e["car_allowance_annual"],
+                    "paygroup":          e["pay_group"],
+                    "paytype":           e["pay_type"],
+                    "payrollid":         next_pid(e["user_id"]),
+                    "targetincentive":   e["target_incentive"],
+                })
 
     write_csv("03_compensation_info.csv", fields, rows)
+    return rows   # returned so gen_pay_component_recurring can read salaries
 
 # ── 4. pay_component_recurring ──────────────────────────────
-def gen_pay_component_recurring(employees: list):
+def gen_pay_component_recurring(employees: list, job_rows: list, comp_rows: list):
     """
     paycomponentvalue = MONTHLY amount (annual / 12).
-    This table stores the monthly pay schedule that feeds payroll.
+    Salaries are read from the already-generated comp_rows so that
+    pay_component_recurring and compensation_info are always in sync —
+    no independent random calls that would produce different values.
     """
     fields = ["user_id","start_date","pay_component","paycomponentvalue",
               "currency_code","frequency","seq_number"]
@@ -910,44 +976,79 @@ def gen_pay_component_recurring(employees: list):
             "seq_number":        seq,
         })
 
+    def write_pay_snapshot(uid, start_dt, monthly_base, car_annual,
+                           transport, city, sen_lvl):
+        """Write a full set of pay component rows for a given effective date."""
+        seq = 1
+        add_pc(uid, start_dt, PC_BASE_SALARY,        monthly_base, seq);         seq += 1
+        add_pc(uid, start_dt, PC_TRANSPORT_ALLOWANCE, transport,   seq);         seq += 1
+        if car_annual > 0:
+            add_pc(uid, start_dt, PC_CAR_ALLOWANCE,
+                   round(car_annual / 12, 2), seq);                              seq += 1
+        if city == "Paris" and sen_lvl >= 2:
+            add_pc(uid, start_dt, PC_HOUSING_ALLOWANCE,
+                   round(random.uniform(200, 420), 2), seq)
+
+    prefix_to_level = {v: k for k, v in LEVEL_PREFIX.items()}
+
+    # Build promotion lookup  (same as in gen_compensation_info)
+    promotions = defaultdict(list)
+    for r in job_rows:
+        if r["event_reason"] == EV_PROMOTION:
+            promotions[r["user_id"]].append((r["start_date"], r["job_code"]))
+
     for e in employees:
         uid       = e["user_id"]
-        hire_dt   = e["hire_date"]
-        hire_base = round(e["hire_annual_sal"] / 12, 2)   # salary at entry_level
-        curr_base = round(e["annual_salary"]    / 12, 2)  # salary at current level
-        has_review = years_since(hire_dt) >= 0.75
-
-        # ── Hire-date row: salary reflects what they were hired at ──────
-        # If hired as Senior, hire_base is already a Senior monthly salary.
-        seq = 1
-        add_pc(uid, hire_dt, PC_BASE_SALARY, hire_base, seq);  seq += 1
-
         transport = round(random.uniform(45, 80), 2)
-        add_pc(uid, hire_dt, PC_TRANSPORT_ALLOWANCE, transport, seq);  seq += 1
 
-        # Car allowance starts at 0 on day 1 (matches compensation_info record 1)
-        # Housing: only if already Senior+ at hire
-        if e["city"] == "Paris" and e["entry_level"] >= 2:
-            add_pc(uid, hire_dt, PC_HOUSING_ALLOWANCE,
-                   round(random.uniform(200, 420), 2), seq);  seq += 1
+        # ── Snapshot 1: Hiring ───────────────────────────────────────
+        write_pay_snapshot(
+            uid, e["hire_date"],
+            round(e["hire_annual_sal"] / 12, 2),
+            0.00,                                  # no car on day 1
+            transport,
+            e["city"],
+            e["entry_level"],                      # level at hire for housing check
+        )
 
-        # ── Review-date row: reflects current (post-promotion) salary ───
-        # Only written when the employee has had at least one review period
-        # and the current salary differs from the hire salary.
-        if has_review and curr_base != hire_base:
-            review_dt = hire_dt + timedelta(days=random.randint(270, 380))
-            if review_dt < TODAY:
-                seq = 1
-                add_pc(uid, review_dt, PC_BASE_SALARY, curr_base, seq);  seq += 1
-                add_pc(uid, review_dt, PC_TRANSPORT_ALLOWANCE, transport, seq);  seq += 1
-
-                if e["car_allowance_annual"] > 0:
-                    add_pc(uid, review_dt, PC_CAR_ALLOWANCE,
-                           round(e["car_allowance_annual"] / 12, 2), seq);  seq += 1
-
-                if e["city"] == "Paris" and e["sen_level"] >= 2:
-                    add_pc(uid, review_dt, PC_HOUSING_ALLOWANCE,
-                           round(random.uniform(200, 420), 2), seq);  seq += 1
+        # ── Snapshots 2…N+1: read salaries from comp_rows (single source) ──
+        # This guarantees pay_component_recurring and compensation_info
+        # are always in sync — both reference the exact same amounts.
+        subsequent = sorted(
+            [r for r in comp_rows if r["user_id"] == uid
+             and r["start_date"] > e["hire_date"]],
+            key=lambda x: x["start_date"]
+        )
+        prefix_to_level_pc = {v: k for k, v in LEVEL_PREFIX.items()}
+        for r in subsequent:
+            evt_date  = r["start_date"]
+            sal       = float(r["bonus_base_amount"])
+            car_ann   = float(r["carallowance"])
+            # Determine level from event_reason + comp context
+            if r["event_reason"] == EV_PROMOTION:
+                # Find the matching job_info row to get the job_code
+                matching_jc = next(
+                    (j["job_code"] for j in job_rows
+                     if j["user_id"] == uid
+                     and j["start_date"] == evt_date
+                     and j["event_reason"] == EV_PROMOTION),
+                    None
+                )
+                if matching_jc:
+                    raw_pfx = matching_jc[: len(matching_jc) - len(e["base_code"])]
+                    lvl = prefix_to_level_pc.get(raw_pfx, e["sen_level"])
+                else:
+                    lvl = e["sen_level"]
+            else:
+                lvl = e["sen_level"]
+            write_pay_snapshot(
+                uid, evt_date,
+                round(sal / 12, 2),   # ← directly from comp_rows, no re-random
+                car_ann,
+                transport,
+                e["city"],
+                lvl,
+            )
 
     write_csv("04_pay_component_recurring.csv", fields, rows)
 
@@ -978,7 +1079,7 @@ def gen_pay_component_non_recurring(employees: list):
         yrs = years_since(e["hire_date"])
 
         # Annual PERFAWARD (March payout for previous year)
-        for yr in [2022, 2023, 2024]:
+        for yr in [2022, 2023, 2024, 2025]:
             if date(yr, 1, 1) > e["hire_date"] and random.random() < 0.82:  # strict: must have worked before Jan 1
                 add(e["user_id"], date(yr, 3, 15), NR_PERFAWARD,
                     e["target_incentive"] * random.uniform(0.85, 1.15),
@@ -993,7 +1094,7 @@ def gen_pay_component_non_recurring(employees: list):
 
         # Referral bonus (~15% of employees)
         if random.random() < 0.15:
-            pd = rand_date(date(2022, 1, 1), date(2024, 12, 31))
+            pd = rand_date(date(2022, 1, 1), date(2025, 12, 31))
             add(e["user_id"], pd, NR_REFERRAL, 2500.00, "Prime de cooptation")
 
         # Tenure milestones: 5, 10, 15 years
@@ -1006,7 +1107,7 @@ def gen_pay_component_non_recurring(employees: list):
 
         # Spot bonus (~8%)
         if random.random() < 0.08:
-            pd = rand_date(date(2022, 1, 1), date(2024, 12, 31))
+            pd = rand_date(date(2022, 1, 1), date(2025, 12, 31))
             add(e["user_id"], pd, NR_SPOTBONUS,
                 random.uniform(750, 2500), "Prime d'excellence")
 
@@ -1031,7 +1132,7 @@ def gen_performance_management(employees: list):
         if e["status"] == STATUS_TERMINATED:
             continue
 
-        for yr in [2022, 2023, 2024]:
+        for yr in [2022, 2023, 2024, 2025]:
             if date(yr, 6, 1) < e["hire_date"]:  # must have been 6 months by review
                 continue
             key = (e["user_id"], f"FORM-{yr}")
@@ -1118,7 +1219,7 @@ def gen_learning_management_system(employees: list):
         for cid, title, ctype, hrs, cost in chosen:
             cd = rand_date(
                 max(e["hire_date"] + timedelta(days=90), date(2020, 1, 1)),
-                date(2024, 12, 31)
+                date(2025, 12, 31)
             )
             key = (e["user_id"], cid, str(cd))
             if key in used:
@@ -1179,7 +1280,7 @@ def gen_termination_info(employees: list):
 
         reason = random.choices(reasons, weights)[0]
         cfg    = TERM_CONFIG[reason]
-        lwd    = rand_date(date(2023, 1, 1), date(2024, 10, 1))
+        lwd    = rand_date(date(2023, 1, 1), date(2025, 12, 1))
         bpe    = lwd + timedelta(days=random.randint(30, 90))
 
         rows.append({
@@ -1236,8 +1337,8 @@ if __name__ == "__main__":
     print(f"  [4/4] Writing CSV files...\n  {'─'*65}")
     gen_basic_user_info(employees)
     gen_job_info(job_rows)
-    gen_compensation_info(employees)
-    gen_pay_component_recurring(employees)
+    comp_rows = gen_compensation_info(employees, job_rows)
+    gen_pay_component_recurring(employees, job_rows, comp_rows)
     gen_pay_component_non_recurring(employees)
     gen_performance_management(employees)
     gen_learning_management_system(employees)
@@ -1245,7 +1346,7 @@ if __name__ == "__main__":
 
     # ── Summary ───────────────────────────────────────────────
     print(f"  {'─'*65}")
-    print(f"\n  📊 ROSTER SUMMARY")
+    print(f"\n   ROSTER SUMMARY")
     print(f"     Total employees : {len(employees)}")
     print(f"     Status          : {dict(Counter(e['status']    for e in employees))}")
     print(f"     Cities          : {dict(Counter(e['city']      for e in employees))}")
@@ -1254,7 +1355,7 @@ if __name__ == "__main__":
     print(f"     Contracts       : {dict(Counter(e['contract_name'] for e in employees))}")
 
     no_mgr = sum(1 for e in employees if not e["manager_id"] and e["status"] != STATUS_TERMINATED)
-    print(f"\n  ⚠️  Employees without manager : {no_mgr} (top-level executives only)")
+    print(f"\n    Employees without manager : {no_mgr} (top-level executives only)")
 
-    print(f"\n  ✅  All files in: {os.path.abspath(OUTPUT_DIR)}")
+    print(f"\n   All files in: {os.path.abspath(OUTPUT_DIR)}")
     print(f"{'═'*70}\n")

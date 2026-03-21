@@ -2,7 +2,7 @@ import pandas as pd
 from sqlalchemy import create_engine
 
 engine = create_engine(
-"postgresql+psycopg2://postgres:Chaimaa2000@localhost:5432/CoreRH"
+"postgresql+psycopg2://postgres:password@localhost:5432/CoreRH"
 )
 
 files = {
@@ -24,6 +24,13 @@ for file, table in files.items():
 
     df = pd.read_csv(path, encoding="utf-8-sig")
 
+
+    if table == "basic_user_info":
+        df = df.drop(columns=[
+            "prior_exp_years",
+            "tenure_at_novaryn_years",
+            "total_exp_years"
+        ], errors="ignore")
 
     df.rename(columns={
         "course_id": "courseid"
